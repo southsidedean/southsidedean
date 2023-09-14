@@ -6,9 +6,9 @@
 
 [LinkedIn](https://www.linkedin.com/in/tomdeanjr/)
 
-[Mastodon: @southsidedean](https://mastodon.social/@southsidedean)
+[Mastodon: @southsidedean@mastodon.social](https://mastodon.social/@southsidedean)
 
-[Mastodon: @AI_Says](https://mastodon.social/@AI_Says)
+[Mastodon: @AI_Says@mastodon.social](https://mastodon.social/@AI_Says)
 
 [YouTube: southsidedean-tech](https://www.youtube.com/@southsidedean-tech)
 
