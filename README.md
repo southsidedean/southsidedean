@@ -1,6 +1,19 @@
 # Welcome to my GitHub!
 
-[My Resume](./Resume-Tom-Dean.pdf)
+## Links
+
+[Resume](./Resume-Tom-Dean.pdf)
+
+[LinkedIn](https://www.linkedin.com/in/tomdeanjr/)
+
+[Mastodon: @southsidedean](https://mastodon.social/@southsidedean)
+
+[Mastodon: @AI_Says](https://mastodon.social/@AI_Says)
+
+[YouTube: southsidedean-tech](https://www.youtube.com/@southsidedean-tech)
+
+[YouTube: southsidedean](https://www.youtube.com/@southsidedean-life)
+## About Me
 
 In my career, I've had the pleasure of working with physical / virtual and Cloud / Cloud Native technologies for many years. In these roles I have worn many hats – educator, team lead, architect, engineer, project manager, business advocate and more. I have many years of both pre-sales and post-sales experience as an architect and engineer and can speak to a wide variety of both technical and non-technical audiences. My experience leveraging process and automation helps me to achieve fast, accurate and consistent results. I'm a creative problem solver with the ability to think outside of the box.
 
