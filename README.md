@@ -1,5 +1,7 @@
 # Welcome to my GitHub!
 
+[My Resume](./Resume-Tom-Dean.pdf)
+
 In my career, I've had the pleasure of working with physical / virtual and Cloud / Cloud Native technologies for many years. In these roles I have worn many hats – educator, team lead, architect, engineer, project manager, business advocate and more. I have many years of both pre-sales and post-sales experience as an architect and engineer and can speak to a wide variety of both technical and non-technical audiences. My experience leveraging process and automation helps me to achieve fast, accurate and consistent results. I'm a creative problem solver with the ability to think outside of the box.
 
 I made the jump from practicing to teaching over three years ago so I could leverage over 25 years of technology experience to create great courses with lessons and hands-on labs to help my students achieve their learning goals, changing their lives for the better. Along the way, I've been a student as well, learning how to record, edit and produce my own content, create labs in AWS using CloudFormation and Terraform/Ansible, and expanding my Cloud, Cloud Native and adjacent subject matter knowledge, to become a more well-rounded technologist. I'm currently working on attaining the Cloud Native Computing Foundation's CKA and CKAD certifications.
