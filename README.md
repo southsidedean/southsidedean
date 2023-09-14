@@ -12,7 +12,7 @@
 
 [YouTube: southsidedean-tech](https://www.youtube.com/@southsidedean-tech)
 
-[YouTube: southsidedean](https://www.youtube.com/@southsidedean-life)
+[YouTube: southsidedean-life](https://www.youtube.com/@southsidedean-life)
 ## About Me
 
 In my career, I've had the pleasure of working with physical / virtual and Cloud / Cloud Native technologies for many years. In these roles I have worn many hats – educator, team lead, architect, engineer, project manager, business advocate and more. I have many years of both pre-sales and post-sales experience as an architect and engineer and can speak to a wide variety of both technical and non-technical audiences. My experience leveraging process and automation helps me to achieve fast, accurate and consistent results. I'm a creative problem solver with the ability to think outside of the box.
