@@ -1,9 +1,8 @@
 # Tom Dean
 **Greater Chicago Area**
+**tom@dean33.com**
 
 ## Links
-
-tom@dean33.com
 
 [LinkedIn: https://www.linkedin.com/in/tomdeanjr](https://www.linkedin.com/in/tomdeanjr)
 
