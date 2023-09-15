@@ -3,7 +3,7 @@
 
 ## Links
 
-e-mail: tom@dean33.com
+tom@dean33.com
 
 [LinkedIn: https://www.linkedin.com/in/tomdeanjr](https://www.linkedin.com/in/tomdeanjr)
 
