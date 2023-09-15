@@ -1,6 +1,6 @@
 # Tom Dean
 
-**Greater Chicago Area**
+## Greater Chicago Area
 
 **tom@dean33.com**
 
