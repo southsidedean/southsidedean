@@ -1,5 +1,7 @@
 # Tom Dean
+
 **Greater Chicago Area**
+
 **tom@dean33.com**
 
 ## Links
