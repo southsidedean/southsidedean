@@ -375,14 +375,14 @@ Activities and societies: Yearbook, Foreign Exchange ClubActivities and societie
 
 General Studies with a focus on mathematics, chemistry, physics and German.
 
-## Licenses / Certifications
+## Current Certifications
 
 ### Kubernetes and Cloud Native Associate (KCNA)
 #### The Linux Foundation
 
 Issued July 2022 · Expires July 2025
 
-### Microsoft Certified: Azure Fundamentals
+### Microsoft Certified: Azure Fundamentals (AZ-900)
 #### Microsoft
 
 Issued July 2020
