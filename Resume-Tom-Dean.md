@@ -12,7 +12,7 @@
 
 ## **Summary**
 
-I'm a seasoned technologist, looking for direct-hire or W2 contract roles.  I'm available on short notice.
+I'm a seasoned technologist, looking for direct-hire or W2 contract roles in a remote-first capacity.  I'm available on short notice.
 
 **Top Skills:**
 
