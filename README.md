@@ -32,11 +32,15 @@ Let's build something great together!
 
 ## Links
 
+### Resume
+
 [Resume - Markdown](./Resume-Tom-Dean.md)
 
 [Resume - PDF](./Resume-Tom-Dean.pdf)
 
 [Resume - HTML](./Resume-Tom-Dean.html)
+
+### Social Media
 
 [LinkedIn](https://www.linkedin.com/in/tomdeanjr/)
 

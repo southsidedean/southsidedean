@@ -383,7 +383,11 @@ General Studies with a focus on mathematics, chemistry, physics and German.
 
 Issued July 2022 · Expires July 2025
 
+[KCNA Certificate](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-52aeb184-d3e2-4cc0-a248-dfc4504ea59f-certificate.pdf)
+
 ### **Microsoft Certified: Azure Fundamentals (AZ-900)**
 #### Microsoft
 
 Issued July 2020
+
+[Microsoft Certified: Azure Fundamentals Certificate](https://www.credly.com/badges/0ba6530d-eb11-48c8-b3ba-be5134bd3243/linked_in_profile)
