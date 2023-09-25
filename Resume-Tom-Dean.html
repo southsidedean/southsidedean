@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resume-Tom-Dean.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="tom-dean"><strong>Tom Dean</strong></h1>
+<p><strong>Greater Chicago Area</strong></p>
+<p><strong><a href="mailto:tom@dean33.com">tom@dean33.com</a></strong></p>
+<h2 id="links"><strong>Links</strong></h2>
+<p><strong><a href="https://www.linkedin.com/in/tomdeanjr">LinkedIn: https://www.linkedin.com/in/tomdeanjr</a></strong></p>
+<p><strong><a href="https://github.com/southsidedean">GitHub: https://github.com/southsidedean</a></strong></p>
+<h2 id="summary"><strong>Summary</strong></h2>
+<p>I'm a seasoned technologist, looking for direct-hire or W2 contract roles in a remote-first capacity.  I'm available on short notice.</p>
+<p><strong>Top Skills:</strong></p>
+<ul>
+<li>Linux</li>
+<li>Kubernetes</li>
+<li>Cloud (AWS and a little Azure and GCP)</li>
+<li>Cloud Native (Containers, Docker/Podman and Kubernetes)</li>
+<li>Automation (Terraform, CloudFormation, Bash and some Python)</li>
+</ul>
+<h2 id="biography"><strong>Biography</strong></h2>
+<p>I've had the pleasure of working with physical, virtual, Cloud and Cloud Native technologies for many years. I have worn many hats – educator, team lead, architect, engineer, project manager, business advocate and more, with both pre-sales and post-sales experience.  I can speak to a wide variety of both technical and non-technical audiences. My experience leveraging process and automation helps me to achieve fast, accurate and consistent results.</p>
+<p>I'm a big believer in documenting all things and sharing the knowledge, both written (GitHub) and video (YouTube).  I like leaving things better than I found them, and wrangling, documenting and automating tribal knowledge along the way.</p>
+<p>I added teaching and content production to my skill set over three years ago, so I could leverage over 25 years of technology experience to create great courses with lessons and hands-on labs to help my students master technology, changing lives for the better.  Along the way, I've been a student as well, learning how to write, record, edit and produce my own content and create and deploy labs in AWS using CloudFormation and Terraform.</p>
+<p>I've been expanding my Cloud, Cloud Native and adjacent subject matter knowledge to become a more well-rounded technologist. I'm currently working on attaining the Cloud Native Computing Foundation's CKA and CKAD certifications.</p>
+<p>Let's build something great together!</p>
+<div style="page-break-after: always"></div>
+<h2 id="experience"><strong>Experience</strong></h2>
+<h3 id="education-curriculum-architectdeveloper"><strong>Education Curriculum Architect/Developer</strong></h3>
+<h4 id="d2iq--full-time"><strong>D2iQ · Full-time</strong></h4>
+<h4 id="aug-2021---feb-2023--greater-chicago-area--remote">Aug 2021 - Feb 2023 · Greater Chicago Area · Remote</h4>
+<p>As a principal on my team at D2iQ, I owned the Learning and Development function and managed the day-to-day and strategic operations of content development and class delivery.</p>
+<p>I was in charge of maintaining and delivering a catalog of instructor-led courses that included the Cloud Native Computing Foundation (CNCF) space and a growing catalog of other Kubernetes topics, for both internal and external students, including building, improving, optimizing and maintaining an in-house, automated hands-on labs platform in Amazon Web Services (AWS), using GitLab, CI/CD and Terraform to deliver valuable hands-on experience for our students.</p>
+<p>Throughout 2022, I also led a selection process to select a learning management system and accompanying hands-on labs system to make a pivot to on-demand learning. I evaluated the scope of public offerings for learning management systems (Docebo, Skilljar, Blackboard, Instructure, Appsembler and more) and hands-on labs systems (CloudShare, Skillable, Instruqt , Appsembler and more). I spent the end of 2022 integrating our selection of Docebo and CloudShare so we could fill it with content and labs and launch in early 2023. Unfortunately, the project was cancelled in early 2023 and my position was eliminated.</p>
+<p>In my role, I not only led, but was hands-on, from writing Terraform automation in GitLab to build lab environments in AWS, to advancing my fledgling Kubernetes skills every day as both a student and a teacher.</p>
+<p>Skills: Continuous Integration and Continuous Delivery (CI/CD) · Gitlab · GitHub · Kubernetes · Containers · Terraform · Amazon Web Services (AWS) · Podman · Docker · DevOps · Git · GitOps · AWS CloudFormation · Virtualization · Linux KVM · VMware · Linux · Ubuntu · Red Hat Linux · Microsoft Azure · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X</p>
+<h3 id="training-architect"><strong>Training Architect</strong></h3>
+<h4 id="a-cloud-guru--full-time"><strong>A Cloud Guru · Full-time</strong></h4>
+<h4 id="aug-2020---jul-2021--greater-chicago-area--remote">Aug 2020 - Jul 2021 · Greater Chicago Area · Remote</h4>
+<p>As a Training Architect, I leveraged over 25 years of technology experience to create great courses with lessons and hands-on labs to help my students achieve their learning goals and change their lives for the better.</p>
+<div style="page-break-after: always"></div>
+<p>With LA/ACG, I was a one-man content machine, from creating the course syllabus to authoring slide decks and markdown, creating and editing video and audio, authoring labs in AWS using CloudFormation, and much more. In addition to course work, I hosted Linux This Month and participated in the first ACG Community Summit.</p>
+<p>Courses Authored:</p>
+<ul>
+<li>Red Hat Certified System Administrator (EX200) Exam Prep</li>
+<li>Hands-on with Podman Containers on Linux</li>
+<li>Hands-on with HAProxy Load Balancer</li>
+</ul>
+<p>Skills: GitHub · Kubernetes · Containers · Amazon Web Services (AWS) · Podman · Docker · DevOps · Git · GitOps · AWS CloudFormation · Virtualization · Linux KVM · Linux · Ubuntu · Red Hat Linux · Microsoft Azure · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X</p>
+<h3 id="linux-training-architect"><strong>Linux Training Architect</strong></h3>
+<h4 id="linux-academy--full-time"><strong>Linux Academy · Full-time</strong></h4>
+<h4 id="sep-2019---aug-2020--greater-chicago-area--remote">Sep 2019 - Aug 2020 · Greater Chicago Area · Remote</h4>
+<p>As a Training Architect, I leveraged over 25 years of technology experience to create great courses with lessons and hands-on labs to help my students achieve their learning goals and change their lives for the better.</p>
+<p>With LA/ACG, I was a one-man content machine, from creating the course syllabus to authoring slide decks and markdown, creating and editing video and audio, authoring labs in AWS using CloudFormation, and much more.</p>
+<p>I moved to A Cloud Guru in August 2020 as part of the acquisition of Linux Academy.</p>
+<p>Courses Authored:</p>
+<ul>
+<li>LEMP Stack Deep Dive</li>
+<li>KVM Virtualization on Linux</li>
+<li>Managing Linux Servers with Cockpit</li>
+</ul>
+<p>Skills: GitHub · Kubernetes · Containers · Amazon Web Services (AWS) · Podman · Docker · DevOps · Git · GitOps · AWS CloudFormation · Virtualization · Linux KVM · Linux · Ubuntu · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X</p>
+<div style="page-break-after: always"></div>
+<h3 id="linux-engineering--architecture--project-management"><strong>Linux Engineering / Architecture / Project Management</strong></h3>
+<h4 id="lucid-services-group--contract"><strong>Lucid Services Group · Contract</strong></h4>
+<h4 id="apr-2019---jul-2019--greater-chicago-area--remote">Apr 2019 - Jul 2019 · Greater Chicago Area · Remote</h4>
+<p>My role with Lucid was a three month assignment at Indiana University. In that role, I was in charge of retiring / transitioning applications and services on a number of Red Hat Enterprise Linux (RHEL) servers, as well as providing interim support for the customers during the transition. The servers were a mix of RHEL 5/6/7 on VMWare (with vRA). In this role I was not just an architect and engineer, but also a project manager in charge of building customer relationships to assure success.My role with Lucid was a three month assignment at Indiana University. In that role, I was in charge of retiring / transitioning applications and services on a number of Red Hat Enterprise Linux (RHEL) servers, as well as providing interim support for the customers during the transition. The servers were a mix of RHEL 5/6/7 on VMWare (with vRA). In this role I was not just an architect and engineer, but also a project manager in charge of building customer relationships to assure success.</p>
+<p>Skills: Virtualization · VMware · Linux · Ubuntu · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X</p>
+<h3 id="systems-engineer---windows--linux--network"><strong>Systems Engineer - Windows / Linux / Network</strong></h3>
+<h4 id="farm-journal--freelance"><strong>Farm Journal · Freelance</strong></h4>
+<h4 id="feb-2019---apr-2019--greater-chicago-area--remote">Feb 2019 - Apr 2019 · Greater Chicago Area · Remote</h4>
+<p>I was on-call as an Independent Consultant on a series of smaller projects for Farm Journal Media as needed. This was a secondary role for me.</p>
+<p>Skills: Virtualization · VMware · Linux · Ubuntu · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · Shell Scripting · CentOS · Bash · Server Architecture · Mac OS X</p>
+<h3 id="sabbatical---training--hobbies--dad-time"><strong>Sabbatical - Training / Hobbies / Dad Time</strong></h3>
+<h4 id="dean-household"><strong>Dean Household</strong></h4>
+<h4 id="sep-2018---feb-2019--greater-chicago-area--on-site">Sep 2018 - Feb 2019 · Greater Chicago Area · On-site</h4>
+<p>I took some time off to stop and smell the roses and enjoy time being a Dad to my first grader. Enjoying my hobbies. Working on projects around the house. Professional training (oVirt, Linux, Foreman / Katello, Linux containers (Docker / Kubernetes), AWS, DevOps...).</p>
+<p>Looked for my next professional adventure and got my batteries recharged.</p>
+<div style="page-break-after: always"></div>
+<p>Skills: KVM · Ansible · Python (Programming Language) · Kubernetes · Amazon Web Services (AWS) · Docker · DevOps · Linux · Red Hat Linux · System Architecture · Networking · DNS · Firewalls · System Administration · System Deployment · TCP/IP · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X</p>
+<h3 id="infrastructure-projects--architecture--engineering"><strong>Infrastructure Projects / Architecture / Engineering</strong></h3>
+<h4 id="farm-journal--freelance"><strong>Farm Journal · Freelance</strong></h4>
+<h4 id="apr-2018---aug-2018--greater-chicago-area--remote">Apr 2018 - Aug 2018 · Greater Chicago Area · Remote</h4>
+<p>During this engagement I worked on a series of projects:</p>
+<ul>
+<li>Performed discovery and documentation of customer's overall environment (Windows and Linux servers, storage, networking, backup, disaster recovery, firewalls, Amazon Web Services (AWS) assets</li>
+<li>Audited Active Directory users and groups</li>
+<li>Integrated Okta Single Sign On (SSO) Identity Management with the customer's existing Active Directory environment</li>
+<li>Enabled KnowB4 SSO integration with Okta</li>
+<li>Migrated several terabytes of user and shared data from old Windows servers to Dropbox Cloud Storage and created users and groups for access</li>
+<li>Analyzed and proposed opportunities to virtualize physical servers under VMWare and Hyper-V hypervisors</li>
+<li>Assisted with design and deployment of new Acronis Backup on-premise solution under VMWare</li>
+</ul>
+<p>Skills: Virtualization · VMware · Linux · Ubuntu · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · Shell Scripting · CentOS · Bash · Server Architecture · Mac OS X</p>
+<h3 id="linux-lead-engineer"><strong>Linux Lead Engineer</strong></h3>
+<h4 id="the-phoenix-group--contract"><strong>The Phoenix Group · Contract</strong></h4>
+<h4 id="jan-2018---feb-2018--chicago-il--hybrid">Jan 2018 - Feb 2018 · Chicago, IL · Hybrid</h4>
+<p>A short-term contract assignment as a Linux Lead in downtown Chicago, filling in for an employee out on leave. In addition to daily support responsibilities of the Red Hat Enterprise Linux (RHEL), VMWare and Hitachi SAN platforms, I deployed a new Foreman / Katello (Red Hat Satellite 6) environment and maintained the existing Spacewalk (Red Hat Satellite 5) environment.</p>
+<p>Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Server Architecture · Mac OS X</p>
+<div style="page-break-after: always"></div>
+<h3 id="senior-linux-architect--engineer"><strong>Senior Linux Architect / Engineer</strong></h3>
+<h4 id="msh-group--contract"><strong>MSH Group · Contract</strong></h4>
+<h4 id="jan-2016---dec-2017--greater-chicago-area--remote">Jan 2016 - Dec 2017 · Greater Chicago Area · Remote</h4>
+<p>As a contractor, I was one of two Level Three Linux Engineers responsible for the Linux environment of over 550 SUSE Linux and Red Hat Enterprise Linux hosts running on a mix of HP hardware and VMWare. I worked both within the Linux team as well as across Infrastructure teams and other business units. I also assisted in the deployment of SUSE Manager and Satellite 6 during my assignment. I represented the team on the weekly change meetings and was given responsibility for the Linux patching process.</p>
+<p>Responsibilities included:</p>
+<ul>
+<li>Linux Engineering (Troubleshooting / Architecture / Delivery / QA)</li>
+<li>Project / Process Management</li>
+<li>Oversight of offshore resources</li>
+<li>Change Management</li>
+<li>Compliance Management</li>
+<li>Automation / Scripting</li>
+<li>Operating System Patching and Security Remediation</li>
+</ul>
+<p>Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · EMC Storage · Server Architecture · Mac OS X · CIsco UCS</p>
+<h3 id="senior-linux-architect--engineer--team-lead"><strong>Senior Linux Architect / Engineer / Team Lead</strong></h3>
+<h4 id="geneva-technical-services--contract"><strong>Geneva Technical Services · Contract</strong></h4>
+<h4 id="jul-2015---jan-2016--bolingbrook-il--hybrid">Jul 2015 - Jan 2016 · Bolingbrook, IL · Hybrid</h4>
+<p>During my six-month assignment, I led a team of Linux Engineers supporting a rollout of Manhattan WMS and the supporting Red Hat Enterprise Linux (RHEL 6/7) environment. I performed engineering and architecture work to standardize and automate many aspects of the Linux environment. I also led the team on documenting a largely undocumented environment, creating standardized procedures and processes and improved the efficiency and stability of day-to-day operations. The RHEL environment was a mix of virtual (VMWare) and physical (Cisco UCS and HP C7000) connected to EMC storage (with PowerPath). I created and tested the first set of Disaster Recovery (DR) procedures for the environment as well.</p>
+<p>Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · EMC Storage · Server Architecture · Mac OS X</p>
+<div style="page-break-after: always"></div>
+<h3 id="senior-systems-architect"><strong>Senior Systems Architect</strong></h3>
+<h4 id="itdistributors--full-time"><strong>ITDistributors · Full-time</strong></h4>
+<h4 id="jul-2009---jun-2015--greater-chicago-area--hybrid">Jul 2009 - Jun 2015 · Greater Chicago Area · Hybrid</h4>
+<p>ITDistributors (ITD) was an Edison, NJ based VAR that serviced the telecommunications industry, both as a traditional VAR as well as a provider of frame integration services.</p>
+<p>My tenure at ITD had two chapters. In the first two years I served as a Technical Account Manager (TAM) working with Alcatel-Lucent and Motorola. I worked alongside the Sun Microsystems team to add value to the relationship with Sun/ITD. In 2011 I was assigned to AT&amp;T to not only perform in a TAM role but to identify, win and lead a number of projects. Most of these projects were large deployments of Red Hat Enterprise Linux (RHEL 5/6) on IBM BladeCenter servers connected to Hitachi AMS2500 storage with many nodes across many sites, all deployed with custom automation (Kickstart / PXE / Bash).</p>
+<p>As AT&amp;T began their move toward retooling on OpenStack I was tapped to be one of two key players in our partnership with Red Hat. In this role I achieved all available Red Hat Partner Platform, Virtualization and Cloud certifications that were available and trained ITD's internal engineering teams on these technologies.</p>
+<p>My role with ITD ended in June 2015 as a result of a reduction in force, prior to the closing of the company.</p>
+<p>Skills: Virtualization · Linux KVM · VMware · Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Veritas Volume Manager · Server Architecture · OpenStack · Veritas Cluster Server · Mac OS X</p>
+<h3 id="senior-systems-architect"><strong>Senior Systems Architect</strong></h3>
+<h4 id="moongate-technologies--full-time"><strong>Moongate Technologies · Full-time</strong></h4>
+<h4 id="2008---2009--indianapolis-indiana-area--on-site">2008 - 2009 · Indianapolis, Indiana Area · On-site</h4>
+<p>Moongate Technologies specialized in data storage, protection, virtualization solutions, SOA, Java development and engineering services. In my role as a Senior Systems Architect at Moongate I was responsible for pre and post-sales engineering work to support their customer base. I also assisted with the screening of placement candidates for their staffing arm, Mooncrew.</p>
+<p>My last role with Moongate was as technical lead on a major NetBackup project:</p>
+<ul>
+<li>I upgraded the customer's STK SL8500 tape library to 54 HP LTO4 drives.</li>
+<li>I installed ten new Veritas NetBackup media servers using a Jumpstart server we built.</li>
+<li>I also reinstalled Solaris on the existing media servers, using Jumpstart.</li>
+<li>I installed a two-node Veritas Cluster Server (5.0) on Solaris.</li>
+<li>I migrated the existing Veritas NetBackup (on Solaris) master server to the new cluster.</li>
+<li>I installed a new, single-node VCS cluster at their offsite Disaster Recovery site.</li>
+</ul>
+<div style="page-break-after: always"></div>
+<p>Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Netbackup · Veritas Volume Manager · EMC Storage · Server Architecture · Veritas Cluster Server · Mac OS X</p>
+<h3 id="system-administrator"><strong>System Administrator</strong></h3>
+<h4 id="indiana-interactive-inc--full-time"><strong>Indiana Interactive Inc · Full-time</strong></h4>
+<h4 id="2008--indianapolis-indiana-area--hybrid">2008 · Indianapolis, Indiana Area · Hybrid</h4>
+<p>At Indiana Interactive I worked on a team of two System Administrators. We were responsible for maintaining everything that ran the IN.gov portal and all related vanity sites - servers, network, firewalls, storage, backups, and more. Our clients included the state of Indiana and all its third-party developers as well our internal development group, the project managers and the creative team (web developers) at Indiana Interactive. We touched almost every aspect of the operation of the entire portal.</p>
+<p>Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Netbackup · Veritas Volume Manager · Server Architecture · Mac OS X</p>
+<h3 id="unix--linux-administrator"><strong>UNIX / Linux Administrator</strong></h3>
+<h4 id="monster--full-time"><strong>Monster · Full-time</strong></h4>
+<h4 id="feb-2006---aug-2007--indianapolis-indiana-area--on-site">Feb 2006 - Aug 2007 · Indianapolis, Indiana Area · On-site</h4>
+<p>In my position at Monster, I worked for the Network Operations team that supported the distributed infrastructure in both the Indianapolis and Maynard (MA) NOCs. I worked primarily on the UNIX side, supporting a mix of Linux (RHEL, CentOS, RedHat 7.2 and other) and Solaris servers that ran applications such as Oracle RAC, mail relays, web farms, DNS and other critical infrastructure tasks. I also had a lead role supporting the legacy NetBackup Datacenter 4.5 infrastructure. In addition to my support role I also assisted with the architecture, planning, documentation and deployment of new systems.</p>
+<p>Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Netbackup · Veritas Volume Manager · Server Architecture · Veritas Cluster Server · Mac OS X</p>
+<div style="page-break-after: always"></div>
+<h3 id="unix-administrator"><strong>UNIX Administrator</strong></h3>
+<h4 id="apex-systems--contract"><strong>Apex Systems · Contract</strong></h4>
+<h4 id="oct-2005---feb-2006--indianapolis-indiana-area--on-site">Oct 2005 - Feb 2006 · Indianapolis, Indiana Area · On-site</h4>
+<p>Contract assignment at Eli Lilly, performing UNIX (Solaris) support for the SAP systems. My responsibilities were UNIX system administration and handling of UNIX-related trouble tickets and change requests (using Remedy). Many of the servers we administered were clustered with Veritas Cluster Server.</p>
+<p>Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Bash · Veritas Volume Manager · EMC Storage · Server Architecture · Veritas Cluster Server</p>
+<h3 id="field-engineering---linux"><strong>Field Engineering - Linux</strong></h3>
+<h4 id="avnet-technology-solutions--contract"><strong>Avnet Technology Solutions · Contract</strong></h4>
+<h4 id="2005--indiana--on-site">2005 · Indiana · On-site</h4>
+<p>I worked at various locations around Indiana on short-term engagements that involved setting up PACS imaging systems (Linux-based : SUSE and RHEL) at hospitals around Indiana. My responsibility was to finalize the configuration of the systems, integrate the systems into the customer environment and perform final acceptance testing of all systems.</p>
+<p>Skills: Linux · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · NFS · Shell Scripting · Bash · Server Architecture</p>
+<h3 id="systems-administrator-ii-%E2%80%93-unix--linux"><strong>Systems Administrator II – UNIX / Linux</strong></h3>
+<h4 id="sallie-mae--full-time"><strong>Sallie Mae · Full-time</strong></h4>
+<h4 id="jun-2004---sep-2004--indianapolis-indiana-area--on-site">Jun 2004 - Sep 2004 · Indianapolis, Indiana Area · On-site</h4>
+<p>At Sallie Mae I performed UNIX and Linux systems administration tasks for a group of approximately fifty servers that I was responsible for as well as assisting with the support of the rest of the UNIX servers (200+). I also was part of the on-call rotation. My systems included Solaris, HP/UX and Red Hat Enterprise Linux platforms with some connected to the EMC SAN.</p>
+<p>Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Bash · Veritas Volume Manager · EMC Storage · Server Architecture · Veritas Cluster Server</p>
+<div style="page-break-after: always"></div>
+<h3 id="unix-support-analyst-%E2%80%93-solaris--hpux"><strong>Unix Support Analyst – Solaris / HP/UX</strong></h3>
+<h4 id="princeton-information--contract"><strong>Princeton Information · Contract</strong></h4>
+<h4 id="oct-2003---jun-2004--indianapolis-indiana-area--on-site">Oct 2003 - Jun 2004 · Indianapolis, Indiana Area · On-site</h4>
+<p>While on assignment for Princeton Information at Sallie Mae in Fishers, IN I worked as a technical lead on a data center migration project, managing the migration of the UNIX (Solaris / HP/UX), Veritas NetBackup and SAN elements of the project. I also assisted the UNIX team with the administration of their servers and associated infrastructure, including applications, Veritas and Sun Disksuite management and other duties.</p>
+<p>Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Bash · Veritas Volume Manager · EMC Storage · Server Architecture · Veritas Cluster Server</p>
+<h3 id="unix--linux-support-analyst"><strong>Unix / Linux Support Analyst</strong></h3>
+<h4 id="yoh-a-day--zimmermann-company--contract"><strong>Yoh, A Day &amp; Zimmermann Company · Contract</strong></h4>
+<h4 id="nov-2000---may-2003--indianapolis-indiana-area--hybrid">Nov 2000 - May 2003 · Indianapolis, Indiana Area · Hybrid</h4>
+<p>At Indianapolis Power and Light (IPL) I was responsible for maintaining their Sun servers and UNIX environments, including Solaris, AIX, HP/UX and Linux. I also assisted with their EMC and Hitachi storage platforms (including a two-site SAN), Veritas products (Volume Manager, File System and Netbackup), networking issues, application issues, firewall and intranet server, router and VPN device configuration (Cisco and Nortel), web content administration and more. I participated in two large projects as a key member of the teams : working as a technical lead / project manager on a 9-terabyte two-site SAN implementation and data migration project and the launch of the implementation of IPL's new Outage Management System. I also helped support their Veritas Netbackup environment and their disaster recovery operations.</p>
+<p>Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Bash · Netbackup · Veritas Volume Manager · EMC Storage · Server Architecture</p>
+<h3 id="engineering-manager"><strong>Engineering Manager</strong></h3>
+<h4 id="commnet-plus-inc--full-time"><strong>CommNet Plus, Inc · Full-time</strong></h4>
+<h4 id="2000--indianapolis-in--on-site">2000 · Indianapolis, IN · On-site</h4>
+<p>At CommNet Plus I was responsible for two Systems Engineers, as well as performing the majority of the UNIX integration work, maintaining all the internal systems and helping prepare to launch their Managed Service Provider business.</p>
+<div style="page-break-after: always"></div>
+<p>Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Netbackup · Veritas Volume Manager · Server Architecture</p>
+<h3 id="senior-systems-engineer"><strong>Senior Systems Engineer</strong></h3>
+<h4 id="emc--full-time"><strong>EMC · Full-time</strong></h4>
+<h4 id="1999---2000--indianapolis-indiana--on-site">1999 - 2000 · Indianapolis, Indiana · On-site</h4>
+<p>In my role at EMC I was responsible for supporting a number of named accounts. My job was to know the technical and business needs of my customers and to help propose solutions to fit those needs. Day-to-day tasks included scheduled and impromptu visits to customer sites, handling of customer issues, preparation of quotes and related pricing information, training and self-improvement, report preparation, meetings and more. My salesman and I had Indiana’s first Symmetrix SRDF installation in Indiana.</p>
+<p>Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Netbackup · Veritas Volume Manager · EMC Storage · Server Architecture</p>
+<h3 id="lead-network-administrator"><strong>Lead Network Administrator</strong></h3>
+<h4 id="macmillan--full-time"><strong>Macmillan · Full-time</strong></h4>
+<h4 id="1999--indianapolis-indiana--on-site">1999 · Indianapolis, Indiana · On-site</h4>
+<p><strong>Highlights</strong></p>
+<ul>
+<li>Managed Network Team</li>
+<li>Project Manager for cc:Mail to Exchange Migration</li>
+<li>Project Manager for NetWare to Windows NT 4.0 Server Migration</li>
+</ul>
+<p>Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Server Architecture</p>
+<h3 id="information-systems-manager"><strong>Information Systems Manager</strong></h3>
+<h4 id="nsi-software--full-time"><strong>NSI Software · Full-time</strong></h4>
+<h4 id="1997---1999--indianapolis-indiana--on-site">1997 - 1999 · Indianapolis, Indiana · On-site</h4>
+<p><strong>Highlights</strong></p>
+<ul>
+<li>Maintained the company infrastructure - Windows NT 4.0 and Sun Solaris servers</li>
+<li>Supported local and field end users</li>
+<li>Served as Webmaster on the company web site</li>
+</ul>
+<p>Skills: Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Server Architecture</p>
+<h3 id="sales-engineer"><strong>Sales Engineer</strong></h3>
+<h4 id="creative-computers-inc--full-time"><strong>Creative Computers, Inc. · Full-time</strong></h4>
+<h4 id="1996---1997--los-angeles-metropolitan-area--on-site">1996 - 1997 · Los Angeles Metropolitan Area · On-site</h4>
+<p><strong>Highlights</strong></p>
+<ul>
+<li>Supported sales force in sales of networking products</li>
+<li>Trained sales force on networking technologies</li>
+<li>Completed Novell 4.X CNE certification</li>
+</ul>
+<p>Skills: System Architecture · Networking · Server Architecture</p>
+<h3 id="network-specialist"><strong>Network Specialist</strong></h3>
+<h4 id="cdw--full-time"><strong>CDW · Full-time</strong></h4>
+<h4 id="1995---1996--greater-chicago-area--on-site">1995 - 1996 · Greater Chicago Area · On-site</h4>
+<p><strong>Highlights</strong></p>
+<ul>
+<li>Worked with customer base to provide networking and computing solutions</li>
+<li>One of six founding members of CDW's network sales division</li>
+</ul>
+<p>Skills: System Architecture · Networking · Server Architecture</p>
+<h2 id="education"><strong>Education</strong></h2>
+<h3 id="purdue-university"><strong>Purdue University</strong></h3>
+<h4 id="ba-psychology--law-and-society"><strong>BA, Psychology / Law and Society</strong></h4>
+<p>Activities and societies: The Exponent, Staff Writer and Photographer</p>
+<p>Skills: Unix · Networking · DNS · System Administration · TCP/IP · Shell Scripting</p>
+<h3 id="valparaiso-high-school"><strong>Valparaiso High School</strong></h3>
+<h4 id="diploma"><strong>Diploma</strong></h4>
+<p>Activities and societies: Yearbook, Foreign Exchange Club</p>
+<p>General Studies with a focus on mathematics, chemistry, physics and German.</p>
+<div style="page-break-after: always"></div>
+<h2 id="current-certifications"><strong>Current Certifications</strong></h2>
+<h3 id="kubernetes-and-cloud-native-associate-kcna"><strong>Kubernetes and Cloud Native Associate (KCNA)</strong></h3>
+<h4 id="the-linux-foundation">The Linux Foundation</h4>
+<p>Issued July 2022 · Expires July 2025</p>
+<h3 id="microsoft-certified-azure-fundamentals-az-900"><strong>Microsoft Certified: Azure Fundamentals (AZ-900)</strong></h3>
+<h4 id="microsoft">Microsoft</h4>
+<p>Issued July 2020</p>
+
+</body>
+</html>
