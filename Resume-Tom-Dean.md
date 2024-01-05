@@ -16,9 +16,9 @@ I'm a seasoned technologist, looking for direct-hire or W2 contract roles in a r
 
 **Top Skills:**
 
-- Linux
-- Kubernetes
-- Cloud (AWS and a little Azure and GCP)
+- Linux (Ross Brunson and I wrote the RHCSA 8 course for A Cloud Guru)
+- Kubernetes (KCNA | CKAD | CKA)
+- Cloud (AWS CCP (working on SAA) and a little Azure and GCP)
 - Cloud Native (Containers, Docker/Podman and Kubernetes)
 - Automation (Terraform, CloudFormation, Bash and some Python)
 
@@ -30,13 +30,33 @@ I'm a big believer in documenting all things and sharing the knowledge, both wri
 
 I added teaching and content production to my skill set over three years ago, so I could leverage over 25 years of technology experience to create great courses with lessons and hands-on labs to help my students master technology, changing lives for the better.  Along the way, I've been a student as well, learning how to write, record, edit and produce my own content and create and deploy labs in AWS using CloudFormation and Terraform.
 
-I've been expanding my Cloud, Cloud Native and adjacent subject matter knowledge to become a more well-rounded technologist. I'm currently working on attaining the Cloud Native Computing Foundation's CKA and CKAD certifications.
+I've been expanding my Cloud, Cloud Native and adjacent subject matter knowledge to become a more well-rounded technologist. I recently attained the Cloud Native Computing Foundation's CKA and CKAD certifications, as well as the AWS Certified Cloud Practitioner certification.  I'm currently studying for the AWS Certified Solutions Architect - Associate exam.
 
 Let's build something great together!
 
 <div style="page-break-after: always"></div>
 
 ## **Experience**
+
+### **Technical Training Architect**
+#### **Mission Cloud · Full-time**
+
+#### Nov 2023 - Jan 2024 · Greater Chicago Area · Remote
+
+I joined Mission Cloud as a Technical Training Architect in November of 2023.
+
+My responsibilities included:
+
+- Technical certification and up-skilling of employees (AWS | Kubernetes | Python | Terraform )
+- The Technical Ambassador program
+- The Subject Matter Expert program
+- Technical Training Content (Curation and Creation) and Training Paths
+- The "second half" of the Apprenticeship program
+
+There was a corporate re-organization at the beginning of January 2024, and I was one of the many Mission employees impacted by layoffs.
+
+Skills: GitHub · Kubernetes · Terraform · Amazon Web Services (AWS) · Linux
+
 
 ### **Education Curriculum Architect/Developer**
 #### **D2iQ · Full-time**
@@ -49,9 +69,12 @@ I was in charge of maintaining and delivering a catalog of instructor-led course
 
 Throughout 2022, I also led a selection process to select a learning management system and accompanying hands-on labs system to make a pivot to on-demand learning. I evaluated the scope of public offerings for learning management systems (Docebo, Skilljar, Blackboard, Instructure, Appsembler and more) and hands-on labs systems (CloudShare, Skillable, Instruqt , Appsembler and more). I spent the end of 2022 integrating our selection of Docebo and CloudShare so we could fill it with content and labs and launch in early 2023. Unfortunately, the project was cancelled in early 2023 and my position was eliminated.
 
+<div style="page-break-after: always"></div>
+
 In my role, I not only led, but was hands-on, from writing Terraform automation in GitLab to build lab environments in AWS, to advancing my fledgling Kubernetes skills every day as both a student and a teacher.
 
 Skills: Continuous Integration and Continuous Delivery (CI/CD) · Gitlab · GitHub · Kubernetes · Containers · Terraform · Amazon Web Services (AWS) · Podman · Docker · DevOps · Git · GitOps · AWS CloudFormation · Virtualization · Linux KVM · VMware · Linux · Ubuntu · Red Hat Linux · Microsoft Azure · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X
+
 
 ### **Training Architect**
 #### **A Cloud Guru · Full-time**
@@ -59,8 +82,6 @@ Skills: Continuous Integration and Continuous Delivery (CI/CD) · Gitlab · GitH
 #### Aug 2020 - Jul 2021 · Greater Chicago Area · Remote
 
 As a Training Architect, I leveraged over 25 years of technology experience to create great courses with lessons and hands-on labs to help my students achieve their learning goals and change their lives for the better.
-
-<div style="page-break-after: always"></div>
 
 With LA/ACG, I was a one-man content machine, from creating the course syllabus to authoring slide decks and markdown, creating and editing video and audio, authoring labs in AWS using CloudFormation, and much more. In addition to course work, I hosted Linux This Month and participated in the first ACG Community Summit.
 
@@ -70,6 +91,7 @@ Courses Authored:
 - Hands-on with HAProxy Load Balancer
 
 Skills: GitHub · Kubernetes · Containers · Amazon Web Services (AWS) · Podman · Docker · DevOps · Git · GitOps · AWS CloudFormation · Virtualization · Linux KVM · Linux · Ubuntu · Red Hat Linux · Microsoft Azure · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X
+
 
 ### **Linux Training Architect**
 #### **Linux Academy · Full-time**
@@ -89,7 +111,6 @@ Courses Authored:
 
 Skills: GitHub · Kubernetes · Containers · Amazon Web Services (AWS) · Podman · Docker · DevOps · Git · GitOps · AWS CloudFormation · Virtualization · Linux KVM · Linux · Ubuntu · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X
 
-<div style="page-break-after: always"></div>
 
 ### **Linux Engineering / Architecture / Project Management**
 #### **Lucid Services Group · Contract**
@@ -108,6 +129,8 @@ Skills: Virtualization · VMware · Linux · Ubuntu · Red Hat Linux · Unix · 
 
 I was on-call as an Independent Consultant on a series of smaller projects for Farm Journal Media as needed. This was a secondary role for me.
 
+<div style="page-break-after: always"></div>
+
 Skills: Virtualization · VMware · Linux · Ubuntu · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · Shell Scripting · CentOS · Bash · Server Architecture · Mac OS X
 
 
@@ -119,8 +142,6 @@ Skills: Virtualization · VMware · Linux · Ubuntu · Red Hat Linux · Unix · 
 I took some time off to stop and smell the roses and enjoy time being a Dad to my first grader. Enjoying my hobbies. Working on projects around the house. Professional training (oVirt, Linux, Foreman / Katello, Linux containers (Docker / Kubernetes), AWS, DevOps...).
 
 Looked for my next professional adventure and got my batteries recharged.
-
-<div style="page-break-after: always"></div>
 
 Skills: KVM · Ansible · Python (Programming Language) · Kubernetes · Amazon Web Services (AWS) · Docker · DevOps · Linux · Red Hat Linux · System Architecture · Networking · DNS · Firewalls · System Administration · System Deployment · TCP/IP · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X
 
@@ -142,6 +163,7 @@ During this engagement I worked on a series of projects:
 
 Skills: Virtualization · VMware · Linux · Ubuntu · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · Shell Scripting · CentOS · Bash · Server Architecture · Mac OS X
 
+<div style="page-break-after: always"></div>
 
 ### **Linux Lead Engineer**
 #### **The Phoenix Group · Contract**
@@ -152,7 +174,6 @@ A short-term contract assignment as a Linux Lead in downtown Chicago, filling in
 
 Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Server Architecture · Mac OS X
 
-<div style="page-break-after: always"></div>
 
 ### **Senior Linux Architect / Engineer**
 #### **MSH Group · Contract**
@@ -173,6 +194,7 @@ Responsibilities included:
 
 Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · EMC Storage · Server Architecture · Mac OS X · CIsco UCS
 
+<div style="page-break-after: always"></div>
 
 ### **Senior Linux Architect / Engineer / Team Lead**
 #### **Geneva Technical Services · Contract**
@@ -183,7 +205,6 @@ During my six-month assignment, I led a team of Linux Engineers supporting a rol
 
 Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · EMC Storage · Server Architecture · Mac OS X
 
-<div style="page-break-after: always"></div>
 
 ### **Senior Systems Architect**
 #### **ITDistributors · Full-time**
@@ -200,6 +221,7 @@ My role with ITD ended in June 2015 as a result of a reduction in force, prior t
 
 Skills: Virtualization · Linux KVM · VMware · Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Veritas Volume Manager · Server Architecture · OpenStack · Veritas Cluster Server · Mac OS X
 
+<div style="page-break-after: always"></div>
 
 ### **Senior Systems Architect**
 #### **Moongate Technologies · Full-time**
@@ -217,8 +239,6 @@ My last role with Moongate was as technical lead on a major NetBackup project:
 - I migrated the existing Veritas NetBackup (on Solaris) master server to the new cluster.
 - I installed a new, single-node VCS cluster at their offsite Disaster Recovery site.
 
-<div style="page-break-after: always"></div>
-
 Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Netbackup · Veritas Volume Manager · EMC Storage · Server Architecture · Veritas Cluster Server · Mac OS X
 
 
@@ -231,6 +251,8 @@ At Indiana Interactive I worked on a team of two System Administrators. We were 
 
 Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Netbackup · Veritas Volume Manager · Server Architecture · Mac OS X
 
+<div style="page-break-after: always"></div>
+
 ### **UNIX / Linux Administrator**
 #### **Monster · Full-time**
 
@@ -240,7 +262,6 @@ In my position at Monster, I worked for the Network Operations team that support
 
 Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Netbackup · Veritas Volume Manager · Server Architecture · Veritas Cluster Server · Mac OS X
 
-<div style="page-break-after: always"></div>
 
 ### **UNIX Administrator**
 #### **Apex Systems · Contract**
@@ -260,6 +281,7 @@ I worked at various locations around Indiana on short-term engagements that invo
 
 Skills: Linux · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · NFS · Shell Scripting · Bash · Server Architecture
 
+<div style="page-break-after: always"></div>
 
 ### **Systems Administrator II – UNIX / Linux**
 #### **Sallie Mae · Full-time**
@@ -270,7 +292,6 @@ At Sallie Mae I performed UNIX and Linux systems administration tasks for a grou
 
 Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Bash · Veritas Volume Manager · EMC Storage · Server Architecture · Veritas Cluster Server
 
-<div style="page-break-after: always"></div>
 
 ### **Unix Support Analyst – Solaris / HP/UX**
 #### **Princeton Information · Contract**
@@ -281,6 +302,7 @@ While on assignment for Princeton Information at Sallie Mae in Fishers, IN I wor
 
 Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Bash · Veritas Volume Manager · EMC Storage · Server Architecture · Veritas Cluster Server
 
+
 ### **Unix / Linux Support Analyst**
 #### **Yoh, A Day & Zimmermann Company · Contract**
 
@@ -290,6 +312,7 @@ At Indianapolis Power and Light (IPL) I was responsible for maintaining their Su
 
 Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Bash · Netbackup · Veritas Volume Manager · EMC Storage · Server Architecture
 
+
 ### **Engineering Manager**
 #### **CommNet Plus, Inc · Full-time**
 
@@ -297,9 +320,8 @@ Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disa
 
 At CommNet Plus I was responsible for two Systems Engineers, as well as performing the majority of the UNIX integration work, maintaining all the internal systems and helping prepare to launch their Managed Service Provider business.
 
-<div style="page-break-after: always"></div>
-
 Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Netbackup · Veritas Volume Manager · Server Architecture
+
 
 ### **Senior Systems Engineer**
 #### **EMC · Full-time**
@@ -309,6 +331,7 @@ Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disa
 In my role at EMC I was responsible for supporting a number of named accounts. My job was to know the technical and business needs of my customers and to help propose solutions to fit those needs. Day-to-day tasks included scheduled and impromptu visits to customer sites, handling of customer issues, preparation of quotes and related pricing information, training and self-improvement, report preparation, meetings and more. My salesman and I had Indiana’s first Symmetrix SRDF installation in Indiana.
 
 Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Netbackup · Veritas Volume Manager · EMC Storage · Server Architecture
+
 
 ### **Lead Network Administrator**
 #### **Macmillan · Full-time**
@@ -335,6 +358,7 @@ Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disa
 
 Skills: Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Server Architecture
 
+
 ### **Sales Engineer**
 #### **Creative Computers, Inc. · Full-time**
 
@@ -347,6 +371,7 @@ Skills: Red Hat Linux · Unix · Solaris · System Architecture · Disaster Reco
 
 Skills: System Architecture · Networking · Server Architecture
 
+
 ### **Network Specialist**
 #### **CDW · Full-time**
 
@@ -357,6 +382,8 @@ Skills: System Architecture · Networking · Server Architecture
 - One of six founding members of CDW's network sales division
 
 Skills: System Architecture · Networking · Server Architecture
+
+<div style="page-break-after: always"></div>
 
 ## **Education**
 
@@ -374,16 +401,54 @@ Activities and societies: Yearbook, Foreign Exchange Club
 
 General Studies with a focus on mathematics, chemistry, physics and German.
 
-<div style="page-break-after: always"></div>
-
 ## **Current Certifications**
 
+### **Fundamentals of the Service Mesh**
+#### **Buoyant**
+
+Issued Jan 2024 · Does Not Expire
+
+[Credential ID: 9b906e27-9774-4037-8558-f133d575809c](https://credsverse.com/credentials/9b906e27-9774-4037-8558-f133d575809c)
+
+Skills: Containers · Kubernetes · Networking
+
+### **AWS Certified Cloud Practitioner**
+#### **Amazon Web Services (AWS)**
+
+Issued December 2023· Expires December 2026
+
+[Validation Number: JK1312XJ5JQ1QFK3](https://aws.amazon.com/verification)
+
+Skills: Amazon Web Services (AWS) · AWS CloudFormation
+
+### **Certified Kubernetes Administrator (CKA)**
+#### **Cloud Native Computing Foundation**
+
+Issued December 2023· Expires December 2026
+
+[Certificate ID Number: LF-iidmc7hahx](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-e4c7c242-8fc5-4162-8d94-e69902408a62-certificate.pdf)
+
+Skills: Podman · Containers · Kubernetes · Linux · Docker
+
+<div style="page-break-after: always"></div>
+
+### **Certified Kubernetes Application Developer (CKAD)**
+#### **Cloud Native Computing Foundation**
+
+Issued December 2023· Expires December 2026
+
+[Certificate ID Number: LF-ysuq5lxat1](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-5ef50221-9678-4272-bb86-bd8744c31d5f-certificate.pdf)
+
+Skills: Podman · Containers · Kubernetes · Linux · Docker
+
 ### **Kubernetes and Cloud Native Associate (KCNA)**
-#### **The Linux Foundation**
+#### **Cloud Native Computing Foundation**
 
 Issued July 2022 · Expires July 2025
 
-[KCNA Certificate](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-52aeb184-d3e2-4cc0-a248-dfc4504ea59f-certificate.pdf)
+[Certificate ID Number: LF-3yptztfllg](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-52aeb184-d3e2-4cc0-a248-dfc4504ea59f-certificate.pdf)
+
+Skills: Podman · Containers · Kubernetes · Linux · Docker
 
 ### **Microsoft Certified: Azure Fundamentals (AZ-900)**
 #### **Microsoft**
@@ -391,3 +456,5 @@ Issued July 2022 · Expires July 2025
 Issued July 2020
 
 [Microsoft Certified: Azure Fundamentals Certificate](https://www.credly.com/badges/0ba6530d-eb11-48c8-b3ba-be5134bd3243/linked_in_profile)
+
+Skills: Microsoft Azure
