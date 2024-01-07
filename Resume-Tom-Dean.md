@@ -415,7 +415,7 @@ Skills: Containers · Kubernetes · Networking
 ### **AWS Certified Cloud Practitioner**
 #### **Amazon Web Services (AWS)**
 
-Issued December 2023· Expires December 2026
+Issued December 2023 · Expires December 2026
 
 [Validation Number: JK1312XJ5JQ1QFK3](https://aws.amazon.com/verification)
 
@@ -424,7 +424,7 @@ Skills: Amazon Web Services (AWS) · AWS CloudFormation
 ### **Certified Kubernetes Administrator (CKA)**
 #### **Cloud Native Computing Foundation**
 
-Issued December 2023· Expires December 2026
+Issued December 2023 · Expires December 2026
 
 [Certificate ID Number: LF-iidmc7hahx](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-e4c7c242-8fc5-4162-8d94-e69902408a62-certificate.pdf)
 
@@ -435,7 +435,7 @@ Skills: Podman · Containers · Kubernetes · Linux · Docker
 ### **Certified Kubernetes Application Developer (CKAD)**
 #### **Cloud Native Computing Foundation**
 
-Issued December 2023· Expires December 2026
+Issued December 2023 · Expires December 2026
 
 [Certificate ID Number: LF-ysuq5lxat1](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-5ef50221-9678-4272-bb86-bd8744c31d5f-certificate.pdf)
 
@@ -462,7 +462,7 @@ Skills: Electronics
 ### **Microsoft Certified: Azure Fundamentals (AZ-900)**
 #### **Microsoft**
 
-Issued July 2020
+Issued July 2020 · Does Not Expire
 
 [Microsoft Certified: Azure Fundamentals Certificate](https://www.credly.com/badges/0ba6530d-eb11-48c8-b3ba-be5134bd3243/linked_in_profile)
 
