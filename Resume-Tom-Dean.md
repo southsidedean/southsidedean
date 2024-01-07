@@ -401,7 +401,7 @@ Activities and societies: Yearbook, Foreign Exchange Club
 
 General Studies with a focus on mathematics, chemistry, physics and German.
 
-## **Current Certifications**
+## **Licenses and Certifications**
 
 ### **Fundamentals of the Service Mesh**
 #### **Buoyant**
@@ -449,6 +449,15 @@ Issued July 2022 · Expires July 2025
 [Certificate ID Number: LF-3yptztfllg](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-52aeb184-d3e2-4cc0-a248-dfc4504ea59f-certificate.pdf)
 
 Skills: Podman · Containers · Kubernetes · Linux · Docker
+
+### **Amateur Radio General Class License**
+#### **Federal Communications Commission**
+
+Issued Jan 2022 · Expires Jan 2032
+
+[License ID: KD9UEN](https://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=4545381)
+
+Skills: Electronics
 
 ### **Microsoft Certified: Azure Fundamentals (AZ-900)**
 #### **Microsoft**
