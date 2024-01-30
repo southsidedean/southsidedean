@@ -12,7 +12,7 @@
 
 ## **Summary**
 
-I'm a seasoned technologist, looking for direct-hire or W2 contract roles in a remote-first capacity.  I'm available on short notice.
+I'm a seasoned technologist, looking for direct-hire or W2 contract roles in a remote-first capacity.
 
 **Top Skills:**
 
@@ -38,6 +38,16 @@ Let's build something great together!
 
 ## **Experience**
 
+### **Field Engineer**
+#### **Buoyant**
+
+#### Jan 2024 - Current · Greater Chicago Area · Remote
+
+In my role as Field Engineer at Buoyant, I assist customers with improving the reliability, scalability and security of their Kubernetes workloads, while reducing network cost and latency, using Buoyant Enterprise for Linkerd and Buoyant Cloud.
+
+Skills: Kubernetes · Linux · Cloud Computing · Containers · Engineering · Docker · Podman · Cloud-Native Architecture
+
+
 ### **Technical Training Architect**
 #### **Mission Cloud · Full-time**
 
@@ -53,7 +63,7 @@ My responsibilities included:
 - Technical Training Content (Curation and Creation) and Training Paths
 - The "second half" of the Apprenticeship program
 
-There was a corporate re-organization at the beginning of January 2024, and I was one of the many Mission employees impacted by layoffs.
+During a corporate re-organization at the beginning of January 2024 my role was impacted.
 
 Skills: GitHub · Kubernetes · Terraform · Amazon Web Services (AWS) · Linux
 
@@ -67,9 +77,9 @@ As a principal on my team at D2iQ, I owned the Learning and Development function
 
 I was in charge of maintaining and delivering a catalog of instructor-led courses that included the Cloud Native Computing Foundation (CNCF) space and a growing catalog of other Kubernetes topics, for both internal and external students, including building, improving, optimizing and maintaining an in-house, automated hands-on labs platform in Amazon Web Services (AWS), using GitLab, CI/CD and Terraform to deliver valuable hands-on experience for our students.
 
-Throughout 2022, I also led a selection process to select a learning management system and accompanying hands-on labs system to make a pivot to on-demand learning. I evaluated the scope of public offerings for learning management systems (Docebo, Skilljar, Blackboard, Instructure, Appsembler and more) and hands-on labs systems (CloudShare, Skillable, Instruqt , Appsembler and more). I spent the end of 2022 integrating our selection of Docebo and CloudShare so we could fill it with content and labs and launch in early 2023. Unfortunately, the project was cancelled in early 2023 and my position was eliminated.
-
 <div style="page-break-after: always"></div>
+
+Throughout 2022, I also led a selection process to select a learning management system and accompanying hands-on labs system to make a pivot to on-demand learning. I evaluated the scope of public offerings for learning management systems (Docebo, Skilljar, Blackboard, Instructure, Appsembler and more) and hands-on labs systems (CloudShare, Skillable, Instruqt , Appsembler and more). I spent the end of 2022 integrating our selection of Docebo and CloudShare so we could fill it with content and labs and launch in early 2023. Unfortunately, the project was cancelled in early 2023 and my position was eliminated.
 
 In my role, I not only led, but was hands-on, from writing Terraform automation in GitLab to build lab environments in AWS, to advancing my fledgling Kubernetes skills every day as both a student and a teacher.
 
@@ -92,6 +102,7 @@ Courses Authored:
 
 Skills: GitHub · Kubernetes · Containers · Amazon Web Services (AWS) · Podman · Docker · DevOps · Git · GitOps · AWS CloudFormation · Virtualization · Linux KVM · Linux · Ubuntu · Red Hat Linux · Microsoft Azure · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X
 
+<div style="page-break-after: always"></div>
 
 ### **Linux Training Architect**
 #### **Linux Academy · Full-time**
@@ -129,8 +140,6 @@ Skills: Virtualization · VMware · Linux · Ubuntu · Red Hat Linux · Unix · 
 
 I was on-call as an Independent Consultant on a series of smaller projects for Farm Journal Media as needed. This was a secondary role for me.
 
-<div style="page-break-after: always"></div>
-
 Skills: Virtualization · VMware · Linux · Ubuntu · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · Shell Scripting · CentOS · Bash · Server Architecture · Mac OS X
 
 
@@ -163,7 +172,6 @@ During this engagement I worked on a series of projects:
 
 Skills: Virtualization · VMware · Linux · Ubuntu · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · Shell Scripting · CentOS · Bash · Server Architecture · Mac OS X
 
-<div style="page-break-after: always"></div>
 
 ### **Linux Lead Engineer**
 #### **The Phoenix Group · Contract**
