@@ -1,0 +1,4 @@
+Tom Dean recently joined Buoyant as a Field Engineer. Tom started programming in BASIC on Apple IIs at the age of ten, and learned UNIX during his undergraduate years at Purdue University. Today, leveraging over 25 years of Open Source experience, he helps customers solve real-world Kubernetes problems. An author of many courses for both Linux Academy and A Cloud Guru, Tom also hosted Linux This Month on several occasions. In his spare time, he enjoys motorcycling, music and spending time with his son, Tucker.
+
+LinkedIn: https://www.linkedin.com/in/tomdeanjr/
+GitHub: https://github.com/southsidedean
