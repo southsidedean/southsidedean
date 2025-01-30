@@ -10,7 +10,7 @@ I'm a seasoned technologist, looking for direct-hire or W2 contract roles in a r
 
 - Linux (Ross Brunson and I wrote the RHCSA 8 course for A Cloud Guru)
 - Kubernetes (KCNA | CKAD | CKA)
-- Cloud (AWS CCP (working on SAA) and a little Azure and GCP)
+- Cloud (AWS CCP, and a little Azure and GCP)
 - Cloud Native (Containers, Docker/Podman and Kubernetes)
 - Automation (Terraform, CloudFormation, Bash and some Python)
 
