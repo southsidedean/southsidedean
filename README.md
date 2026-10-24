@@ -12,17 +12,18 @@ Always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 
 ### Highlights
 
-- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) (new in Oct 2026, now at v0.5.4) is a self-hosted Docker service. Every night it tests thousands of free IPTV streams, matches the working channels to program guide data, and serves a tidy playlist and guide to Kodi, Plex, Jellyfin, TiviMate, and phone apps. It runs on macOS, Linux, or a Raspberry Pi.
+- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) (new in Oct 2026) is a self-hosted Docker service. Every night it tests thousands of free IPTV streams, matches the working channels to program guide data, and serves a tidy playlist and guide to Kodi, Plex, Jellyfin, TiviMate, and phone apps. It runs on macOS, Linux, or a Raspberry Pi.
 - [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes) has one-command sandboxes on k3d, kind, and AWS EKS for Istio (sidecar and ambient), kgateway, kagent AI agents, SPIFFE/SPIRE workload identity, and locality load balancing. I updated it in 2026 for Istio 1.29 and Gateway API 1.5.
 - [observability-k3d](https://github.com/southsidedean/observability-k3d) runs a homelab observability stack on a local k3d cluster: Prometheus, Grafana, Loki, and UniFi metrics through Unpoller, plus kagent for AI-assisted operations.
 
 ### Recent activity
 
 <!-- WHATS-NEW:START -->
-- 2026-10-24: Released [kodi-iptv-assistant v0.5.4](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.5.4)
+- 2026-10-24: Released [kodi-iptv-assistant v0.5.5](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.5.5)
 - 2026-10-16: Created [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant)
 - 2026-04-02: Updated [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes)
 - 2026-04-01: Updated [observability-k3d](https://github.com/southsidedean/observability-k3d)
+- 2025-09-16: Released [observability-k3d v0.1.0](https://github.com/southsidedean/observability-k3d/releases/tag/v0.1.0)
 <!-- WHATS-NEW:END -->
 
 ## What I work with

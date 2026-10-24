@@ -12,6 +12,4 @@ exclude = [
     # Verification pages that block automated requests.
     "^https://aws\\.amazon\\.com/verification",
     "^https://wireless2\\.fcc\\.gov/",
-    # Built and published by the Release resume workflow; missing until the first release.
-    "^https://github\\.com/southsidedean/southsidedean/releases/latest/download/",
 ]
