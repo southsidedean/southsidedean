@@ -133,7 +133,8 @@ I help organizations succeed with cloud-native infrastructure, and I've spent ov
 - **Certified Kubernetes Administrator (CKA)**, CNCF · Dec 2023 - Dec 2026 · [LF-iidmc7hahx](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-e4c7c242-8fc5-4162-8d94-e69902408a62-certificate.pdf)
 - **Certified Kubernetes Application Developer (CKAD)**, CNCF · Dec 2023 - Dec 2026 · [LF-ysuq5lxat1](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-5ef50221-9678-4272-bb86-bd8744c31d5f-certificate.pdf)
 - **AWS Certified Cloud Practitioner**, AWS · Dec 2023 - Dec 2026 · [JK1312XJ5JQ1QFK3](https://aws.amazon.com/verification)
-- **Fundamentals of the Service Mesh**, Buoyant · Jan 2024 · [Credential](https://credsverse.com/credentials/9b906e27-9774-4037-8558-f133d575809c) · **Azure Fundamentals (AZ-900)**, Microsoft · Jul 2020 · [Credential](https://www.credly.com/badges/0ba6530d-eb11-48c8-b3ba-be5134bd3243/linked_in_profile)
+- **Fundamentals of the Service Mesh**, Buoyant · Jan 2024 · [Credential](https://credsverse.com/credentials/9b906e27-9774-4037-8558-f133d575809c)
+- **Azure Fundamentals (AZ-900)**, Microsoft · Jul 2020 · [Credential](https://www.credly.com/badges/0ba6530d-eb11-48c8-b3ba-be5134bd3243/linked_in_profile)
 - **Amateur Radio General Class License (KD9UEN)**, FCC · Jan 2022 - Jan 2032 · [License](https://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=4545381)
 
 ## **Education**
