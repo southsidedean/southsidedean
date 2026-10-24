@@ -91,7 +91,7 @@ p {
 @media print {
     @page {
         size: Letter;
-        margin: 0.5in 0.6in;
+        margin: 0.45in 0.6in;
     }
 
     html {
@@ -102,15 +102,15 @@ p {
         max-width: none;
         margin: 0;
         padding: 0;
-        line-height: 1.35;
+        line-height: 1.32;
     }
 
     h2 {
-        margin: 1rem 0 0.4rem;
+        margin: 0.8rem 0 0.35rem;
     }
 
     h3 {
-        margin-top: 0.7rem;
+        margin-top: 0.6rem;
     }
 
     li {

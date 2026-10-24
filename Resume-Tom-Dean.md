@@ -40,9 +40,10 @@ I help organizations succeed with cloud-native infrastructure, and I've spent 30
 
 - Covered field engineering, customer success architecture, customer success engineering, and technical account management in my day-to-day work.
 - Contributed to a 4x increase in Buoyant's customer count across the whole customer lifecycle: solving technical needs with the sales team to close deals, then implementation and ongoing operational support.
+- Developed a successful proof of concept (PoC) for the sales process, and implemented its tracking and integration in Salesforce.
 - Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency.
 - Wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) with Phil Henderson at KubeCon + CloudNativeCon North America 2024 in Salt Lake City.
-- Built and delivered technical demos and hands-on tutorials for Linkerd, including an introduction to service mesh and High Availability Zonal Load Balancing (HAZL).
+- Built and delivered technical demos and hands-on tutorials for Linkerd, including an introduction to service mesh and High Availability Zonal Load Balancing (HAZL), and regularly joined Flynn on Buoyant's monthly Service Mesh Academy live sessions.
 
 ### **Technical Training Architect**
 
@@ -51,8 +52,7 @@ I help organizations succeed with cloud-native infrastructure, and I've spent 30
 #### Nov 2023 - Jan 2024 · Greater Chicago Area · Remote
 
 - Owned technical certification and upskilling for an AWS consultancy's engineering staff across AWS, Kubernetes, Python, and Terraform.
-- Ran the Technical Ambassador and Subject Matter Expert programs, and the second half of the Apprenticeship program.
-- Curated and built training content and learning paths. The role ended in a January 2024 company reorganization.
+- Ran the Technical Ambassador and Subject Matter Expert programs and the second half of the Apprenticeship program, and curated and built training content and learning paths. The role ended in a January 2024 company reorganization.
 
 ### **Education Curriculum Architect / Developer**
 
