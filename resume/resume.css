@@ -113,8 +113,12 @@ p {
         margin-top: 0.6rem;
     }
 
+    ul {
+        margin: 0.2rem 0 0.4rem;
+    }
+
     li {
-        margin-bottom: 0.1rem;
+        margin-bottom: 0.05rem;
     }
 
     h2, h3, h4 {

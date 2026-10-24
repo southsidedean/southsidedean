@@ -31,6 +31,7 @@ I help organizations succeed with cloud-native infrastructure, and I've spent 30
 - Turn customer goals into working architectures across Istio, Envoy, the Kubernetes Gateway API, and AI agent infrastructure.
 - Build reproducible lab environments to test designs and work through issues quickly.
 - Bring what I learn from customers back to product and engineering teams.
+- Developed a human-in-the-loop Claude skill that helps engineers triage customer issues, reproduce them, analyze CVEs, and draft GitHub issues. The engineer reviews and decides at every step, and gets to resolution faster with deeper analysis.
 
 ### **Field Engineer**
 
