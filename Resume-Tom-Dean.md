@@ -7,7 +7,7 @@ Greater Chicago Area · [tom@southsidedean.com](mailto:tom@southsidedean.com) ·
 
 ## **Summary**
 
-I help organizations succeed with cloud-native infrastructure, and I've spent 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI as a Customer Success Engineer at Solo.io. At Buoyant (Linkerd) I contributed to a fourfold increase in customers and spoke at KubeCon. Before that, as a training architect, I built Kubernetes and Linux courses for thousands of learners and helped build hands-on lab platforms. I'm comfortable in front of technical and non-technical audiences, and I automate and document my work as I go.
+I help organizations succeed with cloud-native infrastructure, and I've spent over 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI as a Customer Success Engineer at Solo.io. At Buoyant (Linkerd) I contributed to a fourfold increase in customers and spoke at KubeCon. Before that, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide and helped build hands-on lab platforms. I'm comfortable in front of technical and non-technical audiences, and I automate and document my work as I go.
 
 ## **Core skills**
 
@@ -27,11 +27,11 @@ I help organizations succeed with cloud-native infrastructure, and I've spent 30
 
 #### Apr 2025 - Present · Greater Chicago Area · Remote
 
-- Partner with enterprise customers from onboarding through production across Solo.io's cloud connectivity and agentic AI products: Solo Enterprise for Istio (including ambient mode), kgateway and Gloo Gateway, Gloo Mesh, agentgateway, and kagent.
+- Partner with enterprise customers from onboarding through production across Solo.io's cloud connectivity products (Solo Enterprise for Istio, including ambient mode, kgateway and Gloo Gateway, and Gloo Mesh) and its newer agentic AI products, like agentgateway and kagent.
 - Turn customer goals into working architectures across Istio, Envoy, the Kubernetes Gateway API, and AI agent infrastructure.
 - Build reproducible lab environments to test designs and work through issues quickly.
 - Bring what I learn from customers back to product and engineering teams.
-- Developed a human-in-the-loop Claude skill that helps engineers triage customer issues, reproduce them, analyze CVEs, and draft GitHub issues. The engineer reviews and decides at every step, and gets to resolution faster with deeper analysis.
+- Developed a human-in-the-loop Claude skill that helps engineers triage customer issues, reproduce them, analyze CVEs, and draft GitHub issues. The engineer reviews and decides at every step. Reproducing an issue used to take a day; now it's part of my everyday workflow, so I can dig into issues faster and more thoroughly.
 
 ### **Field Engineer**
 
@@ -39,12 +39,12 @@ I help organizations succeed with cloud-native infrastructure, and I've spent 30
 
 #### Jan 2024 - Apr 2025 · Greater Chicago Area · Remote
 
+- Contributed to a 4x increase in Buoyant's customer count during my tenure, across the whole customer lifecycle: solving technical needs with the sales team to close deals, then implementation and ongoing operational support.
 - Covered field engineering, customer success architecture, customer success engineering, and technical account management in my day-to-day work.
-- Contributed to a 4x increase in Buoyant's customer count across the whole customer lifecycle: solving technical needs with the sales team to close deals, then implementation and ongoing operational support.
-- Developed a successful proof of concept (PoC) for the sales process, and implemented its tracking and integration in Salesforce.
+- Built the proof of concept (PoC) process for sales, ran every PoC, and set up PoC tracking and integration in Salesforce.
 - Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency.
 - Wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) with Phil Henderson at KubeCon + CloudNativeCon North America 2024 in Salt Lake City.
-- Built and delivered technical demos and hands-on tutorials for Linkerd, including an introduction to service mesh and High Availability Zonal Load Balancing (HAZL), and regularly joined Flynn on Buoyant's monthly Service Mesh Academy live sessions.
+- Built and delivered technical demos and hands-on tutorials for Linkerd, including an introduction to service mesh and High Availability Zonal Load Balancing (HAZL). Regularly joined Flynn on Buoyant's monthly Service Mesh Academy live sessions.
 
 ### **Technical Training Architect**
 
@@ -53,7 +53,7 @@ I help organizations succeed with cloud-native infrastructure, and I've spent 30
 #### Nov 2023 - Jan 2024 · Greater Chicago Area · Remote
 
 - Owned technical certification and upskilling for an AWS consultancy's engineering staff across AWS, Kubernetes, Python, and Terraform.
-- Ran the Technical Ambassador and Subject Matter Expert programs and the second half of the Apprenticeship program, and curated and built training content and learning paths. The role ended in a January 2024 company reorganization.
+- Ran the Technical Ambassador and Subject Matter Expert programs and the second half of the Apprenticeship program. Curated and built training content and learning paths. The role ended in a January 2024 company reorganization.
 
 ### **Education Curriculum Architect / Developer**
 
@@ -63,7 +63,7 @@ I help organizations succeed with cloud-native infrastructure, and I've spent 30
 
 - Owned the Learning and Development function as team principal, setting strategy and running content development and delivery for a catalog of instructor-led Kubernetes and CNCF courses for internal and external students.
 - Helped build an automated hands-on lab platform on AWS with Terraform and GitLab CI/CD, then took over its operation and maintenance.
-- Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. I evaluated more than eight vendors (Docebo, Skilljar, Instructure, CloudShare, Skillable, Instruqt, Appsembler, and others), then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch.
+- Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. I evaluated a group of the leading LMS and lab vendors (Docebo, Skilljar, Instructure, CloudShare, Skillable, Instruqt, Appsembler, and others), then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch. The project was cancelled in early 2023, and my position was eliminated.
 
 ### **Training Architect**
 
@@ -82,9 +82,9 @@ I help organizations succeed with cloud-native infrastructure, and I've spent 30
 #### Jan 2018 - Jul 2019 · Greater Chicago Area · Remote / Hybrid
 
 - Indiana University (through Lucid): retired and transitioned applications and services across RHEL 5, 6, and 7 servers on VMware vRA, and managed the project and customer relationships end to end.
-- Farm Journal: documented the full environment, audited Active Directory, integrated Okta SSO with AD and KnowBe4, migrated several terabytes of file-server data to Dropbox, and designed an Acronis backup solution on VMware.
+- Farm Journal: documented the full environment, audited Active Directory, integrated Okta SSO with AD and KnowBe4, migrated several terabytes of file-server data to Dropbox, and helped design and deploy an Acronis backup solution on VMware.
 - The Phoenix Group: stood in as Linux Lead during an employee's leave, deploying Foreman/Katello (Red Hat Satellite 6) while running the RHEL, VMware, and Hitachi SAN estate.
-- Took a planned career break (Sep 2018 - Feb 2019) for family and training in Kubernetes and AWS.
+- Took a career break (Sep 2018 - Feb 2019) for family and training in Kubernetes and AWS.
 
 ### **Senior Linux Architect / Engineer**
 
@@ -133,8 +133,8 @@ I help organizations succeed with cloud-native infrastructure, and I've spent 30
 - **Certified Kubernetes Administrator (CKA)**, CNCF · Dec 2023 - Dec 2026 · [LF-iidmc7hahx](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-e4c7c242-8fc5-4162-8d94-e69902408a62-certificate.pdf)
 - **Certified Kubernetes Application Developer (CKAD)**, CNCF · Dec 2023 - Dec 2026 · [LF-ysuq5lxat1](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-5ef50221-9678-4272-bb86-bd8744c31d5f-certificate.pdf)
 - **AWS Certified Cloud Practitioner**, AWS · Dec 2023 - Dec 2026 · [JK1312XJ5JQ1QFK3](https://aws.amazon.com/verification)
-- **Kubernetes and Cloud Native Associate (KCNA)**, CNCF · Jul 2022 - Jul 2025 · [LF-3yptztfllg](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-52aeb184-d3e2-4cc0-a248-dfc4504ea59f-certificate.pdf)
-- **Fundamentals of the Service Mesh**, Buoyant · Jan 2024 · [Credential](https://credsverse.com/credentials/9b906e27-9774-4037-8558-f133d575809c) · **Azure Fundamentals (AZ-900)**, Microsoft · Jul 2020 · [Credential](https://www.credly.com/badges/0ba6530d-eb11-48c8-b3ba-be5134bd3243/linked_in_profile)
+- **Fundamentals of the Service Mesh**, Buoyant · Jan 2024 · [Credential](https://credsverse.com/credentials/9b906e27-9774-4037-8558-f133d575809c)
+- **Azure Fundamentals (AZ-900)**, Microsoft · Jul 2020 · [Credential](https://www.credly.com/badges/0ba6530d-eb11-48c8-b3ba-be5134bd3243/linked_in_profile)
 - **Amateur Radio General Class License (KD9UEN)**, FCC · Jan 2022 - Jan 2032 · [License](https://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=4545381)
 
 ## **Education**
