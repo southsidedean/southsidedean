@@ -61,7 +61,7 @@ I help organizations succeed with cloud-native infrastructure, and I've spent 30
 #### Aug 2021 - Feb 2023 · Greater Chicago Area · Remote
 
 - Owned the Learning and Development function as team principal, setting strategy and running content development and delivery for a catalog of instructor-led Kubernetes and CNCF courses for internal and external students.
-- Built and continuously improved an automated hands-on lab platform on AWS using Terraform and GitLab CI/CD, to give students real hands-on experience.
+- Built and kept improving an automated hands-on lab platform on AWS with Terraform and GitLab CI/CD, so every student worked in a real environment.
 - Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. I evaluated more than eight vendors (Docebo, Skilljar, Instructure, CloudShare, Skillable, Instruqt, Appsembler, and others), then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch.
 
 ### **Training Architect**
@@ -101,7 +101,7 @@ I help organizations succeed with cloud-native infrastructure, and I've spent 30
 #### Jul 2015 - Jan 2016 · Bolingbrook, IL · Hybrid
 
 - Led a team of Linux engineers supporting a Manhattan WMS rollout on RHEL 6 and 7 across VMware, Cisco UCS, and HP C7000 hardware with EMC storage.
-- Wrote and tested the environment's first disaster recovery procedures, documented a largely undocumented environment, and standardized and automated its operations, making day-to-day operations more stable.
+- Wrote and tested the environment's first disaster recovery procedures, documented a largely undocumented environment, and standardized and automated day-to-day operations so they ran more reliably.
 
 ### **Senior Systems Architect**
 
@@ -110,7 +110,7 @@ I help organizations succeed with cloud-native infrastructure, and I've spent 30
 #### Jul 2009 - Jun 2015 · Greater Chicago Area · Hybrid
 
 - Served as Technical Account Manager for Alcatel-Lucent, Motorola, and AT&T, then identified, won, and led large RHEL deployment projects for AT&T: many nodes across many sites on IBM BladeCenter and Hitachi AMS2500 storage, all built with custom Kickstart/PXE/Bash automation.
-- Was one of two key technical leads in ITD's Red Hat partnership as AT&T retooled on OpenStack. I earned every available Red Hat partner platform, virtualization, and cloud certification and trained ITD's engineering teams on them.
+- Was one of the two technical leads in ITD's Red Hat partnership as AT&T retooled on OpenStack. I earned every available Red Hat partner platform, virtualization, and cloud certification and trained ITD's engineering teams on them.
 
 ### **Earlier experience**
 
