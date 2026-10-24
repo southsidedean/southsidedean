@@ -42,6 +42,12 @@ jobs:
           SHA: ${{ github.sha }}
         run: |
           tag="resume-$(date -u +%Y-%m-%d)-${SHA::7}"
+          # A re-run on the same day and commit replaces the assets instead of failing.
+          if gh release view "$tag" --repo "$REPO" >/dev/null 2>&1; then
+            gh release upload "$tag" --repo "$REPO" --clobber \
+              dist/Resume-Tom-Dean.pdf dist/Resume-Tom-Dean.html
+            exit 0
+          fi
           gh release create "$tag" \
             --repo "$REPO" \
             --target "$SHA" \
