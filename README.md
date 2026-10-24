@@ -1,49 +1,53 @@
-# I'm Tom Dean, and welcome to my GitHub!
+# Tom Dean
 
-## About Me
+Customer Success Engineer at [Solo.io](https://www.solo.io/) · Kubernetes, service mesh & AI gateways · Linux veteran & technical educator · Chicago
 
-### **Summary**
+I help teams succeed with cloud-native infrastructure, and I've spent 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI. Before Solo.io I was a field engineer at Buoyant (Linkerd), where I wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) at KubeCon North America 2024. Earlier, at A Cloud Guru, I co-authored the RHCSA 8 course, and I've helped build hands-on lab platforms for Kubernetes training.
 
-I'm a seasoned technologist, looking for direct-hire or W2 contract roles in a remote-first capacity.
+I document everything and share what I learn, so most of my side projects end up here as labs and how-to guides.
 
-**Top Skills:**
+Always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 
-- Linux (Ross Brunson and I wrote the RHCSA 8 course for A Cloud Guru)
-- Kubernetes (KCNA | CKAD | CKA)
-- Cloud (AWS CCP, and a little Azure and GCP)
-- Cloud Native (Containers, Docker/Podman and Kubernetes)
-- Automation (Terraform, CloudFormation, Bash and some Python)
+## What I've been up to
 
-### **Biography**
+### Highlights
 
-I've had the pleasure of working with physical, virtual, Cloud and Cloud Native technologies for many years. I have worn many hats – educator, team lead, architect, engineer, project manager, business advocate and more, with both pre-sales and post-sales experience.  I can speak to a wide variety of both technical and non-technical audiences. My experience leveraging process and automation helps me to achieve fast, accurate and consistent results.
+- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) (new in Oct 2026, now at v0.5.4) is a self-hosted Docker service. Every night it tests thousands of free IPTV streams, matches the working channels to program guide data, and serves a tidy playlist and guide to Kodi, Plex, Jellyfin, TiviMate, and phone apps. It runs on macOS, Linux, or a Raspberry Pi.
+- [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes) has one-command sandboxes on k3d, kind, and AWS EKS for Istio (sidecar and ambient), kgateway, kagent AI agents, SPIFFE/SPIRE workload identity, and locality load balancing. I updated it in 2026 for Istio 1.29 and Gateway API 1.5.
+- [observability-k3d](https://github.com/southsidedean/observability-k3d) runs a homelab observability stack on a local k3d cluster: Prometheus, Grafana, Loki, and UniFi metrics through Unpoller, plus kagent for AI-assisted operations.
 
-I'm a big believer in documenting all things and sharing the knowledge, both written (GitHub) and video (YouTube).  I like leaving things better than I found them, and wrangling, documenting and automating tribal knowledge along the way.
+### Recent activity
 
-I added teaching and content production to my skill set over three years ago, so I could leverage over 25 years of technology experience to create great courses with lessons and hands-on labs to help my students master technology, changing lives for the better.  Along the way, I've been a student as well, learning how to write, record, edit and produce my own content and create and deploy labs in AWS using CloudFormation and Terraform.
+<!-- WHATS-NEW:START -->
+- 2026-10-24: Released [kodi-iptv-assistant v0.5.4](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.5.4)
+- 2026-10-16: Created [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant)
+- 2026-04-02: Updated [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes)
+- 2026-04-01: Updated [observability-k3d](https://github.com/southsidedean/observability-k3d)
+<!-- WHATS-NEW:END -->
 
-I've been expanding my Cloud, Cloud Native and adjacent subject matter knowledge to become a more well-rounded technologist. I recently attained the Cloud Native Computing Foundation's CKA and CKAD certifications, as well as the AWS Certified Cloud Practitioner certification.  I'm currently studying for the AWS Certified Solutions Architect - Associate exam.
+## What I work with
 
-Let's build something great together!
+- Cloud native: Kubernetes · Istio · Linkerd · Envoy · Gateway API · Helm · Docker · Podman
+- AI infrastructure: kagent · agent and MCP gateways · LLM integration
+- Cloud and IaC: AWS · Azure · GCP · Terraform · CloudFormation · GitLab CI/CD · GitHub Actions
+- Observability: Prometheus · Grafana · Loki · Kiali
+- Linux and systems: RHEL · Ubuntu · SUSE · KVM · VMware · Bash · Python · Ansible
 
-## Links
+Certifications: CKA · CKAD · KCNA · AWS Certified Cloud Practitioner · Azure Fundamentals
 
-### Resume
+## Guides and labs
 
-[Resume - Markdown](./Resume-Tom-Dean.md)
+Step-by-step tutorials from my blogging and teaching:
 
-[Resume - PDF](./Resume-Tom-Dean.pdf)
+- Kubernetes: [Deploy KIND with Podman (macOS)](https://github.com/southsidedean/deploy-kind-using-podman-macos) · [Deploy KIND with Podman (Ubuntu)](https://github.com/southsidedean/deploy-kind-using-podman-ubuntu) · [Generate YAML manifests with kubectl](https://github.com/southsidedean/using-kubectl-generate-yaml-manifests) · [Deploy Confluence on Kubernetes](https://github.com/southsidedean/deploy-confluence-k8s-using-podman)
+- Podman: [Confluence in a Podman pod](https://github.com/southsidedean/deploy-confluence-podman-pod) · [Generate and test Kubernetes manifests with Podman](https://github.com/southsidedean/using-podman-generate-test-k8s-manifest)
+- Infrastructure as code: [CKA/CKAD cluster builder (Terraform + KVM)](https://github.com/southsidedean/cka-d-cluster-builder-lab) · [kubeadm cluster builder on AWS](https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform) · [Cluster API bootstrap node on AWS](https://github.com/southsidedean/cluster-api-bootstrap-node-aws-terraform) · [Hands-on with Terraform on Linux](https://github.com/southsidedean/hands-on-with-terraform-on-linux)
+- Linux and self-hosting: [Self-hosted GitLab with a KVM runner](https://github.com/southsidedean/self-hosted-gitlab-libvirt) · [ZoneMinder video security](https://github.com/southsidedean/deploy-security-system-using-zoneminder) · [Multipass on macOS](https://github.com/southsidedean/intro-to-multipass-macos) · [Multipass on Ubuntu](https://github.com/southsidedean/intro-to-multipass-ubuntu)
 
-[Resume - HTML](./Resume-Tom-Dean.html)
+## Resume
 
-### Social Media
+[PDF](https://github.com/southsidedean/southsidedean/releases/latest/download/Resume-Tom-Dean.pdf) · [Markdown](./Resume-Tom-Dean.md) · [All versions](https://github.com/southsidedean/southsidedean/releases)
 
-[LinkedIn](https://www.linkedin.com/in/tomdeanjr/)
+## Find me
 
-[Mastodon: @southsidedean@mastodon.social](https://mastodon.social/@southsidedean)
-
-[Mastodon: @AI_Says@mastodon.social](https://mastodon.social/@AI_Says)
-
-[YouTube: southsidedean-tech](https://www.youtube.com/@southsidedean-tech)
-
-[YouTube: southsidedean-life](https://www.youtube.com/@southsidedean-life)
+[southsidedean.com](https://southsidedean.com) · [LinkedIn](https://www.linkedin.com/in/tomdeanjr/) · [YouTube (tech)](https://www.youtube.com/@southsidedean-tech) · [YouTube (life)](https://www.youtube.com/@southsidedean-life)

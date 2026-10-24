@@ -1,0 +1,131 @@
+/* Styles for the HTML and PDF resume built by scripts/build-resume.sh */
+
+:root {
+    --text: #1f2933;
+    --muted: #52606d;
+    --accent: #0f766e;
+    --rule: #d9e2ec;
+}
+
+html {
+    font-size: 10.5pt;
+}
+
+body {
+    max-width: 52rem;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.45;
+    color: var(--text);
+    background: #ffffff;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+strong {
+    font-weight: 600;
+}
+
+h1 {
+    margin: 0 0 0.2rem;
+    font-size: 2rem;
+}
+
+h1 + p {
+    margin: 0 0 0.3rem;
+    color: var(--accent);
+    font-size: 1.05rem;
+}
+
+h1 + p + p {
+    margin-top: 0;
+    color: var(--muted);
+    font-size: 0.92rem;
+}
+
+h2 {
+    margin: 1.4rem 0 0.5rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid var(--accent);
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+/* Job title, then company, then dates/location */
+h3 {
+    margin: 1rem 0 0;
+    font-size: 1.05rem;
+}
+
+h4 {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+h4 + h4 {
+    margin-bottom: 0.3rem;
+    color: var(--muted);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+ul {
+    margin: 0.3rem 0 0.6rem;
+    padding-left: 1.2rem;
+}
+
+li {
+    margin-bottom: 0.2rem;
+}
+
+p {
+    margin: 0.4rem 0;
+}
+
+@media print {
+    @page {
+        size: Letter;
+        margin: 0.45in 0.6in;
+    }
+
+    html {
+        font-size: 9.5pt;
+    }
+
+    body {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        line-height: 1.32;
+    }
+
+    h2 {
+        margin: 0.8rem 0 0.35rem;
+    }
+
+    h3 {
+        margin-top: 0.6rem;
+    }
+
+    ul {
+        margin: 0.2rem 0 0.4rem;
+    }
+
+    li {
+        margin-bottom: 0.05rem;
+    }
+
+    h2, h3, h4 {
+        break-after: avoid;
+    }
+
+    li {
+        break-inside: avoid;
+    }
+}

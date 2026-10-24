@@ -1,0 +1,4 @@
+# Resume builds are published as GitHub Release assets, not committed.
+/Resume-Tom-Dean.html
+/Resume-Tom-Dean.pdf
+/dist/

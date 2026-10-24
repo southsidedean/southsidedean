@@ -1,0 +1,51 @@
+name: Release resume
+
+# Builds the HTML and PDF resume from Resume-Tom-Dean.md and publishes them as
+# a GitHub Release. The README links to releases/latest/download/..., so the
+# newest release is always the current resume.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - Resume-Tom-Dean.md
+      - resume/**
+      - scripts/build-resume.sh
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: release-resume
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # create the release
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends pandoc
+
+      - name: Build resume
+        run: scripts/build-resume.sh dist
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          SHA: ${{ github.sha }}
+        run: |
+          tag="resume-$(date -u +%Y-%m-%d)-${SHA::7}"
+          gh release create "$tag" \
+            --repo "$REPO" \
+            --target "$SHA" \
+            --title "Resume $(date -u +%Y-%m-%d)" \
+            --notes "Built from Resume-Tom-Dean.md at ${SHA::7}." \
+            --latest \
+            dist/Resume-Tom-Dean.pdf dist/Resume-Tom-Dean.html

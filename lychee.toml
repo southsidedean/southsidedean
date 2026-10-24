@@ -1,0 +1,17 @@
+# Link checker settings for the Content checks workflow.
+
+max_retries = 3
+timeout = 30
+accept = ["200..=299", "429"]
+# Some sites reject non-browser user agents.
+user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
+
+exclude = [
+    # LinkedIn answers automated requests with HTTP 999.
+    "^https://(www\\.)?linkedin\\.com/",
+    # Verification pages that block automated requests.
+    "^https://aws\\.amazon\\.com/verification",
+    "^https://wireless2\\.fcc\\.gov/",
+    # Built and published by the Release resume workflow; missing until the first release.
+    "^https://github\\.com/southsidedean/southsidedean/releases/latest/download/",
+]
