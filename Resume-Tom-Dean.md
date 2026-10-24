@@ -1,477 +1,141 @@
 # **Tom Dean**
 
-**Greater Chicago Area**
+<!-- markdownlint-disable-next-line MD036 -->
+**Customer Success Engineer · Kubernetes, Service Mesh & AI Gateways · Linux Veteran & Technical Educator**
 
-**[tom@dean33.com](mailto:tom@dean33.com)**
-
-## **Links**
-
-**[LinkedIn: https://www.linkedin.com/in/tomdeanjr](https://www.linkedin.com/in/tomdeanjr)**
-
-**[GitHub: https://github.com/southsidedean](https://github.com/southsidedean)**
+Greater Chicago Area · [tom@southsidedean.com](mailto:tom@southsidedean.com) · [linkedin.com/in/tomdeanjr](https://www.linkedin.com/in/tomdeanjr) · [github.com/southsidedean](https://github.com/southsidedean) · [southsidedean.com](https://southsidedean.com)
 
 ## **Summary**
 
-I'm a seasoned technologist, looking for direct-hire or W2 contract roles in a remote-first capacity.
+I help organizations succeed with cloud-native infrastructure, and I've spent 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI as a Customer Success Engineer at Solo.io. At Buoyant (Linkerd) I contributed to a fourfold increase in customers and spoke at KubeCon. Before that, as a training architect, I built Kubernetes and Linux courses and hands-on lab platforms for thousands of learners. I'm comfortable in front of technical and non-technical audiences, and I automate and document my work as I go.
 
-**Top Skills:**
+## **Core skills**
 
-- Linux (Ross Brunson and I wrote the RHCSA 8 course for A Cloud Guru)
-- Kubernetes (KCNA | CKAD | CKA)
-- Cloud (AWS CCP (working on SAA) and a little Azure and GCP)
-- Cloud Native (Containers, Docker/Podman and Kubernetes)
-- Automation (Terraform, CloudFormation, Bash and some Python)
-
-## **Biography**
-
-I've had the pleasure of working with physical, virtual, Cloud and Cloud Native technologies for many years. I have worn many hats – educator, team lead, architect, engineer, project manager, business advocate and more, with both pre-sales and post-sales experience.  I can speak to a wide variety of both technical and non-technical audiences. My experience leveraging process and automation helps me to achieve fast, accurate and consistent results.
-
-I'm a big believer in documenting all things and sharing the knowledge, both written (GitHub) and video (YouTube).  I like leaving things better than I found them, and wrangling, documenting and automating tribal knowledge along the way.
-
-I added teaching and content production to my skill set over three years ago, so I could leverage over 25 years of technology experience to create great courses with lessons and hands-on labs to help my students master technology, changing lives for the better.  Along the way, I've been a student as well, learning how to write, record, edit and produce my own content and create and deploy labs in AWS using CloudFormation and Terraform.
-
-I've been expanding my Cloud, Cloud Native and adjacent subject matter knowledge to become a more well-rounded technologist. I recently attained the Cloud Native Computing Foundation's CKA and CKAD certifications, as well as the AWS Certified Cloud Practitioner certification.  I'm currently studying for the AWS Certified Solutions Architect - Associate exam.
-
-Let's build something great together!
-
-<div style="page-break-after: always"></div>
+- Cloud native: Kubernetes (CKA, CKAD), Istio (sidecar and ambient), Gloo Mesh, kgateway, Gloo Gateway, Linkerd, Envoy, Gateway API, Helm, k3d/kind, containers (Docker, Podman)
+- AI infrastructure: AI agent platforms on Kubernetes (kagent), agent and MCP gateways (agentgateway), LLM integration
+- Cloud and IaC: AWS (CCP), Azure, GCP fundamentals, Terraform, CloudFormation, GitLab CI/CD, GitHub Actions, GitOps
+- Observability: Prometheus, Grafana, Loki, Kiali
+- Linux and systems: RHEL, Ubuntu, SUSE, Solaris; KVM, VMware; networking, storage (SAN), high availability, disaster recovery
+- Automation: Bash, Python, Ansible, Kickstart/PXE
+- Enablement: customer onboarding, technical training, course and lab design, documentation, video production, public speaking
 
 ## **Experience**
 
+### **Customer Success Engineer**
+
+#### **Solo.io**
+
+#### Apr 2025 - Present · Greater Chicago Area · Remote
+
+- Partner with enterprise customers from onboarding through production across Solo.io's cloud connectivity and agentic AI products: Solo Enterprise for Istio (including ambient mode), kgateway and Gloo Gateway, Gloo Mesh, agentgateway, and kagent.
+- Turn customer goals into working architectures across Istio, Envoy, the Kubernetes Gateway API, and AI agent infrastructure.
+- Build reproducible lab environments to test designs and work through issues quickly.
+- Bring what I learn from customers back to product and engineering teams.
+
 ### **Field Engineer**
+
 #### **Buoyant**
 
-#### Jan 2024 - Current · Greater Chicago Area · Remote
+#### Jan 2024 - Apr 2025 · Greater Chicago Area · Remote
 
-In my role as Field Engineer at Buoyant, I assist customers with improving the reliability, scalability and security of their Kubernetes workloads, while reducing network cost and latency, using Buoyant Enterprise for Linkerd and Buoyant Cloud.
-
-Skills: Kubernetes · Linux · Cloud Computing · Containers · Engineering · Docker · Podman · Cloud-Native Architecture
-
+- Covered field engineering, customer success architecture, customer success engineering, and technical account management in my day-to-day work.
+- Contributed to a 4x increase in Buoyant's customer count across the whole customer lifecycle: solving technical needs with the sales team to close deals, then implementation and ongoing operational support.
+- Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency.
+- Wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) with Phil Henderson at KubeCon + CloudNativeCon North America 2024 in Salt Lake City.
+- Built and delivered technical demos and hands-on tutorials for Linkerd, including an introduction to service mesh and High Availability Zonal Load Balancing (HAZL).
 
 ### **Technical Training Architect**
-#### **Mission Cloud · Full-time**
+
+#### **Mission Cloud**
 
 #### Nov 2023 - Jan 2024 · Greater Chicago Area · Remote
 
-I joined Mission Cloud as a Technical Training Architect in November of 2023.
+- Owned technical certification and upskilling for an AWS consultancy's engineering staff across AWS, Kubernetes, Python, and Terraform.
+- Ran the Technical Ambassador and Subject Matter Expert programs, and the second half of the Apprenticeship program.
+- Curated and built training content and learning paths. The role ended in a January 2024 company reorganization.
 
-My responsibilities included:
+### **Education Curriculum Architect / Developer**
 
-- Technical certification and up-skilling of employees (AWS | Kubernetes | Python | Terraform )
-- The Technical Ambassador program
-- The Subject Matter Expert program
-- Technical Training Content (Curation and Creation) and Training Paths
-- The "second half" of the Apprenticeship program
-
-During a corporate re-organization at the beginning of January 2024 my role was impacted.
-
-Skills: GitHub · Kubernetes · Terraform · Amazon Web Services (AWS) · Linux
-
-
-### **Education Curriculum Architect/Developer**
-#### **D2iQ · Full-time**
+#### **D2iQ**
 
 #### Aug 2021 - Feb 2023 · Greater Chicago Area · Remote
 
-As a principal on my team at D2iQ, I owned the Learning and Development function and managed the day-to-day and strategic operations of content development and class delivery.
-
-I was in charge of maintaining and delivering a catalog of instructor-led courses that included the Cloud Native Computing Foundation (CNCF) space and a growing catalog of other Kubernetes topics, for both internal and external students, including building, improving, optimizing and maintaining an in-house, automated hands-on labs platform in Amazon Web Services (AWS), using GitLab, CI/CD and Terraform to deliver valuable hands-on experience for our students.
-
-<div style="page-break-after: always"></div>
-
-Throughout 2022, I also led a selection process to select a learning management system and accompanying hands-on labs system to make a pivot to on-demand learning. I evaluated the scope of public offerings for learning management systems (Docebo, Skilljar, Blackboard, Instructure, Appsembler and more) and hands-on labs systems (CloudShare, Skillable, Instruqt , Appsembler and more). I spent the end of 2022 integrating our selection of Docebo and CloudShare so we could fill it with content and labs and launch in early 2023. Unfortunately, the project was cancelled in early 2023 and my position was eliminated.
-
-In my role, I not only led, but was hands-on, from writing Terraform automation in GitLab to build lab environments in AWS, to advancing my fledgling Kubernetes skills every day as both a student and a teacher.
-
-Skills: Continuous Integration and Continuous Delivery (CI/CD) · Gitlab · GitHub · Kubernetes · Containers · Terraform · Amazon Web Services (AWS) · Podman · Docker · DevOps · Git · GitOps · AWS CloudFormation · Virtualization · Linux KVM · VMware · Linux · Ubuntu · Red Hat Linux · Microsoft Azure · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X
-
+- Owned the Learning and Development function as team principal, setting strategy and running content development and delivery for a catalog of instructor-led Kubernetes and CNCF courses for internal and external students.
+- Built and continuously improved an automated hands-on lab platform on AWS using Terraform and GitLab CI/CD, to give students real hands-on experience.
+- Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. I evaluated more than eight vendors (Docebo, Skilljar, Instructure, CloudShare, Skillable, Instruqt, Appsembler, and others), then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch.
 
 ### **Training Architect**
-#### **A Cloud Guru · Full-time**
 
-#### Aug 2020 - Jul 2021 · Greater Chicago Area · Remote
+#### **A Cloud Guru** (acquired Linux Academy)
 
-As a Training Architect, I leveraged over 25 years of technology experience to create great courses with lessons and hands-on labs to help my students achieve their learning goals and change their lives for the better.
+#### Sep 2019 - Jul 2021 · Greater Chicago Area · Remote
 
-With LA/ACG, I was a one-man content machine, from creating the course syllabus to authoring slide decks and markdown, creating and editing video and audio, authoring labs in AWS using CloudFormation, and much more. In addition to course work, I hosted Linux This Month and participated in the first ACG Community Summit.
+- Co-authored the Red Hat Certified System Administrator (EX200, RHEL 8) exam prep course with Ross Brunson.
+- Wrote and produced five more courses end to end (syllabus, slides, video and audio editing, and hands-on labs built on AWS CloudFormation): Hands-on with Podman Containers on Linux, Hands-on with HAProxy Load Balancer, LEMP Stack Deep Dive, KVM Virtualization on Linux, and Managing Linux Servers with Cockpit.
+- Hosted *Linux This Month* and took part in the first ACG Community Summit. Joined A Cloud Guru from Linux Academy through its acquisition in August 2020.
 
-Courses Authored:
-- Red Hat Certified System Administrator (EX200) Exam Prep
-- Hands-on with Podman Containers on Linux
-- Hands-on with HAProxy Load Balancer
+### **Independent Consultant, Linux & Infrastructure**
 
-Skills: GitHub · Kubernetes · Containers · Amazon Web Services (AWS) · Podman · Docker · DevOps · Git · GitOps · AWS CloudFormation · Virtualization · Linux KVM · Linux · Ubuntu · Red Hat Linux · Microsoft Azure · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X
+#### **Lucid Services Group, Farm Journal, The Phoenix Group**
 
-<div style="page-break-after: always"></div>
+#### Jan 2018 - Jul 2019 · Greater Chicago Area · Remote / Hybrid
 
-### **Linux Training Architect**
-#### **Linux Academy · Full-time**
-
-#### Sep 2019 - Aug 2020 · Greater Chicago Area · Remote
-
-As a Training Architect, I leveraged over 25 years of technology experience to create great courses with lessons and hands-on labs to help my students achieve their learning goals and change their lives for the better.
-
-With LA/ACG, I was a one-man content machine, from creating the course syllabus to authoring slide decks and markdown, creating and editing video and audio, authoring labs in AWS using CloudFormation, and much more.
-
-I moved to A Cloud Guru in August 2020 as part of the acquisition of Linux Academy.
-
-Courses Authored:
-- LEMP Stack Deep Dive
-- KVM Virtualization on Linux
-- Managing Linux Servers with Cockpit
-
-Skills: GitHub · Kubernetes · Containers · Amazon Web Services (AWS) · Podman · Docker · DevOps · Git · GitOps · AWS CloudFormation · Virtualization · Linux KVM · Linux · Ubuntu · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X
-
-
-### **Linux Engineering / Architecture / Project Management**
-#### **Lucid Services Group · Contract**
-
-#### Apr 2019 - Jul 2019 · Greater Chicago Area · Remote
-
-My role with Lucid was a three month assignment at Indiana University. In that role, I was in charge of retiring / transitioning applications and services on a number of Red Hat Enterprise Linux (RHEL) servers, as well as providing interim support for the customers during the transition. The servers were a mix of RHEL 5/6/7 on VMWare (with vRA). In this role I was not just an architect and engineer, but also a project manager in charge of building customer relationships to assure success.My role with Lucid was a three month assignment at Indiana University. In that role, I was in charge of retiring / transitioning applications and services on a number of Red Hat Enterprise Linux (RHEL) servers, as well as providing interim support for the customers during the transition. The servers were a mix of RHEL 5/6/7 on VMWare (with vRA). In this role I was not just an architect and engineer, but also a project manager in charge of building customer relationships to assure success.
-
-Skills: Virtualization · VMware · Linux · Ubuntu · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X
-
-
-### **Systems Engineer - Windows / Linux / Network**
-#### **Farm Journal · Freelance**
-
-#### Feb 2019 - Apr 2019 · Greater Chicago Area · Remote
-
-I was on-call as an Independent Consultant on a series of smaller projects for Farm Journal Media as needed. This was a secondary role for me.
-
-Skills: Virtualization · VMware · Linux · Ubuntu · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · Shell Scripting · CentOS · Bash · Server Architecture · Mac OS X
-
-
-### **Sabbatical - Training / Hobbies / Dad Time**
-#### **Dean Household**
-
-#### Sep 2018 - Feb 2019 · Greater Chicago Area · On-site
-
-I took some time off to stop and smell the roses and enjoy time being a Dad to my first grader. Enjoying my hobbies. Working on projects around the house. Professional training (oVirt, Linux, Foreman / Katello, Linux containers (Docker / Kubernetes), AWS, DevOps...).
-
-Looked for my next professional adventure and got my batteries recharged.
-
-Skills: KVM · Ansible · Python (Programming Language) · Kubernetes · Amazon Web Services (AWS) · Docker · DevOps · Linux · Red Hat Linux · System Architecture · Networking · DNS · Firewalls · System Administration · System Deployment · TCP/IP · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Mac OS X
-
-
-### **Infrastructure Projects / Architecture / Engineering**
-#### **Farm Journal · Freelance**
-
-#### Apr 2018 - Aug 2018 · Greater Chicago Area · Remote
-
-During this engagement I worked on a series of projects:
-
-- Performed discovery and documentation of customer's overall environment (Windows and Linux servers, storage, networking, backup, disaster recovery, firewalls, Amazon Web Services (AWS) assets
-- Audited Active Directory users and groups
-- Integrated Okta Single Sign On (SSO) Identity Management with the customer's existing Active Directory environment
-- Enabled KnowB4 SSO integration with Okta
-- Migrated several terabytes of user and shared data from old Windows servers to Dropbox Cloud Storage and created users and groups for access
-- Analyzed and proposed opportunities to virtualize physical servers under VMWare and Hyper-V hypervisors
-- Assisted with design and deployment of new Acronis Backup on-premise solution under VMWare
-
-Skills: Virtualization · VMware · Linux · Ubuntu · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · Shell Scripting · CentOS · Bash · Server Architecture · Mac OS X
-
-
-### **Linux Lead Engineer**
-#### **The Phoenix Group · Contract**
-
-#### Jan 2018 - Feb 2018 · Chicago, IL · Hybrid
-
-A short-term contract assignment as a Linux Lead in downtown Chicago, filling in for an employee out on leave. In addition to daily support responsibilities of the Red Hat Enterprise Linux (RHEL), VMWare and Hitachi SAN platforms, I deployed a new Foreman / Katello (Red Hat Satellite 6) environment and maintained the existing Spacewalk (Red Hat Satellite 5) environment.
-
-Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Server Architecture · Mac OS X
-
+- Indiana University (through Lucid): retired and transitioned applications and services across RHEL 5, 6, and 7 servers on VMware vRA, and managed the project and customer relationships end to end.
+- Farm Journal: documented the full environment, audited Active Directory, integrated Okta SSO with AD and KnowBe4, migrated several terabytes of file-server data to Dropbox, and designed an Acronis backup solution on VMware.
+- The Phoenix Group: stood in as Linux Lead during an employee's leave, deploying Foreman/Katello (Red Hat Satellite 6) while running the RHEL, VMware, and Hitachi SAN estate.
+- Took a planned career break (Sep 2018 - Feb 2019) for family and training in Kubernetes and AWS.
 
 ### **Senior Linux Architect / Engineer**
-#### **MSH Group · Contract**
+
+#### **MSH Group** (Contract)
 
 #### Jan 2016 - Dec 2017 · Greater Chicago Area · Remote
 
-As a contractor, I was one of two Level Three Linux Engineers responsible for the Linux environment of over 550 SUSE Linux and Red Hat Enterprise Linux hosts running on a mix of HP hardware and VMWare. I worked both within the Linux team as well as across Infrastructure teams and other business units. I also assisted in the deployment of SUSE Manager and Satellite 6 during my assignment. I represented the team on the weekly change meetings and was given responsibility for the Linux patching process.
+- Was one of two Level 3 engineers for an estate of 550+ SUSE and RHEL hosts on HP hardware and VMware, and oversaw offshore resources.
+- Owned the Linux patching and security remediation process, represented the Linux team at weekly change management, and helped deploy SUSE Manager and Red Hat Satellite 6.
 
-Responsibilities included:
+### **Senior Linux Architect / Team Lead**
 
-- Linux Engineering (Troubleshooting / Architecture / Delivery / QA)
-- Project / Process Management
-- Oversight of offshore resources
-- Change Management
-- Compliance Management
-- Automation / Scripting
-- Operating System Patching and Security Remediation
-
-Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · EMC Storage · Server Architecture · Mac OS X · CIsco UCS
-
-<div style="page-break-after: always"></div>
-
-### **Senior Linux Architect / Engineer / Team Lead**
-#### **Geneva Technical Services · Contract**
+#### **Geneva Technical Services** (Contract)
 
 #### Jul 2015 - Jan 2016 · Bolingbrook, IL · Hybrid
 
-During my six-month assignment, I led a team of Linux Engineers supporting a rollout of Manhattan WMS and the supporting Red Hat Enterprise Linux (RHEL 6/7) environment. I performed engineering and architecture work to standardize and automate many aspects of the Linux environment. I also led the team on documenting a largely undocumented environment, creating standardized procedures and processes and improved the efficiency and stability of day-to-day operations. The RHEL environment was a mix of virtual (VMWare) and physical (Cisco UCS and HP C7000) connected to EMC storage (with PowerPath). I created and tested the first set of Disaster Recovery (DR) procedures for the environment as well.
-
-Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · EMC Storage · Server Architecture · Mac OS X
-
+- Led a team of Linux engineers supporting a Manhattan WMS rollout on RHEL 6 and 7 across VMware, Cisco UCS, and HP C7000 hardware with EMC storage.
+- Wrote and tested the environment's first disaster recovery procedures, documented a largely undocumented environment, and standardized and automated its operations, making day-to-day operations more stable.
 
 ### **Senior Systems Architect**
-#### **ITDistributors · Full-time**
+
+#### **ITDistributors**
 
 #### Jul 2009 - Jun 2015 · Greater Chicago Area · Hybrid
 
-ITDistributors (ITD) was an Edison, NJ based VAR that serviced the telecommunications industry, both as a traditional VAR as well as a provider of frame integration services.
-
-My tenure at ITD had two chapters. In the first two years I served as a Technical Account Manager (TAM) working with Alcatel-Lucent and Motorola. I worked alongside the Sun Microsystems team to add value to the relationship with Sun/ITD. In 2011 I was assigned to AT&T to not only perform in a TAM role but to identify, win and lead a number of projects. Most of these projects were large deployments of Red Hat Enterprise Linux (RHEL 5/6) on IBM BladeCenter servers connected to Hitachi AMS2500 storage with many nodes across many sites, all deployed with custom automation (Kickstart / PXE / Bash).
-
-As AT&T began their move toward retooling on OpenStack I was tapped to be one of two key players in our partnership with Red Hat. In this role I achieved all available Red Hat Partner Platform, Virtualization and Cloud certifications that were available and trained ITD's internal engineering teams on these technologies.
-
-My role with ITD ended in June 2015 as a result of a reduction in force, prior to the closing of the company.
-
-Skills: Virtualization · Linux KVM · VMware · Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Veritas Volume Manager · Server Architecture · OpenStack · Veritas Cluster Server · Mac OS X
-
-<div style="page-break-after: always"></div>
-
-### **Senior Systems Architect**
-#### **Moongate Technologies · Full-time**
-
-#### 2008 - 2009 · Indianapolis, Indiana Area · On-site
-
-Moongate Technologies specialized in data storage, protection, virtualization solutions, SOA, Java development and engineering services. In my role as a Senior Systems Architect at Moongate I was responsible for pre and post-sales engineering work to support their customer base. I also assisted with the screening of placement candidates for their staffing arm, Mooncrew.
-
-My last role with Moongate was as technical lead on a major NetBackup project:
-
-- I upgraded the customer's STK SL8500 tape library to 54 HP LTO4 drives.
-- I installed ten new Veritas NetBackup media servers using a Jumpstart server we built.
-- I also reinstalled Solaris on the existing media servers, using Jumpstart.
-- I installed a two-node Veritas Cluster Server (5.0) on Solaris.
-- I migrated the existing Veritas NetBackup (on Solaris) master server to the new cluster.
-- I installed a new, single-node VCS cluster at their offsite Disaster Recovery site.
-
-Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Netbackup · Veritas Volume Manager · EMC Storage · Server Architecture · Veritas Cluster Server · Mac OS X
-
-
-### **System Administrator**
-#### **Indiana Interactive Inc · Full-time**
-
-#### 2008 · Indianapolis, Indiana Area · Hybrid
-
-At Indiana Interactive I worked on a team of two System Administrators. We were responsible for maintaining everything that ran the IN.gov portal and all related vanity sites - servers, network, firewalls, storage, backups, and more. Our clients included the state of Indiana and all its third-party developers as well our internal development group, the project managers and the creative team (web developers) at Indiana Interactive. We touched almost every aspect of the operation of the entire portal.
-
-Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Netbackup · Veritas Volume Manager · Server Architecture · Mac OS X
-
-<div style="page-break-after: always"></div>
-
-### **UNIX / Linux Administrator**
-#### **Monster · Full-time**
-
-#### Feb 2006 - Aug 2007 · Indianapolis, Indiana Area · On-site
-
-In my position at Monster, I worked for the Network Operations team that supported the distributed infrastructure in both the Indianapolis and Maynard (MA) NOCs. I worked primarily on the UNIX side, supporting a mix of Linux (RHEL, CentOS, RedHat 7.2 and other) and Solaris servers that ran applications such as Oracle RAC, mail relays, web farms, DNS and other critical infrastructure tasks. I also had a lead role supporting the legacy NetBackup Datacenter 4.5 infrastructure. In addition to my support role I also assisted with the architecture, planning, documentation and deployment of new systems.
-
-Skills: Virtualization · VMware · Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · CentOS · Bash · Netbackup · Veritas Volume Manager · Server Architecture · Veritas Cluster Server · Mac OS X
-
-
-### **UNIX Administrator**
-#### **Apex Systems · Contract**
-
-#### Oct 2005 - Feb 2006 · Indianapolis, Indiana Area · On-site
-
-Contract assignment at Eli Lilly, performing UNIX (Solaris) support for the SAP systems. My responsibilities were UNIX system administration and handling of UNIX-related trouble tickets and change requests (using Remedy). Many of the servers we administered were clustered with Veritas Cluster Server.
-
-Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Bash · Veritas Volume Manager · EMC Storage · Server Architecture · Veritas Cluster Server
-
-### **Field Engineering - Linux**
-#### **Avnet Technology Solutions · Contract**
-
-#### 2005 · Indiana · On-site
-
-I worked at various locations around Indiana on short-term engagements that involved setting up PACS imaging systems (Linux-based : SUSE and RHEL) at hospitals around Indiana. My responsibility was to finalize the configuration of the systems, integrate the systems into the customer environment and perform final acceptance testing of all systems.
-
-Skills: Linux · Red Hat Linux · Unix · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · NFS · Shell Scripting · Bash · Server Architecture
-
-<div style="page-break-after: always"></div>
-
-### **Systems Administrator II – UNIX / Linux**
-#### **Sallie Mae · Full-time**
-
-#### Jun 2004 - Sep 2004 · Indianapolis, Indiana Area · On-site
-
-At Sallie Mae I performed UNIX and Linux systems administration tasks for a group of approximately fifty servers that I was responsible for as well as assisting with the support of the rest of the UNIX servers (200+). I also was part of the on-call rotation. My systems included Solaris, HP/UX and Red Hat Enterprise Linux platforms with some connected to the EMC SAN.
-
-Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Bash · Veritas Volume Manager · EMC Storage · Server Architecture · Veritas Cluster Server
-
-
-### **Unix Support Analyst – Solaris / HP/UX**
-#### **Princeton Information · Contract**
-
-#### Oct 2003 - Jun 2004 · Indianapolis, Indiana Area · On-site
-
-While on assignment for Princeton Information at Sallie Mae in Fishers, IN I worked as a technical lead on a data center migration project, managing the migration of the UNIX (Solaris / HP/UX), Veritas NetBackup and SAN elements of the project. I also assisted the UNIX team with the administration of their servers and associated infrastructure, including applications, Veritas and Sun Disksuite management and other duties.
-
-Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Bash · Veritas Volume Manager · EMC Storage · Server Architecture · Veritas Cluster Server
-
-
-### **Unix / Linux Support Analyst**
-#### **Yoh, A Day & Zimmermann Company · Contract**
-
-#### Nov 2000 - May 2003 · Indianapolis, Indiana Area · Hybrid
-
-At Indianapolis Power and Light (IPL) I was responsible for maintaining their Sun servers and UNIX environments, including Solaris, AIX, HP/UX and Linux. I also assisted with their EMC and Hitachi storage platforms (including a two-site SAN), Veritas products (Volume Manager, File System and Netbackup), networking issues, application issues, firewall and intranet server, router and VPN device configuration (Cisco and Nortel), web content administration and more. I participated in two large projects as a key member of the teams : working as a technical lead / project manager on a 9-terabyte two-site SAN implementation and data migration project and the launch of the implementation of IPL's new Outage Management System. I also helped support their Veritas Netbackup environment and their disaster recovery operations.
-
-Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Bash · Netbackup · Veritas Volume Manager · EMC Storage · Server Architecture
-
-
-### **Engineering Manager**
-#### **CommNet Plus, Inc · Full-time**
-
-#### 2000 · Indianapolis, IN · On-site
-
-At CommNet Plus I was responsible for two Systems Engineers, as well as performing the majority of the UNIX integration work, maintaining all the internal systems and helping prepare to launch their Managed Service Provider business.
-
-Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Netbackup · Veritas Volume Manager · Server Architecture
-
-
-### **Senior Systems Engineer**
-#### **EMC · Full-time**
-
-#### 1999 - 2000 · Indianapolis, Indiana · On-site
-
-In my role at EMC I was responsible for supporting a number of named accounts. My job was to know the technical and business needs of my customers and to help propose solutions to fit those needs. Day-to-day tasks included scheduled and impromptu visits to customer sites, handling of customer issues, preparation of quotes and related pricing information, training and self-improvement, report preparation, meetings and more. My salesman and I had Indiana’s first Symmetrix SRDF installation in Indiana.
-
-Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Storage Area Networks · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Netbackup · Veritas Volume Manager · EMC Storage · Server Architecture
-
-
-### **Lead Network Administrator**
-#### **Macmillan · Full-time**
-
-#### 1999 · Indianapolis, Indiana · On-site
-
-**Highlights**
-- Managed Network Team
-- Project Manager for cc:Mail to Exchange Migration
-- Project Manager for NetWare to Windows NT 4.0 Server Migration
-
-Skills: Linux · Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Server Architecture
-
-
-### **Information Systems Manager**
-#### **NSI Software · Full-time**
-
-#### 1997 - 1999 · Indianapolis, Indiana · On-site
-
-**Highlights**
-- Maintained the company infrastructure - Windows NT 4.0 and Sun Solaris servers
-- Supported local and field end users
-- Served as Webmaster on the company web site
-
-Skills: Red Hat Linux · Unix · Solaris · System Architecture · Disaster Recovery · Networking · DNS · Cisco Technologies · Firewalls · System Administration · Apache · System Deployment · TCP/IP · High Availability · Enterprise Architecture · NFS · Shell Scripting · Server Architecture
-
-
-### **Sales Engineer**
-#### **Creative Computers, Inc. · Full-time**
-
-#### 1996 - 1997 · Los Angeles Metropolitan Area · On-site
-
-**Highlights**
-- Supported sales force in sales of networking products
-- Trained sales force on networking technologies
-- Completed Novell 4.X CNE certification
-
-Skills: System Architecture · Networking · Server Architecture
-
-
-### **Network Specialist**
-#### **CDW · Full-time**
-
-#### 1995 - 1996 · Greater Chicago Area · On-site
-
-**Highlights**
-- Worked with customer base to provide networking and computing solutions
-- One of six founding members of CDW's network sales division
-
-Skills: System Architecture · Networking · Server Architecture
-
-<div style="page-break-after: always"></div>
+- Served as Technical Account Manager for Alcatel-Lucent, Motorola, and AT&T, then identified, won, and led large RHEL deployment projects for AT&T: many nodes across many sites on IBM BladeCenter and Hitachi AMS2500 storage, all built with custom Kickstart/PXE/Bash automation.
+- Was one of two key technical leads in ITD's Red Hat partnership as AT&T retooled on OpenStack. I earned every available Red Hat partner platform, virtualization, and cloud certification and trained ITD's engineering teams on them.
+
+### **Earlier experience**
+
+- **Senior Systems Architect, Moongate Technologies** (2008 - 2009): technical lead on an enterprise NetBackup rebuild, covering an STK SL8500 upgrade to 54 LTO4 drives, ten new media servers, and a Veritas Cluster Server master migration with DR.
+- **UNIX / Linux Administrator, Monster** (2006 - 2007): supported Linux and Solaris infrastructure (Oracle RAC, mail, web, DNS) across two NOCs, and led NetBackup support.
+- **Systems Administrator II, Sallie Mae** (2004), and **UNIX Support Analyst, Princeton Information at Sallie Mae** (2003 - 2004): technical lead for the UNIX, NetBackup, and SAN parts of a data center migration, then ran 50 of the company's 200+ UNIX servers.
+- **UNIX / Linux Support Analyst, Yoh at Indianapolis Power & Light** (2000 - 2003): technical lead and project manager on a 9 TB two-site SAN implementation and data migration, and on the launch of a new Outage Management System.
+- **Senior Systems Engineer, EMC** (1999 - 2000): pre-sales engineer for named accounts. With my sales partner, delivered Indiana's first Symmetrix SRDF installation.
+- **Other roles** (1995 - 2008): System Administrator for the IN.gov portal at Indiana Interactive, UNIX Administrator at Eli Lilly (Apex Systems), Linux Field Engineer at Avnet, Engineering Manager at CommNet Plus, Lead Network Administrator at Macmillan, Information Systems Manager at NSI Software, Sales Engineer at Creative Computers, and Network Specialist at CDW (one of six founding members of CDW's network sales division).
+
+## **Open source and community**
+
+- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant): a self-hosted Docker service that tests thousands of free IPTV streams nightly, matches them to program guide data, and serves a clean playlist and guide to Kodi, Plex, Jellyfin, and other players.
+- [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes): one-command sandboxes on k3d, kind, and EKS for Istio (sidecar and ambient), kgateway, kagent, SPIFFE/SPIRE, and locality load balancing.
+- [observability-k3d](https://github.com/southsidedean/observability-k3d) (homelab Prometheus, Grafana, and Loki on k3d), [cka-d-cluster-builder-lab](https://github.com/southsidedean/cka-d-cluster-builder-lab), [self-hosted-gitlab-libvirt](https://github.com/southsidedean/self-hosted-gitlab-libvirt), and technical articles on LinkedIn and GitHub about Kubernetes, Podman, KIND, Multipass, and Terraform.
+
+## **Licenses and certifications**
+
+- **Certified Kubernetes Administrator (CKA)**, CNCF · Dec 2023 - Dec 2026 · [LF-iidmc7hahx](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-e4c7c242-8fc5-4162-8d94-e69902408a62-certificate.pdf)
+- **Certified Kubernetes Application Developer (CKAD)**, CNCF · Dec 2023 - Dec 2026 · [LF-ysuq5lxat1](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-5ef50221-9678-4272-bb86-bd8744c31d5f-certificate.pdf)
+- **AWS Certified Cloud Practitioner**, AWS · Dec 2023 - Dec 2026 · [JK1312XJ5JQ1QFK3](https://aws.amazon.com/verification)
+- **Kubernetes and Cloud Native Associate (KCNA)**, CNCF · Jul 2022 - Jul 2025 · [LF-3yptztfllg](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-52aeb184-d3e2-4cc0-a248-dfc4504ea59f-certificate.pdf)
+- **Fundamentals of the Service Mesh**, Buoyant · Jan 2024 · [Credential](https://credsverse.com/credentials/9b906e27-9774-4037-8558-f133d575809c) · **Azure Fundamentals (AZ-900)**, Microsoft · Jul 2020 · [Credential](https://www.credly.com/badges/0ba6530d-eb11-48c8-b3ba-be5134bd3243/linked_in_profile)
+- **Amateur Radio General Class License (KD9UEN)**, FCC · Jan 2022 - Jan 2032 · [License](https://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=4545381)
 
 ## **Education**
 
-### **Purdue University**
-#### **BA, Psychology / Law and Society**
-
-Activities and societies: The Exponent, Staff Writer and Photographer
-
-Skills: Unix · Networking · DNS · System Administration · TCP/IP · Shell Scripting
-
-### **Valparaiso High School**
-#### **Diploma**
-
-Activities and societies: Yearbook, Foreign Exchange Club
-
-General Studies with a focus on mathematics, chemistry, physics and German.
-
-## **Licenses and Certifications**
-
-### **Fundamentals of the Service Mesh**
-#### **Buoyant**
-
-Issued Jan 2024 · Does Not Expire
-
-[Credential ID: 9b906e27-9774-4037-8558-f133d575809c](https://credsverse.com/credentials/9b906e27-9774-4037-8558-f133d575809c)
-
-Skills: Containers · Kubernetes · Networking
-
-### **AWS Certified Cloud Practitioner**
-#### **Amazon Web Services (AWS)**
-
-Issued December 2023 · Expires December 2026
-
-[Validation Number: JK1312XJ5JQ1QFK3](https://aws.amazon.com/verification)
-
-Skills: Amazon Web Services (AWS) · AWS CloudFormation
-
-### **Certified Kubernetes Administrator (CKA)**
-#### **Cloud Native Computing Foundation**
-
-Issued December 2023 · Expires December 2026
-
-[Certificate ID Number: LF-iidmc7hahx](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-e4c7c242-8fc5-4162-8d94-e69902408a62-certificate.pdf)
-
-Skills: Podman · Containers · Kubernetes · Linux · Docker
-
-<div style="page-break-after: always"></div>
-
-### **Certified Kubernetes Application Developer (CKAD)**
-#### **Cloud Native Computing Foundation**
-
-Issued December 2023 · Expires December 2026
-
-[Certificate ID Number: LF-ysuq5lxat1](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-5ef50221-9678-4272-bb86-bd8744c31d5f-certificate.pdf)
-
-Skills: Podman · Containers · Kubernetes · Linux · Docker
-
-### **Kubernetes and Cloud Native Associate (KCNA)**
-#### **Cloud Native Computing Foundation**
-
-Issued July 2022 · Expires July 2025
-
-[Certificate ID Number: LF-3yptztfllg](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8d5a36b6-bc08-459c-bf82-b1f2fa99061a-thomas-s-dean-jr-52aeb184-d3e2-4cc0-a248-dfc4504ea59f-certificate.pdf)
-
-Skills: Podman · Containers · Kubernetes · Linux · Docker
-
-### **Amateur Radio General Class License**
-#### **Federal Communications Commission**
-
-Issued Jan 2022 · Expires Jan 2032
-
-[License ID: KD9UEN](https://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=4545381)
-
-Skills: Electronics
-
-### **Microsoft Certified: Azure Fundamentals (AZ-900)**
-#### **Microsoft**
-
-Issued July 2020 · Does Not Expire
-
-[Microsoft Certified: Azure Fundamentals Certificate](https://www.credly.com/badges/0ba6530d-eb11-48c8-b3ba-be5134bd3243/linked_in_profile)
-
-Skills: Microsoft Azure
+**Purdue University**: BA, Psychology / Law and Society. Staff writer and photographer for *The Exponent*. Purdue is where I first learned UNIX.
