@@ -12,7 +12,7 @@ I help organizations succeed with cloud-native infrastructure, and I've spent ov
 ## **Core skills**
 
 - Cloud native: Kubernetes (CKA, CKAD), Istio (sidecar and ambient), Gloo Mesh, kgateway, Gloo Gateway, Linkerd, Envoy, Gateway API, Helm, k3d/kind, containers (Docker, Podman)
-- AI infrastructure: AI agent platforms on Kubernetes (kagent), agent and MCP gateways (agentgateway), LLM integration
+- AI infrastructure: AI agent platforms on Kubernetes (kagent), agent and MCP gateways (agentgateway), agentdesktop, LLM integration
 - Cloud and IaC: AWS (CCP), Azure, GCP fundamentals, Terraform, CloudFormation, GitLab CI/CD, GitHub Actions, GitOps
 - Observability: Prometheus, Grafana, Loki, Kiali
 - Linux and systems: RHEL, Ubuntu, SUSE, Solaris; KVM, VMware; networking, storage (SAN), high availability, disaster recovery
@@ -27,11 +27,11 @@ I help organizations succeed with cloud-native infrastructure, and I've spent ov
 
 #### Apr 2025 - Present · Greater Chicago Area · Remote
 
-- Partner with enterprise customers from onboarding through production across Solo.io's cloud connectivity products (Solo Enterprise for Istio, including ambient mode, kgateway and Gloo Gateway, and Gloo Mesh) and its newer agentic AI products, like agentgateway and kagent.
+- Partner with enterprise customers from onboarding through production across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer agentic AI products, like agentgateway, kagent, and agentdesktop.
 - Turn customer goals into working architectures across Istio, Envoy, the Kubernetes Gateway API, and AI agent infrastructure.
 - Build reproducible lab environments to test designs and work through issues quickly.
 - Bring what I learn from customers back to product and engineering teams.
-- Developed a human-in-the-loop Claude skill that helps engineers triage customer issues, reproduce them, analyze CVEs, and draft GitHub issues. The engineer reviews and decides at every step. Reproducing an issue used to take a day; now it's part of my everyday workflow, so I can dig into issues faster and more thoroughly.
+- Developed a human-in-the-loop Claude skill that helps engineers triage customer issues, reproduce them, analyze CVEs, and draft GitHub issues, with the engineer reviewing and deciding at every step. Reproducing an issue used to take me a day; now it's a routine part of my workflow, so I dig into issues faster and more thoroughly.
 
 ### **Field Engineer**
 
@@ -41,7 +41,7 @@ I help organizations succeed with cloud-native infrastructure, and I've spent ov
 
 - Contributed to a 4x increase in Buoyant's customer count during my tenure, across the whole customer lifecycle: solving technical needs with the sales team to close deals, then implementation and ongoing operational support.
 - Covered field engineering, customer success architecture, customer success engineering, and technical account management in my day-to-day work.
-- Built the proof of concept (PoC) process for sales, ran every PoC, and set up PoC tracking and integration in Salesforce.
+- Built the sales proof of concept (PoC) process, ran every PoC, and set up its tracking and integration in Salesforce.
 - Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency.
 - Wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) with Phil Henderson at KubeCon + CloudNativeCon North America 2024 in Salt Lake City.
 - Built and delivered technical demos and hands-on tutorials for Linkerd, including an introduction to service mesh and High Availability Zonal Load Balancing (HAZL). Regularly joined Flynn on Buoyant's monthly Service Mesh Academy live sessions.
@@ -63,7 +63,7 @@ I help organizations succeed with cloud-native infrastructure, and I've spent ov
 
 - Owned the Learning and Development function as team principal, setting strategy and running content development and delivery for a catalog of instructor-led Kubernetes and CNCF courses for internal and external students.
 - Helped build an automated hands-on lab platform on AWS with Terraform and GitLab CI/CD, then took over its operation and maintenance.
-- Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. I evaluated a group of the leading LMS and lab vendors (Docebo, Skilljar, Instructure, CloudShare, Skillable, Instruqt, Appsembler, and others), then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch. The project was cancelled in early 2023, and my position was eliminated.
+- Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. I evaluated the leading LMS and lab vendors (Docebo, Skilljar, Instructure, CloudShare, Skillable, Instruqt, Appsembler, and others), then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch. The project was cancelled in early 2023, and my position was eliminated.
 
 ### **Training Architect**
 
