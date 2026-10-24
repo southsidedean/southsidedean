@@ -23,7 +23,6 @@ Always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 - 2026-10-16: Created [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant)
 - 2026-04-02: Updated [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes)
 - 2026-04-01: Updated [observability-k3d](https://github.com/southsidedean/observability-k3d)
-- 2025-09-16: Released [observability-k3d v0.1.0](https://github.com/southsidedean/observability-k3d/releases/tag/v0.1.0)
 <!-- WHATS-NEW:END -->
 
 ## What I work with
