@@ -1,0 +1,66 @@
+name: What's new
+
+# Rebuilds the README's "Recent activity" list and opens (or updates) a PR on
+# the whats-new branch for Tom to review. Nothing lands on main without a merge.
+
+on:
+  schedule:
+    - cron: "41 14 * * 1" # Mondays
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Update recent activity
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # create the whats-new branch and commit to it
+      pull-requests: write # open the PR
+      actions: write # start Content checks on the branch
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      BRANCH: whats-new
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Rebuild the list
+        run: scripts/update-whats-new.py README.md
+
+      - name: Commit to the branch and open a PR
+        run: |
+          if git diff --quiet README.md; then
+            echo "Recent activity is already current."
+            exit 0
+          fi
+
+          # Reset the branch to main, then commit through the API so no git
+          # credentials are needed in the workspace.
+          base=$(gh api "repos/$REPO/git/ref/heads/main" --jq .object.sha)
+          if gh api "repos/$REPO/git/ref/heads/$BRANCH" >/dev/null 2>&1; then
+            gh api -X PATCH "repos/$REPO/git/refs/heads/$BRANCH" -f sha="$base" -F force=true >/dev/null
+          else
+            gh api -X POST "repos/$REPO/git/refs" -f ref="refs/heads/$BRANCH" -f sha="$base" >/dev/null
+          fi
+          blob=$(gh api "repos/$REPO/contents/README.md?ref=$BRANCH" --jq .sha)
+          gh api -X PUT "repos/$REPO/contents/README.md" \
+            -f branch="$BRANCH" -f sha="$blob" \
+            -f message="Update recent activity in README" \
+            -f content="$(base64 -w0 README.md)" >/dev/null
+
+          if [ -z "$(gh pr list --repo "$REPO" --head "$BRANCH" --state open --json number --jq '.[].number')" ]; then
+            gh pr create --repo "$REPO" --head "$BRANCH" --base main \
+              --title "Update recent activity" \
+              --body "Weekly refresh of the README's Recent activity list from public personal repos. Review the dates and links, then squash-merge."
+          fi
+
+          # PRs opened with GITHUB_TOKEN don't trigger pull_request workflows,
+          # so start the required checks on the branch directly.
+          gh workflow run content-checks.yml --repo "$REPO" --ref "$BRANCH"
