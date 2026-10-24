@@ -13,7 +13,7 @@ Always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 ### Highlights
 
 - [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) (new in Oct 2026) is a self-hosted Docker service. Every night it tests thousands of free IPTV streams, matches the working channels to program guide data, and serves a tidy playlist and guide to Kodi, Plex, Jellyfin, TiviMate, and phone apps. It runs on macOS, Linux, or a Raspberry Pi.
-- [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes) has one-command sandboxes on k3d, kind, and AWS EKS for Istio (sidecar and ambient), kgateway, kagent AI agents, SPIFFE/SPIRE workload identity, and locality load balancing. I updated it in 2026 for Istio 1.29 and Gateway API 1.5.
+- [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes) has scripted sandboxes on k3d, kind, and AWS EKS for Istio (sidecar and ambient), kgateway, kagent AI agents, SPIFFE/SPIRE workload identity, and locality load balancing.
 - [observability-k3d](https://github.com/southsidedean/observability-k3d) runs a homelab observability stack on a local k3d cluster: Prometheus, Grafana, Loki, and UniFi metrics through Unpoller, plus kagent for AI-assisted operations.
 
 ### Recent activity
@@ -34,7 +34,7 @@ Always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 - Observability: Prometheus · Grafana · Loki · Kiali
 - Linux and systems: RHEL · Ubuntu · SUSE · KVM · VMware · Bash · Python · Ansible
 
-Certifications: CKA · CKAD · KCNA · AWS Certified Cloud Practitioner · Azure Fundamentals
+Certifications: CKA · CKAD · AWS Certified Cloud Practitioner · Azure Fundamentals
 
 ## Guides and labs
 
