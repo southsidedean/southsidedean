@@ -26,6 +26,7 @@ pandoc Resume-Tom-Dean.md \
     --embed-resources \
     --css resume/resume.css \
     --metadata pagetitle="Tom Dean - Resume" \
+    --metadata lang=en \
     --output "$out/Resume-Tom-Dean.html"
 
 "$CHROME" --headless --disable-gpu --no-sandbox --no-pdf-header-footer \
