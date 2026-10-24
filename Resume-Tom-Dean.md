@@ -7,7 +7,7 @@ Greater Chicago Area · [tom@southsidedean.com](mailto:tom@southsidedean.com) ·
 
 ## **Summary**
 
-I help organizations succeed with cloud-native infrastructure, and I've spent 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI as a Customer Success Engineer at Solo.io. At Buoyant (Linkerd) I contributed to a fourfold increase in customers and spoke at KubeCon. Before that, as a training architect, I built Kubernetes and Linux courses and hands-on lab platforms for thousands of learners. I'm comfortable in front of technical and non-technical audiences, and I automate and document my work as I go.
+I help organizations succeed with cloud-native infrastructure, and I've spent 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI as a Customer Success Engineer at Solo.io. At Buoyant (Linkerd) I contributed to a fourfold increase in customers and spoke at KubeCon. Before that, as a training architect, I built Kubernetes and Linux courses for thousands of learners and helped build hands-on lab platforms. I'm comfortable in front of technical and non-technical audiences, and I automate and document my work as I go.
 
 ## **Core skills**
 
@@ -61,7 +61,7 @@ I help organizations succeed with cloud-native infrastructure, and I've spent 30
 #### Aug 2021 - Feb 2023 · Greater Chicago Area · Remote
 
 - Owned the Learning and Development function as team principal, setting strategy and running content development and delivery for a catalog of instructor-led Kubernetes and CNCF courses for internal and external students.
-- Built and kept improving an automated hands-on lab platform on AWS with Terraform and GitLab CI/CD, so every student worked in a real environment.
+- Helped build an automated hands-on lab platform on AWS with Terraform and GitLab CI/CD, then took over its operation and maintenance.
 - Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. I evaluated more than eight vendors (Docebo, Skilljar, Instructure, CloudShare, Skillable, Instruqt, Appsembler, and others), then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch.
 
 ### **Training Architect**
