@@ -7,7 +7,7 @@ Greater Chicago Area · [tom@southsidedean.com](mailto:tom@southsidedean.com) ·
 
 ## **Summary**
 
-I help organizations succeed with cloud-native infrastructure, and I've spent 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI as a Customer Success Engineer at Solo.io. At Buoyant (Linkerd) I contributed to a fourfold increase in customers and spoke at KubeCon. Before that, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide and helped build hands-on lab platforms. I'm comfortable in front of technical and non-technical audiences, and I automate and document my work as I go.
+I help organizations succeed with cloud-native infrastructure, and I've spent over 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI as a Customer Success Engineer at Solo.io. At Buoyant (Linkerd) I contributed to a fourfold increase in customers and spoke at KubeCon. Before that, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide and helped build hands-on lab platforms. I'm comfortable in front of technical and non-technical audiences, and I automate and document my work as I go.
 
 ## **Core skills**
 
