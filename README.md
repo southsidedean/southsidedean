@@ -4,22 +4,25 @@ Customer Success Engineer at [Solo.io](https://www.solo.io/) · Kubernetes, serv
 
 I help teams succeed with cloud-native infrastructure, and I've spent over 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI. Before Solo.io I was a field engineer at Buoyant (Linkerd), where I wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) at KubeCon North America 2024. Earlier, at A Cloud Guru, I co-authored the RHCSA 8 course, and I've helped build hands-on lab platforms for Kubernetes training.
 
-I document everything and share what I learn, so most of my side projects end up here as labs and how-to guides.
-
 Always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 
 ## What I've been up to
 
+Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short. It started as an itch to scratch with IPTV program guides, and it's the project that finally got me coding with Claude at home, after using it at work since early 2026. Home media stacks are a pain to set up and keep running. That kind of hassle has kept me away from plenty of cool technology over the years, so I want kia to get people to a working stack quickly. It has also turned into a practical place to experiment with agentic AI.
+
 ### Highlights
 
-- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) (new in Oct 2026) is a self-hosted Docker service. Every night it tests thousands of free IPTV streams, matches the working channels to program guide data, and serves a tidy playlist and guide to Kodi, Plex, Jellyfin, TiviMate, and phone apps. It runs on macOS, Linux, or a Raspberry Pi.
-- [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes) has scripted sandboxes on k3d, kind, and AWS EKS for Istio (sidecar and ambient), kgateway, kagent AI agents, SPIFFE/SPIRE workload identity, and locality load balancing.
-- [observability-k3d](https://github.com/southsidedean/observability-k3d) runs a homelab observability stack on a local k3d cluster: Prometheus, Grafana, Loki, and UniFi metrics through Unpoller, plus kagent for AI-assisted operations.
+- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) (new in Oct 2026) is a self-hosted Docker service. Every night it tests thousands of free IPTV streams, matches the working channels to program guide data, and serves a tidy playlist and guide to Kodi, Plex, Jellyfin, TiviMate, and phone apps. It runs on macOS, Linux, or a Raspberry Pi. When something breaks, `kia doctor` explains why, and a read-only MCP server lets an AI assistant answer questions about your setup.
+- [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes) is where I experiment and learn: scripted sandboxes on k3d, kind, and AWS EKS for Istio (sidecar and ambient), kgateway, kagent AI agents, SPIFFE/SPIRE workload identity, and locality load balancing.
+- [observability-k3d](https://github.com/southsidedean/observability-k3d) is a homelab observability stack I started for my home network, on a local k3d cluster: Prometheus, Grafana, Loki, and UniFi metrics through Unpoller, plus kagent for AI-assisted operations. It's on hold for now, and I plan to get back to it soon.
 
 ### Recent activity
 
 <!-- WHATS-NEW:START -->
-- 2026-10-24: Released [kodi-iptv-assistant v0.5.5](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.5.5)
+- 2026-10-26: Released [kodi-iptv-assistant v0.6.5](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.6.5)
+- 2026-10-25: Released [kodi-iptv-assistant v0.5.7](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.5.7)
+- 2026-10-21: Released [kodi-iptv-assistant v0.4.3](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.4.3)
+- 2026-10-20: Released [kodi-iptv-assistant v0.3.0](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.3.0)
 - 2026-10-16: Created [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant)
 - 2026-04-02: Updated [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes)
 - 2026-04-01: Updated [observability-k3d](https://github.com/southsidedean/observability-k3d)
