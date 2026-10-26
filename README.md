@@ -19,7 +19,7 @@ Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short.
 ### Recent activity
 
 <!-- WHATS-NEW:START -->
-- 2026-10-26: Released [kodi-iptv-assistant v0.6.5](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.6.5)
+- 2026-10-26: Released [kodi-iptv-assistant v0.6.7](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.6.7)
 - 2026-10-25: Released [kodi-iptv-assistant v0.5.7](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.5.7)
 - 2026-10-21: Released [kodi-iptv-assistant v0.4.3](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.4.3)
 - 2026-10-20: Released [kodi-iptv-assistant v0.3.0](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.3.0)
