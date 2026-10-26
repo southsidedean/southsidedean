@@ -4,17 +4,21 @@ Customer Success Engineer at [Solo.io](https://www.solo.io/) · Kubernetes, serv
 
 I help teams succeed with cloud-native infrastructure, and I've spent over 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI. Before Solo.io I was a field engineer at Buoyant (Linkerd), where I wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) at KubeCon North America 2024. Earlier, at A Cloud Guru, I co-authored the RHCSA 8 course, and I've helped build hands-on lab platforms for Kubernetes training.
 
-I document everything and share what I learn, so most of my side projects end up here as labs and how-to guides.
-
 Always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 
 ## What I've been up to
 
+The guides and labs from 2023 came out of my blogging and teaching: Podman, KIND, Terraform, and self-hosting on Linux. I built the Kubernetes sandboxes to experiment with and learn service mesh, gateways, and kagent. observability-k3d was my start on bringing observability, alerting, and AI agents to my home network. It's on hold for now, and I plan to get back to it soon.
+
+Most of my GitHub time now goes to kodi-iptv-assistant (kia). It started as an itch to scratch with IPTV program guides. I've used Claude at work since early 2026, and kia is what got me to get my own subscription and start coding with it at home. It has also become a practical place to experiment with agentic AI, like a read-only MCP server that lets an AI assistant answer questions about your setup.
+
+Lots of people want a media stack at home, but they're a pain to set up and keep running. That kind of friction has kept me from trying plenty of cool technology over the years. kia's goal is to remove that friction, so anyone can have a working media stack in short order.
+
 ### Highlights
 
-- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) (new in Oct 2026) is a self-hosted Docker service. Every night it tests thousands of free IPTV streams, matches the working channels to program guide data, and serves a tidy playlist and guide to Kodi, Plex, Jellyfin, TiviMate, and phone apps. It runs on macOS, Linux, or a Raspberry Pi.
+- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) (new in Oct 2026) is a self-hosted Docker service. Every night it tests thousands of free IPTV streams, matches the working channels to program guide data, and serves a tidy playlist and guide to Kodi, Plex, Jellyfin, TiviMate, and phone apps. It runs on macOS, Linux, or a Raspberry Pi. When something's wrong, `kia doctor` (or **Ask kia what's wrong** on its dashboard) explains why.
 - [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes) has scripted sandboxes on k3d, kind, and AWS EKS for Istio (sidecar and ambient), kgateway, kagent AI agents, SPIFFE/SPIRE workload identity, and locality load balancing.
-- [observability-k3d](https://github.com/southsidedean/observability-k3d) runs a homelab observability stack on a local k3d cluster: Prometheus, Grafana, Loki, and UniFi metrics through Unpoller, plus kagent for AI-assisted operations.
+- [observability-k3d](https://github.com/southsidedean/observability-k3d) (on hold) runs a homelab observability stack on a local k3d cluster: Prometheus, Grafana, Loki, and UniFi metrics through Unpoller, plus kagent for AI-assisted operations.
 
 ### Recent activity
 
