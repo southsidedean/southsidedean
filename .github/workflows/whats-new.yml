@@ -5,7 +5,7 @@ name: What's new
 
 on:
   schedule:
-    - cron: "41 14 * * 1" # Mondays
+    - cron: "41 14 * * *" # Daily
   workflow_dispatch:
 
 permissions: {}
@@ -58,7 +58,7 @@ jobs:
           if [ -z "$(gh pr list --repo "$REPO" --head "$BRANCH" --state open --json number --jq '.[].number')" ]; then
             gh pr create --repo "$REPO" --head "$BRANCH" --base main \
               --title "Update recent activity" \
-              --body "Weekly refresh of the README's Recent activity list from public personal repos. Review the dates and links, then squash-merge."
+              --body "Refresh of the README's Recent activity list from public personal repos. Review the dates and links, then squash-merge."
           fi
 
           # PRs opened with GITHUB_TOKEN don't trigger pull_request workflows,
