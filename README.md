@@ -8,11 +8,11 @@ Always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 
 ## What I've been up to
 
-The guides and labs from 2023 came out of my blogging and teaching: Podman, KIND, Terraform, and self-hosting on Linux. I built the Kubernetes sandboxes to experiment with and learn service mesh, gateways, and kagent. observability-k3d was my start on bringing observability, alerting, and AI agents to my home network. It's on hold for now, and I plan to get back to it soon.
+The guides and labs from 2023 came out of my blogging and teaching: Podman, KIND, Terraform, and self-hosting on Linux. I built the Kubernetes sandboxes to experiment with and learn service mesh, gateways, and kagent. I started observability-k3d to bring observability and alerting to my home network, with kagent for AI-assisted operations. It's on hold for now, and I plan to get back to it soon.
 
-Most of my GitHub time now goes to kodi-iptv-assistant (kia). It started as an itch to scratch with IPTV program guides. I've used Claude at work since early 2026, and kia is what got me to get my own subscription and start coding with it at home. It has also become a practical place to experiment with agentic AI, like a read-only MCP server that lets an AI assistant answer questions about your setup.
+Most of my GitHub time now goes to kodi-iptv-assistant (kia). It started as an itch to scratch with IPTV program guides. I've used Claude at work since early 2026, and kia is the project that got me my own subscription and coding with it at home. kia has also become a practical place to experiment with agentic AI, like a read-only MCP server that lets an AI assistant answer questions about your setup.
 
-Lots of people want a media stack at home, but they're a pain to set up and keep running. That kind of friction has kept me from trying plenty of cool technology over the years. kia's goal is to remove that friction, so anyone can have a working media stack in short order.
+Lots of people want a media stack at home, but media stacks are a pain to set up and keep running. That kind of friction has kept me from trying plenty of cool technology over the years. kia's goal is to remove it, so you can have a working media stack in short order.
 
 ### Highlights
 
