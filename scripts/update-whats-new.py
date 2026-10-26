@@ -16,7 +16,8 @@ import urllib.request
 
 USER = "southsidedean"
 MAX_REPOS = 8     # most recently pushed repos to look at
-MAX_ENTRIES = 5   # lines to show in the README
+MAX_ENTRIES = 8   # lines to show in the README
+MAX_RELEASES = 4  # release lines per repo, so one busy repo can't fill the list
 START = "<!-- WHATS-NEW:START -->"
 END = "<!-- WHATS-NEW:END -->"
 
@@ -44,9 +45,19 @@ def entries():
         name, url = repo["name"], repo["html_url"]
         dates = set()
 
-        for rel in get(f"repos/{USER}/{name}/releases?per_page=1"):
+        # Releases come newest first. Keep the newest of each minor version
+        # (v0.6.5 stands in for v0.6.0-v0.6.4) so patch releases don't crowd
+        # out everything else.
+        lines = set()
+        for rel in get(f"repos/{USER}/{name}/releases?per_page=50"):
             if rel["draft"] or rel["prerelease"]:
                 continue
+            line = ".".join(rel["tag_name"].lstrip("v").split(".")[:2])
+            if line in lines:
+                continue
+            if len(lines) == MAX_RELEASES:
+                break
+            lines.add(line)
             day = rel["published_at"][:10]
             dates.add(day)
             found.append((day, f"Released [{name} {rel['tag_name']}]({rel['html_url']})"))
