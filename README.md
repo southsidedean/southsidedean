@@ -8,17 +8,13 @@ Always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 
 ## What I've been up to
 
-The guides and labs from 2023 came out of my blogging and teaching: Podman, KIND, Terraform, and self-hosting on Linux. I built the Kubernetes sandboxes to experiment with and learn service mesh, gateways, and kagent. I started observability-k3d to bring observability and alerting to my home network, with kagent for AI-assisted operations. It's on hold for now, and I plan to get back to it soon.
-
-Most of my GitHub time now goes to kodi-iptv-assistant (kia). It started as an itch to scratch with IPTV program guides. I've used Claude at work since early 2026, and kia is the project that got me my own subscription and coding with it at home. kia has also become a practical place to experiment with agentic AI, like a read-only MCP server that lets an AI assistant answer questions about your setup.
-
-Lots of people want a media stack at home, but media stacks are a pain to set up and keep running. That kind of friction has kept me from trying plenty of cool technology over the years. kia's goal is to remove it, so you can have a working media stack in short order.
+Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short. It started as an itch to scratch with IPTV program guides, and it's the project that finally got me coding with Claude at home, after using it at work since early 2026. Home media stacks are a pain to set up and keep running. That kind of hassle has kept me away from plenty of cool technology over the years, so I want kia to get people to a working stack quickly. It has also turned into a practical place to experiment with agentic AI.
 
 ### Highlights
 
-- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) (new in Oct 2026) is a self-hosted Docker service. Every night it tests thousands of free IPTV streams, matches the working channels to program guide data, and serves a tidy playlist and guide to Kodi, Plex, Jellyfin, TiviMate, and phone apps. It runs on macOS, Linux, or a Raspberry Pi. When something's wrong, `kia doctor` (or **Ask kia what's wrong** on its dashboard) explains why.
-- [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes) has scripted sandboxes on k3d, kind, and AWS EKS for Istio (sidecar and ambient), kgateway, kagent AI agents, SPIFFE/SPIRE workload identity, and locality load balancing.
-- [observability-k3d](https://github.com/southsidedean/observability-k3d) (on hold) runs a homelab observability stack on a local k3d cluster: Prometheus, Grafana, Loki, and UniFi metrics through Unpoller, plus kagent for AI-assisted operations.
+- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) (new in Oct 2026) is a self-hosted Docker service. Every night it tests thousands of free IPTV streams, matches the working channels to program guide data, and serves a tidy playlist and guide to Kodi, Plex, Jellyfin, TiviMate, and phone apps. It runs on macOS, Linux, or a Raspberry Pi. When something breaks, `kia doctor` explains why, and a read-only MCP server lets an AI assistant answer questions about your setup.
+- [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes) is where I experiment and learn: scripted sandboxes on k3d, kind, and AWS EKS for Istio (sidecar and ambient), kgateway, kagent AI agents, SPIFFE/SPIRE workload identity, and locality load balancing.
+- [observability-k3d](https://github.com/southsidedean/observability-k3d) is a homelab observability stack I started for my home network, on a local k3d cluster: Prometheus, Grafana, Loki, and UniFi metrics through Unpoller, plus kagent for AI-assisted operations. It's on hold for now, and I plan to get back to it soon.
 
 ### Recent activity
 
