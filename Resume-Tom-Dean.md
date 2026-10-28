@@ -7,7 +7,7 @@ Greater Chicago Area · [tom@southsidedean.com](mailto:tom@southsidedean.com) ·
 
 ## **Summary**
 
-Customer Success Engineer at Solo.io, working with enterprise customers on service mesh, API gateways, and agentic AI. I've spent over 30 years in UNIX, Linux, and infrastructure, from the data center through virtualization, cloud, Kubernetes, and service mesh. At Buoyant (Linkerd) I ran every sales proof of concept, contributed to a 4x increase in customers, and spoke at KubeCon. Earlier, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide and helped build hands-on lab platforms.
+Customer Success Engineer at Solo.io, working with enterprise customers on service mesh, API gateways, and agentic AI. I've spent over 30 years in UNIX, Linux, and infrastructure, from the data center through virtualization, cloud, Kubernetes, and service mesh. At Buoyant I was in charge of pre-sales proofs of concept, contributed to a 4x increase in customers, and spoke at KubeCon. Earlier, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide and helped build hands-on lab platforms.
 
 ## **Core skills**
 
@@ -39,7 +39,7 @@ Customer Success Engineer at Solo.io, working with enterprise customers on servi
 #### Jan 2024 - Apr 2025 · Greater Chicago Area · Remote
 
 - Contributed to a 4x increase in Buoyant's customer count during my tenure, working across field engineering, customer success, and technical account management: solving technical needs with the sales team to close deals, then implementation and ongoing operational support.
-- Built the sales proof of concept (PoC) process, ran every PoC, and set up its tracking and integration in Salesforce.
+- Built the pre-sales proof of concept (PoC) process, ran PoCs, and set up their tracking and integration in Salesforce.
 - Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency.
 - Wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) with Phil Henderson at KubeCon + CloudNativeCon North America 2024 in Salt Lake City.
 - Built and delivered technical demos and hands-on tutorials for Linkerd, including an introduction to service mesh and High Availability Zonal Load Balancing (HAZL). Co-hosted Buoyant's monthly Service Mesh Academy livestream with Flynn.
