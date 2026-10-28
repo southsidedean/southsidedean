@@ -19,13 +19,13 @@ Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short.
 ### Recent activity
 
 <!-- WHATS-NEW:START -->
+- 2026-10-28: Released [kodi-iptv-assistant v0.8.2](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.8.2)
+- 2026-10-28: Released [observability-k3d v0.3.0](https://github.com/southsidedean/observability-k3d/releases/tag/v0.3.0)
 - 2026-10-27: Released [kodi-iptv-assistant v0.7.6](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.7.6)
 - 2026-10-26: Released [kodi-iptv-assistant v0.6.7](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.6.7)
 - 2026-10-25: Released [kodi-iptv-assistant v0.5.7](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.5.7)
-- 2026-10-21: Released [kodi-iptv-assistant v0.4.3](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.4.3)
 - 2026-10-16: Created [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant)
 - 2026-04-02: Updated [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes)
-- 2026-04-01: Updated [observability-k3d](https://github.com/southsidedean/observability-k3d)
 - 2025-09-16: Released [observability-k3d v0.1.0](https://github.com/southsidedean/observability-k3d/releases/tag/v0.1.0)
 <!-- WHATS-NEW:END -->
 
