@@ -2,7 +2,7 @@
 
 Customer Success Engineer at [Solo.io](https://www.solo.io/) · Kubernetes, service mesh & AI gateways · Linux veteran & technical educator · Chicago
 
-I help teams succeed with cloud-native infrastructure, and I've spent over 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI. Before Solo.io I was a field engineer at Buoyant (Linkerd), where I wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) at KubeCon North America 2024. Earlier, at A Cloud Guru, I co-authored the RHCSA 8 course, and I've helped build hands-on lab platforms for Kubernetes training.
+I help teams succeed with cloud-native infrastructure, and I've spent over 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI. Before Solo.io I was a field engineer at Buoyant (Linkerd), where I wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) at KubeCon North America 2024. Earlier, at Linux Academy and A Cloud Guru, I co-authored the RHCSA 8 exam prep course, and I've helped build hands-on lab platforms for Kubernetes training.
 
 Always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 
@@ -12,9 +12,9 @@ Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short.
 
 ### Highlights
 
-- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) (new in Oct 2026) tests thousands of free IPTV streams every night and serves a working playlist and program guide to Kodi, Plex, Jellyfin, and other players. An AI assistant can help run it, and changes wait for your approval.
+- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) tests thousands of free IPTV streams every night and serves a working playlist and program guide to Kodi, Plex, Jellyfin, and other players. An AI assistant can help run it, and changes wait for your approval.
 - [observability-k3d](https://github.com/southsidedean/observability-k3d) is now ok3d, a network operations center for your home on k3d. It watches every device on your network and alerts you when something breaks. I'm rebuilding it release by release.
-- [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes) has scripted sandboxes on k3d, kind, and AWS EKS for Istio (sidecar and ambient), kgateway, and kagent. I used them to experiment and learn, and they're not active right now.
+- [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes) has scripted sandboxes on k3d, kind, and AWS EKS for Istio (sidecar and ambient), Gloo Mesh, kgateway, Gloo Gateway, kagent, and agentgateway. I used them to experiment and learn, and they're not active right now.
 
 ### Recent activity
 
