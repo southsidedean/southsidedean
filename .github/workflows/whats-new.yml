@@ -5,7 +5,7 @@ name: What's new
 
 on:
   schedule:
-    - cron: "41 14 * * *" # Daily
+    - cron: "7 0,6,12,18 * * *" # Just after 6 AM, noon, 6 PM, and midnight in Chicago (CST; an hour later during CDT)
   workflow_dispatch:
 
 permissions: {}
