@@ -1,13 +1,13 @@
 # **Tom Dean**
 
 <!-- markdownlint-disable-next-line MD036 -->
-**Customer Success Engineer · Kubernetes, Service Mesh & AI Gateways · Linux Veteran & Technical Educator**
+**Customer Success Engineer · Kubernetes, Service Mesh & AI Gateways · Linux Infrastructure & Training**
 
 Greater Chicago Area · [tom@southsidedean.com](mailto:tom@southsidedean.com) · [linkedin.com/in/tomdeanjr](https://www.linkedin.com/in/tomdeanjr) · [github.com/southsidedean](https://github.com/southsidedean) · [southsidedean.com](https://southsidedean.com)
 
 ## **Summary**
 
-I help organizations succeed with cloud-native infrastructure, and I've spent over 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI as a Customer Success Engineer at Solo.io. At Buoyant (Linkerd) I contributed to a fourfold increase in customers and spoke at KubeCon. Before that, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide and helped build hands-on lab platforms. I'm comfortable in front of technical and non-technical audiences, and I automate and document my work as I go.
+Customer Success Engineer at Solo.io, working with enterprise customers on service mesh, API gateways, and agentic AI. I've spent over 30 years in UNIX, Linux, and infrastructure, from the data center through virtualization, cloud, Kubernetes, and service mesh. At Buoyant (Linkerd) I ran every sales proof of concept, contributed to a 4x increase in customers, and spoke at KubeCon. Earlier, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide and helped build hands-on lab platforms.
 
 ## **Core skills**
 
@@ -29,8 +29,7 @@ I help organizations succeed with cloud-native infrastructure, and I've spent ov
 
 - Partner with enterprise customers from onboarding through production across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer agentic AI products, like agentgateway, kagent, and agentdesktop.
 - Turn customer goals into working architectures across Istio, Envoy, the Kubernetes Gateway API, and AI agent infrastructure.
-- Build reproducible lab environments to test designs and work through issues quickly.
-- Bring what I learn from customers back to product and engineering teams.
+- Build reproducible lab environments to test designs and work through issues, and bring what I learn from customers back to product and engineering teams.
 - Developed a human-in-the-loop Claude skill that helps engineers triage customer issues, reproduce them, analyze CVEs, and draft GitHub issues, with the engineer reviewing and deciding at every step. Reproducing an issue used to take me a day; now it's a routine part of my workflow, so I dig into issues faster and more thoroughly.
 
 ### **Field Engineer**
@@ -39,12 +38,11 @@ I help organizations succeed with cloud-native infrastructure, and I've spent ov
 
 #### Jan 2024 - Apr 2025 · Greater Chicago Area · Remote
 
-- Contributed to a 4x increase in Buoyant's customer count during my tenure, across the whole customer lifecycle: solving technical needs with the sales team to close deals, then implementation and ongoing operational support.
-- Covered field engineering, customer success architecture, customer success engineering, and technical account management in my day-to-day work.
+- Contributed to a 4x increase in Buoyant's customer count during my tenure, working across field engineering, customer success, and technical account management: solving technical needs with the sales team to close deals, then implementation and ongoing operational support.
 - Built the sales proof of concept (PoC) process, ran every PoC, and set up its tracking and integration in Salesforce.
 - Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency.
 - Wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) with Phil Henderson at KubeCon + CloudNativeCon North America 2024 in Salt Lake City.
-- Built and delivered technical demos and hands-on tutorials for Linkerd, including an introduction to service mesh and High Availability Zonal Load Balancing (HAZL). Regularly joined Flynn on Buoyant's monthly Service Mesh Academy live sessions.
+- Built and delivered technical demos and hands-on tutorials for Linkerd, including an introduction to service mesh and High Availability Zonal Load Balancing (HAZL). Co-hosted Buoyant's monthly Service Mesh Academy livestream with Flynn.
 
 ### **Technical Training Architect**
 
@@ -63,23 +61,23 @@ I help organizations succeed with cloud-native infrastructure, and I've spent ov
 
 - Owned the Learning and Development function as team principal, setting strategy and running content development and delivery for a catalog of instructor-led Kubernetes and CNCF courses for internal and external students.
 - Helped build an automated hands-on lab platform on AWS with Terraform and GitLab CI/CD, then took over its operation and maintenance.
-- Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. I evaluated the leading LMS and lab vendors (Docebo, Skilljar, Instructure, CloudShare, Skillable, Instruqt, Appsembler, and others), then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch. The project was cancelled in early 2023, and my position was eliminated.
+- Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. Evaluated the leading LMS and lab vendors (Docebo, Skilljar, Instructure, CloudShare, Skillable, Instruqt, Appsembler, and others), then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch. The project was cancelled in early 2023, and my position was eliminated.
 
 ### **Training Architect**
 
-#### **A Cloud Guru** (acquired Linux Academy)
+#### **Linux Academy / A Cloud Guru**
 
 #### Sep 2019 - Jul 2021 · Greater Chicago Area · Remote
 
 - Co-authored the Red Hat Certified System Administrator (EX200, RHEL 8) exam prep course with Ross Brunson.
-- Wrote and produced five more courses end to end (syllabus, slides, video and audio editing, and hands-on labs built on AWS CloudFormation): Hands-on with Podman Containers on Linux, Hands-on with HAProxy Load Balancer, LEMP Stack Deep Dive, KVM Virtualization on Linux, and Managing Linux Servers with Cockpit.
-- Hosted *Linux This Month* and took part in the first ACG Community Summit. Joined A Cloud Guru from Linux Academy through its acquisition in August 2020.
+- Wrote and produced five other courses end to end (syllabus, slides, video and audio editing, and hands-on labs built on AWS CloudFormation): Hands-on with Podman Containers on Linux, Hands-on with HAProxy Load Balancer, LEMP Stack Deep Dive, KVM Virtualization on Linux, and Managing Linux Servers with Cockpit.
+- Hosted *Linux This Month* and took part in the first ACG Community Summit.
 
 ### **Independent Consultant, Linux & Infrastructure**
 
 #### **Lucid Services Group, Farm Journal, The Phoenix Group**
 
-#### Jan 2018 - Jul 2019 · Greater Chicago Area · Remote / Hybrid
+#### Jan 2018 - Jul 2019 · Greater Chicago Area · Remote/Hybrid
 
 - Indiana University (through Lucid): retired and transitioned applications and services across RHEL 5, 6, and 7 servers on VMware vRA, and managed the project and customer relationships end to end.
 - Farm Journal: documented the full environment, audited Active Directory, integrated Okta SSO with AD and KnowBe4, migrated several terabytes of file-server data to Dropbox, and helped design and deploy an Acronis backup solution on VMware.
@@ -92,7 +90,7 @@ I help organizations succeed with cloud-native infrastructure, and I've spent ov
 
 #### Jan 2016 - Dec 2017 · Greater Chicago Area · Remote
 
-- Was one of two Level 3 engineers for an estate of 550+ SUSE and RHEL hosts on HP hardware and VMware, and oversaw offshore resources.
+- Served as one of two Level 3 engineers for an estate of 550+ SUSE and RHEL hosts on HP hardware and VMware, and oversaw offshore resources.
 - Owned the Linux patching and security remediation process, represented the Linux team at weekly change management, and helped deploy SUSE Manager and Red Hat Satellite 6.
 
 ### **Senior Linux Architect / Team Lead**
@@ -110,8 +108,8 @@ I help organizations succeed with cloud-native infrastructure, and I've spent ov
 
 #### Jul 2009 - Jun 2015 · Greater Chicago Area · Hybrid
 
-- Served as Technical Account Manager for Alcatel-Lucent, Motorola, and AT&T, then identified, won, and led large RHEL deployment projects for AT&T: many nodes across many sites on IBM BladeCenter and Hitachi AMS2500 storage, all built with custom Kickstart/PXE/Bash automation.
-- Was one of the two technical leads in ITD's Red Hat partnership as AT&T retooled on OpenStack. I earned every available Red Hat partner platform, virtualization, and cloud certification and trained ITD's engineering teams on them.
+- Served as Technical Account Manager for Alcatel-Lucent, Motorola, and AT&T, then identified, won, and led large multi-site RHEL deployment projects for AT&T on IBM BladeCenter and Hitachi AMS2500 storage, all built with custom Kickstart/PXE/Bash automation.
+- Served as one of the two technical leads in ITD's Red Hat partnership as AT&T retooled on OpenStack. Earned every available Red Hat partner platform, virtualization, and cloud certification and trained ITD's engineering teams on them.
 
 ### **Earlier experience**
 
@@ -124,9 +122,10 @@ I help organizations succeed with cloud-native infrastructure, and I've spent ov
 
 ## **Open source and community**
 
+- [observability-k3d](https://github.com/southsidedean/observability-k3d) (ok3d): a network operations center for a home network on k3d, with device checks, UniFi metrics, and alerts by phone or email. I'm rebuilding it release by release.
 - [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant): a self-hosted Docker service that tests thousands of free IPTV streams nightly, matches them to program guide data, and serves a clean playlist and guide to Kodi, Plex, Jellyfin, and other players.
 - [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes): one-command sandboxes on k3d, kind, and EKS for Istio (sidecar and ambient), kgateway, kagent, SPIFFE/SPIRE, and locality load balancing.
-- [observability-k3d](https://github.com/southsidedean/observability-k3d) (homelab Prometheus, Grafana, and Loki on k3d), [cka-d-cluster-builder-lab](https://github.com/southsidedean/cka-d-cluster-builder-lab), [self-hosted-gitlab-libvirt](https://github.com/southsidedean/self-hosted-gitlab-libvirt), and technical articles on LinkedIn and GitHub about Kubernetes, Podman, KIND, Multipass, and Terraform.
+- [cka-d-cluster-builder-lab](https://github.com/southsidedean/cka-d-cluster-builder-lab), [self-hosted-gitlab-libvirt](https://github.com/southsidedean/self-hosted-gitlab-libvirt), and technical articles on LinkedIn and GitHub about Kubernetes, Podman, kind, Multipass, and Terraform.
 
 ## **Licenses and certifications**
 
