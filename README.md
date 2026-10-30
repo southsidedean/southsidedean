@@ -46,7 +46,7 @@ Step-by-step tutorials from my blogging and teaching:
 - Kubernetes: [Deploy KIND with Podman (macOS)](https://github.com/southsidedean/deploy-kind-using-podman-macos) · [Deploy KIND with Podman (Ubuntu)](https://github.com/southsidedean/deploy-kind-using-podman-ubuntu) · [Generate YAML manifests with kubectl](https://github.com/southsidedean/using-kubectl-generate-yaml-manifests) · [Deploy Confluence on Kubernetes](https://github.com/southsidedean/deploy-confluence-k8s-using-podman)
 - Podman: [Confluence in a Podman pod](https://github.com/southsidedean/deploy-confluence-podman-pod) · [Generate and test Kubernetes manifests with Podman](https://github.com/southsidedean/using-podman-generate-test-k8s-manifest)
 - Infrastructure as code: [Hands-on with Terraform on Linux](https://github.com/southsidedean/hands-on-with-terraform-on-linux)
-- Linux and self-hosting: [Self-hosted GitLab with a KVM runner](https://github.com/southsidedean/self-hosted-gitlab-libvirt) · [Multipass on macOS](https://github.com/southsidedean/intro-to-multipass-macos) · [Multipass on Ubuntu](https://github.com/southsidedean/intro-to-multipass-ubuntu)
+- Multipass: [Multipass on macOS](https://github.com/southsidedean/intro-to-multipass-macos) · [Multipass on Ubuntu](https://github.com/southsidedean/intro-to-multipass-ubuntu)
 
 ## Resume
 
