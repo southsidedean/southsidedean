@@ -14,7 +14,7 @@ Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short.
 
 - [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) tests thousands of free IPTV streams every night and serves a working playlist and program guide to Kodi, Plex, Jellyfin, and other players. An AI assistant can help run it, and changes wait for your approval.
 - [observability-k3d](https://github.com/southsidedean/observability-k3d) is now ok3d, a network operations center for your home on k3d. It watches every device on your network and alerts you when something breaks. I'm rebuilding it release by release.
-- [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes) has scripted sandboxes on k3d, kind, and AWS EKS for Istio (sidecar and ambient), Gloo Mesh, kgateway, Gloo Gateway, kagent, and agentgateway. I used them to experiment and learn, and they're not active right now.
+- My CKA/CKAD cluster builders, [cka-d-cluster-builder-lab](https://github.com/southsidedean/cka-d-cluster-builder-lab) for a KVM host and [kubeadm-cluster-builder-aws-terraform](https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform) for AWS EC2, are practice labs. Terraform builds the nodes, and a walkthrough takes you from bare VMs to a working kubeadm cluster. A Multipass version for macOS and Linux is next.
 
 ### Recent activity
 
@@ -45,7 +45,7 @@ Step-by-step tutorials from my blogging and teaching:
 
 - Kubernetes: [Deploy KIND with Podman (macOS)](https://github.com/southsidedean/deploy-kind-using-podman-macos) · [Deploy KIND with Podman (Ubuntu)](https://github.com/southsidedean/deploy-kind-using-podman-ubuntu) · [Generate YAML manifests with kubectl](https://github.com/southsidedean/using-kubectl-generate-yaml-manifests) · [Deploy Confluence on Kubernetes](https://github.com/southsidedean/deploy-confluence-k8s-using-podman)
 - Podman: [Confluence in a Podman pod](https://github.com/southsidedean/deploy-confluence-podman-pod) · [Generate and test Kubernetes manifests with Podman](https://github.com/southsidedean/using-podman-generate-test-k8s-manifest)
-- Infrastructure as code: [CKA/CKAD cluster builder (Terraform + KVM)](https://github.com/southsidedean/cka-d-cluster-builder-lab) · [kubeadm cluster builder on AWS](https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform) · [Hands-on with Terraform on Linux](https://github.com/southsidedean/hands-on-with-terraform-on-linux)
+- Infrastructure as code: [Hands-on with Terraform on Linux](https://github.com/southsidedean/hands-on-with-terraform-on-linux)
 - Linux and self-hosting: [Self-hosted GitLab with a KVM runner](https://github.com/southsidedean/self-hosted-gitlab-libvirt) · [Multipass on macOS](https://github.com/southsidedean/intro-to-multipass-macos) · [Multipass on Ubuntu](https://github.com/southsidedean/intro-to-multipass-ubuntu)
 
 ## Resume

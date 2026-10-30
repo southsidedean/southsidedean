@@ -122,10 +122,10 @@ Customer Success Engineer at Solo.io, working with enterprise customers on servi
 
 ## **Open source and community**
 
+- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant): a self-hosted Docker service that tests thousands of free IPTV streams nightly, matches them to program guide data, and serves a clean playlist and guide to Kodi, Plex, Jellyfin, and other players. An AI assistant can help run it, and changes wait for approval.
 - [observability-k3d](https://github.com/southsidedean/observability-k3d) (ok3d): a network operations center for a home network on k3d, with device checks, UniFi metrics, and alerts by phone or email. I'm rebuilding it release by release.
-- [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant): a self-hosted Docker service that tests thousands of free IPTV streams nightly, matches them to program guide data, and serves a clean playlist and guide to Kodi, Plex, Jellyfin, and other players.
-- [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes): one-command sandboxes on k3d, kind, and EKS for Istio (sidecar and ambient), kgateway, kagent, SPIFFE/SPIRE, and locality load balancing.
-- [cka-d-cluster-builder-lab](https://github.com/southsidedean/cka-d-cluster-builder-lab), [self-hosted-gitlab-libvirt](https://github.com/southsidedean/self-hosted-gitlab-libvirt), and technical articles on LinkedIn and GitHub about Kubernetes, Podman, kind, Multipass, and Terraform.
+- [cka-d-cluster-builder-lab](https://github.com/southsidedean/cka-d-cluster-builder-lab) and [kubeadm-cluster-builder-aws-terraform](https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform): CKA/CKAD practice labs. Terraform builds the nodes on a KVM host or AWS EC2, and a walkthrough takes students from bare VMs to a working kubeadm cluster. A Multipass version for macOS and Linux is next.
+- [self-hosted-gitlab-libvirt](https://github.com/southsidedean/self-hosted-gitlab-libvirt) and technical articles on LinkedIn and GitHub about Kubernetes, Podman, kind, Multipass, and Terraform.
 
 ## **Licenses and certifications**
 
