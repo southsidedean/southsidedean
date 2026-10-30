@@ -1,14 +1,14 @@
 # Tom Dean
 
-Customer Success Engineer at [Solo.io](https://www.solo.io/) · Kubernetes, service mesh & AI gateways · Linux veteran & technical educator · Chicago
+Senior Customer Success Engineer · Kubernetes, service mesh & AI gateways · Linux infrastructure & training · Chicago · Open to new roles
 
-I help teams succeed with cloud-native infrastructure, and I've spent over 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Today I work with customers on cloud connectivity and agentic AI. Before Solo.io I was a field engineer at Buoyant (Linkerd), where I wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) at KubeCon North America 2024. Earlier, at Linux Academy and A Cloud Guru, I co-authored the RHCSA 8 exam prep course, and I've helped build hands-on lab platforms for Kubernetes training.
+I help teams succeed with cloud-native infrastructure, and I've spent over 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Most recently I was a senior customer success engineer at [Solo.io](https://www.solo.io/), working with customers on cloud connectivity and agentic AI. Before that I was a field engineer at Buoyant (Linkerd), where I wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) at KubeCon North America 2024. Earlier, at Linux Academy and A Cloud Guru, I co-authored the RHCSA 8 exam prep course, and I've helped build hands-on lab platforms for Kubernetes training.
 
-Always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
+I'm open to new roles, and always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 
 ## What I've been up to
 
-Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short. It started as an itch to scratch with IPTV program guides, and it's the project that finally got me coding with Claude at home, after using it at work since early 2026. Home media stacks are a pain to set up and keep running. That kind of hassle has kept me away from plenty of cool technology over the years, so I want kia to get people to a working stack quickly. kia and my home network monitor, ok3d, are useful on their own, and they're also where I work on agentic use cases, building things that weren't possible before.
+Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short. It started as an itch to scratch with IPTV program guides, and it's the project that finally got me coding with Claude at home, after I started using it at work in early 2026. Home media stacks are a pain to set up and keep running. That kind of hassle has kept me away from plenty of cool technology over the years, so I want kia to get people to a working stack quickly. kia and my home network monitor, ok3d, are useful on their own, and they're also where I work on agentic use cases, building things that weren't possible before.
 
 ### Highlights
 

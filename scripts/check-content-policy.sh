@@ -7,7 +7,7 @@ set -uo pipefail
 if [ "$#" -gt 0 ]; then
     files=("$@")
 else
-    files=(README.md Resume-Tom-Dean.md Short-Bio-Tom-Dean.txt)
+    files=(README.md Resume-Tom-Dean.md Short-Bio-Tom-Dean.txt resume/LinkedIn-Tom-Dean.md)
 fi
 
 # Each rule: "description|extended regex (case-insensitive)"
@@ -15,7 +15,7 @@ rules=(
     "Draft marker left in content|\[(TBD|CONFIRM)[^]]*\]"
     "Link to employer (solo-io) GitHub org|github\.com/solo-io"
     "Old email address (use tom@southsidedean.com)|dean33\.com"
-    "Job-search wording (stance is open but quiet)|looking for [^.]*(role|position|opportunit|job)|open to (work|(new )?(role|position|opportunit|job))|#?opentowork|seeking [^.]*(role|position|opportunit|job|employment)|(actively|currently) (looking|searching|seeking|interviewing)|job[- ](search|hunt)|available for (hire|work|(new )?(role|position|opportunit))|in the market for|hire me|next (career )?(challenge|chapter|role|opportunit|adventure)"
+    "Job-search wording (the approved phrase is 'open to new roles')|looking for [^.]*(role|position|opportunit|job)|open to (work|(new )?(position|opportunit|job))|#?opentowork|seeking [^.]*(role|position|opportunit|job|employment)|(actively|currently) (looking|searching|seeking|interviewing)|job[- ](search|hunt)|available for (hire|work|(new )?(role|position|opportunit))|in the market for|hire me|next (career )?(challenge|chapter|role|opportunit|adventure)"
     "Stale SAA study note|working on SAA|studying for the AWS Certified Solutions Architect"
     "Phone number|\(?[0-9]{3}\)?[-. ][0-9]{3}[-. ][0-9]{4}"
 )

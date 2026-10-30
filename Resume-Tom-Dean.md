@@ -1,13 +1,13 @@
 # **Tom Dean**
 
 <!-- markdownlint-disable-next-line MD036 -->
-**Customer Success Engineer · Kubernetes, Service Mesh & AI Gateways · Linux Infrastructure & Training**
+**Senior Customer Success Engineer · Kubernetes, Service Mesh & AI Gateways · Linux Infrastructure & Training**
 
 Greater Chicago Area · [tom@southsidedean.com](mailto:tom@southsidedean.com) · [linkedin.com/in/tomdeanjr](https://www.linkedin.com/in/tomdeanjr) · [github.com/southsidedean](https://github.com/southsidedean) · [southsidedean.com](https://southsidedean.com)
 
 ## **Summary**
 
-Customer Success Engineer at Solo.io, working with enterprise customers on service mesh, API gateways, and agentic AI. I've spent over 30 years in UNIX, Linux, and infrastructure, from the data center through virtualization, cloud, Kubernetes, and service mesh. At Buoyant I was in charge of pre-sales proofs of concept, contributed to a 4x increase in customers, and spoke at KubeCon. Earlier, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide and helped build hands-on lab platforms.
+Most recently a Senior Customer Success Engineer at Solo.io, working with enterprise customers on service mesh, API gateways, and agentic AI. I've spent over 30 years in UNIX, Linux, and infrastructure, from the data center through virtualization, cloud, Kubernetes, and service mesh. At Buoyant I was in charge of pre-sales proofs of concept, contributed to a 4x increase in customers, and spoke at KubeCon. Earlier, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide and helped build hands-on lab platforms.
 
 ## **Core skills**
 
@@ -21,16 +21,16 @@ Customer Success Engineer at Solo.io, working with enterprise customers on servi
 
 ## **Experience**
 
-### **Customer Success Engineer**
+### **Senior Customer Success Engineer**
 
 #### **Solo.io**
 
-#### Apr 2025 - Present · Greater Chicago Area · Remote
+#### Apr 2025 - Oct 2026 · Greater Chicago Area · Remote
 
-- Partner with enterprise customers from onboarding through production across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer agentic AI products, like agentgateway, kagent, and agentdesktop.
-- Turn customer goals into working architectures across Istio, Envoy, the Kubernetes Gateway API, and AI agent infrastructure.
-- Build reproducible lab environments to test designs and work through issues, and bring what I learn from customers back to product and engineering teams.
-- Developed a human-in-the-loop Claude skill that helps engineers triage customer issues, reproduce them, analyze CVEs, and draft GitHub issues, with the engineer reviewing and deciding at every step. Reproducing an issue used to take me a day; now it's a routine part of my workflow, so I dig into issues faster and more thoroughly.
+- Partnered with enterprise customers from onboarding through production across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer agentic AI products, like agentgateway, kagent, and agentdesktop.
+- Turned customer goals into working architectures across Istio, Envoy, the Kubernetes Gateway API, and AI agent infrastructure.
+- Built reproducible lab environments to test designs and work through issues, and brought what I learned from customers back to product and engineering teams.
+- Developed a human-in-the-loop Claude skill that helps engineers triage customer issues, reproduce them, analyze CVEs, and draft GitHub issues, with the engineer reviewing and deciding at every step. Reproducing an issue used to take me a day; with the skill it became a routine part of my workflow, so I dug into issues faster and more thoroughly.
 
 ### **Field Engineer**
 
