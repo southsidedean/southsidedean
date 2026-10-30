@@ -1,4 +1,4 @@
 [codespell]
 # Generated resume builds (dist/) aren't committed; the Markdown source is checked instead.
 skip = *.pdf,*.html,.git
-ignore-words-list = commnet
+ignore-words-list = commnet,aks

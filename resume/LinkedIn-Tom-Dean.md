@@ -47,10 +47,10 @@ I'm open to new roles, and always happy to talk shop: tom@southsidedean.com
 Apr 2025 - Oct 2026 · Greater Chicago Area · Remote
 
 ```text
-• Partnered with enterprise customers from onboarding through production across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer agentic AI products, like agentgateway, kagent, and agentdesktop.
+• Partnered with five key enterprise accounts from onboarding through production, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer agentic AI products, like agentgateway, kagent, and agentdesktop.
 • Turned customer goals into working architectures across Istio, Envoy, the Kubernetes Gateway API, and AI agent infrastructure.
 • Built reproducible lab environments to test designs and work through issues, and fed customer insight back to product and engineering teams.
-• Built a human-in-the-loop AI (Claude) skill that helps engineers triage and reproduce customer issues, analyze CVEs, and draft GitHub issues, with the engineer approving each step. Reproducing an issue had taken about a day; with the skill it became routine, which made investigations faster and more thorough.
+• Built a human-in-the-loop AI (Claude) skill that helps engineers triage and reproduce customer issues, analyze CVEs, and draft GitHub issues, with the engineer approving each step. It cut reproductions that could take a day or more of an engineer's focus down to hours and let engineers work on several at once, and many team members used it.
 ```
 
 Skills: Istio · Envoy · Kubernetes · Gateway API · Customer Success
@@ -61,8 +61,8 @@ Jan 2024 - Apr 2025 · Greater Chicago Area · Remote
 
 ```text
 • Contributed to a 4x increase in Buoyant's customer count during my tenure, working across field engineering, customer success, and technical account management: worked with sales to meet customers' technical needs and close deals, then handled implementation and ongoing operational support.
-• Built the pre-sales proof of concept (PoC) process, ran PoCs, and set up their tracking and integration in Salesforce.
-• Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency.
+• Built the pre-sales proof of concept (PoC) process, ran dozens of PoCs, most of which became customers, and set up PoC tracking and integration in Salesforce.
+• Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency. Many customers saw traffic reductions of 50% or more right away, with more gains from tuning.
 • Wrote and co-presented Multi-Zone Clusters Inside and Out with Phil Henderson at KubeCon + CloudNativeCon North America 2024 in Salt Lake City.
 • Built and delivered technical demos and hands-on tutorials for Linkerd, including an introduction to service mesh and High Availability Zonal Load Balancing (HAZL). Co-hosted Buoyant's monthly Service Mesh Academy livestream with Flynn.
 ```
@@ -80,6 +80,14 @@ Nov 2023 - Jan 2024 · Greater Chicago Area · Remote
 
 Skills: Amazon Web Services (AWS) · Technical Training · Terraform
 
+### Career break
+
+Mar 2023 - Oct 2023 · use LinkedIn's Career break entry (type: Professional development or Family)
+
+```text
+Studied for the CKA, CKAD, and AWS Cloud Practitioner exams (earned Dec 2023), wrote free GitHub tutorials, and spent time with family.
+```
+
 ### Education Curriculum Architect / Developer · D2iQ
 
 Aug 2021 - Feb 2023 · Greater Chicago Area · Remote
@@ -87,7 +95,7 @@ Aug 2021 - Feb 2023 · Greater Chicago Area · Remote
 ```text
 • Owned the Learning and Development function, setting strategy and running content development and delivery for a catalog of instructor-led Kubernetes and CNCF courses for internal and external students.
 • Helped build an automated hands-on lab platform on AWS with Terraform and GitLab CI/CD, then took over its operation and maintenance.
-• Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. Evaluated the leading LMS and lab vendors (Docebo, Skilljar, Instructure, CloudShare, Skillable, Instruqt, Appsembler, and others), then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch. The project was canceled in early 2023.
+• Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. Evaluated the leading LMS and lab vendors, then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch. The project was canceled in early 2023.
 ```
 
 Skills: Kubernetes · Curriculum Development · Terraform · GitLab CI/CD
@@ -218,11 +226,11 @@ Add each under Projects, associated with no employer.
 Purdue University · BA, Psychology / Law and Society
 
 ```text
-Staff writer and photographer for The Exponent. Purdue is where I first learned UNIX.
+Staff writer and photographer for The Exponent.
 ```
 
 ## Skills
 
 Top skills to pin (LinkedIn shows five): Kubernetes · Istio · Customer Success · Linux · Technical Training
 
-Others from the resume's Core skills: Technical Account Management · Pre-sales · Proof of Concept · Salesforce · Envoy · Gateway API · Linkerd · Helm · Docker · Podman · kagent · agentgateway · AWS · Azure · Google Cloud Platform · Terraform · AWS CloudFormation · GitLab CI/CD · GitHub Actions · GitOps · Prometheus · Grafana · Loki · Red Hat Enterprise Linux (RHEL) · Ubuntu · SUSE Linux · Solaris · KVM · VMware · Storage Area Networks (SAN) · High Availability · Disaster Recovery · Bash · Python · Ansible · Customer Onboarding · Course Development · Technical Documentation · Video Production · Public Speaking
+Others from the resume's Core skills: Technical Account Management · Pre-sales · Proof of Concept · Escalation Management · Account Expansion · Quarterly Business Reviews (QBRs) · Salesforce · Zendesk · Jira · Multi-cluster · Zero Trust · Amazon EKS · Azure Kubernetes Service (AKS) · Google Kubernetes Engine (GKE) · OpenTelemetry · Envoy · Gateway API · Linkerd · Helm · Docker · Podman · kagent · agentgateway · AWS · Azure · Google Cloud Platform · Terraform · AWS CloudFormation · GitLab CI/CD · GitHub Actions · GitOps · Prometheus · Grafana · Loki · Red Hat Enterprise Linux (RHEL) · Ubuntu · SUSE Linux · Solaris · KVM · VMware · Storage Area Networks (SAN) · High Availability · Disaster Recovery · Bash · Python · Ansible · Customer Onboarding · Course Development · Technical Documentation · Video Production · Public Speaking
