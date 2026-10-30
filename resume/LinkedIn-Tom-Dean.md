@@ -49,8 +49,8 @@ Apr 2025 - Oct 2026 · Greater Chicago Area · Remote
 ```text
 • Partnered with enterprise customers from onboarding through production across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer agentic AI products, like agentgateway, kagent, and agentdesktop.
 • Turned customer goals into working architectures across Istio, Envoy, the Kubernetes Gateway API, and AI agent infrastructure.
-• Built reproducible lab environments to test designs and work through issues, and brought what I learned from customers back to product and engineering teams.
-• Developed a human-in-the-loop Claude skill that helps engineers triage customer issues, reproduce them, analyze CVEs, and draft GitHub issues, with the engineer reviewing and deciding at every step. Reproducing an issue used to take me a day; with the skill it became a routine part of my workflow, so I dug into issues faster and more thoroughly.
+• Built reproducible lab environments to test designs and work through issues, and fed customer insight back to product and engineering teams.
+• Built a human-in-the-loop AI (Claude) skill that helps engineers triage and reproduce customer issues, analyze CVEs, and draft GitHub issues, with the engineer approving each step. Reproducing an issue had taken about a day; with the skill it became routine, which made investigations faster and more thorough.
 ```
 
 Skills: Istio · Envoy · Kubernetes · Gateway API · Customer Success
@@ -60,7 +60,7 @@ Skills: Istio · Envoy · Kubernetes · Gateway API · Customer Success
 Jan 2024 - Apr 2025 · Greater Chicago Area · Remote
 
 ```text
-• Contributed to a 4x increase in Buoyant's customer count during my tenure, working across field engineering, customer success, and technical account management: solving technical needs with the sales team to close deals, then implementation and ongoing operational support.
+• Contributed to a 4x increase in Buoyant's customer count during my tenure, working across field engineering, customer success, and technical account management: worked with sales to meet customers' technical needs and close deals, then handled implementation and ongoing operational support.
 • Built the pre-sales proof of concept (PoC) process, ran PoCs, and set up their tracking and integration in Salesforce.
 • Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency.
 • Wrote and co-presented Multi-Zone Clusters Inside and Out with Phil Henderson at KubeCon + CloudNativeCon North America 2024 in Salt Lake City.
@@ -75,7 +75,7 @@ Nov 2023 - Jan 2024 · Greater Chicago Area · Remote
 
 ```text
 • Owned technical certification and upskilling for an AWS consultancy's engineering staff across AWS, Kubernetes, Python, and Terraform.
-• Ran the Technical Ambassador and Subject Matter Expert programs and the second half of the Apprenticeship program. Curated and built training content and learning paths. The role ended in a January 2024 company reorganization.
+• Ran the Technical Ambassador and Subject Matter Expert programs and the second half of the Apprenticeship program. Curated and built training content and learning paths. The role ended in a company reorganization.
 ```
 
 Skills: Amazon Web Services (AWS) · Technical Training · Terraform
@@ -85,9 +85,9 @@ Skills: Amazon Web Services (AWS) · Technical Training · Terraform
 Aug 2021 - Feb 2023 · Greater Chicago Area · Remote
 
 ```text
-• Owned the Learning and Development function as team principal, setting strategy and running content development and delivery for a catalog of instructor-led Kubernetes and CNCF courses for internal and external students.
+• Owned the Learning and Development function, setting strategy and running content development and delivery for a catalog of instructor-led Kubernetes and CNCF courses for internal and external students.
 • Helped build an automated hands-on lab platform on AWS with Terraform and GitLab CI/CD, then took over its operation and maintenance.
-• Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. Evaluated the leading LMS and lab vendors (Docebo, Skilljar, Instructure, CloudShare, Skillable, Instruqt, Appsembler, and others), then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch. The project was cancelled in early 2023, and my position was eliminated.
+• Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. Evaluated the leading LMS and lab vendors (Docebo, Skilljar, Instructure, CloudShare, Skillable, Instruqt, Appsembler, and others), then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch. The project was canceled in early 2023.
 ```
 
 Skills: Kubernetes · Curriculum Development · Terraform · GitLab CI/CD
@@ -99,7 +99,7 @@ Sep 2019 - Jul 2021 · Greater Chicago Area · Remote
 ```text
 • Co-authored the Red Hat Certified System Administrator (EX200, RHEL 8) exam prep course with Ross Brunson.
 • Wrote and produced five other courses end to end (syllabus, slides, video and audio editing, and hands-on labs built on AWS CloudFormation): Hands-on with Podman Containers on Linux, Hands-on with HAProxy Load Balancer, LEMP Stack Deep Dive, KVM Virtualization on Linux, and Managing Linux Servers with Cockpit.
-• Hosted Linux This Month and took part in the first ACG Community Summit.
+• Hosted Linux This Month.
 ```
 
 Skills: Linux · Red Hat Enterprise Linux (RHEL) · Course Development · Video Production · AWS CloudFormation
@@ -109,7 +109,7 @@ Skills: Linux · Red Hat Enterprise Linux (RHEL) · Course Development · Video 
 Jan 2018 - Jul 2019 · Greater Chicago Area · Remote/Hybrid · Self-employed
 
 ```text
-• Indiana University (through Lucid): retired and transitioned applications and services across RHEL 5, 6, and 7 servers on VMware vRA, and managed the project and customer relationships end to end.
+• Indiana University (through Lucid): retired and transitioned applications and services across RHEL 5, 6, and 7 servers on VMware vRA, and managed the project and the customer relationships throughout.
 • Farm Journal: documented the full environment, audited Active Directory, integrated Okta SSO with AD and KnowBe4, migrated several terabytes of file-server data to Dropbox, and helped design and deploy an Acronis backup solution on VMware.
 • The Phoenix Group: stood in as Linux Lead during an employee's leave, deploying Foreman/Katello (Red Hat Satellite 6) while running the RHEL, VMware, and Hitachi SAN estate.
 • Took a career break (Sep 2018 - Feb 2019) for family and training in Kubernetes and AWS.
@@ -225,4 +225,4 @@ Staff writer and photographer for The Exponent. Purdue is where I first learned 
 
 Top skills to pin (LinkedIn shows five): Kubernetes · Istio · Customer Success · Linux · Technical Training
 
-Others from the resume's Core skills: Envoy · Gateway API · Linkerd · Helm · Docker · Podman · kagent · agentgateway · AWS · Azure · Google Cloud Platform · Terraform · AWS CloudFormation · GitLab CI/CD · GitHub Actions · GitOps · Prometheus · Grafana · Loki · Red Hat Enterprise Linux (RHEL) · Ubuntu · SUSE Linux · Solaris · KVM · VMware · Storage Area Networks (SAN) · High Availability · Disaster Recovery · Bash · Python · Ansible · Customer Onboarding · Course Development · Technical Documentation · Video Production · Public Speaking
+Others from the resume's Core skills: Technical Account Management · Pre-sales · Proof of Concept · Salesforce · Envoy · Gateway API · Linkerd · Helm · Docker · Podman · kagent · agentgateway · AWS · Azure · Google Cloud Platform · Terraform · AWS CloudFormation · GitLab CI/CD · GitHub Actions · GitOps · Prometheus · Grafana · Loki · Red Hat Enterprise Linux (RHEL) · Ubuntu · SUSE Linux · Solaris · KVM · VMware · Storage Area Networks (SAN) · High Availability · Disaster Recovery · Bash · Python · Ansible · Customer Onboarding · Course Development · Technical Documentation · Video Production · Public Speaking
