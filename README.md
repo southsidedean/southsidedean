@@ -19,14 +19,14 @@ Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short.
 ### Recent activity
 
 <!-- WHATS-NEW:START -->
-- 2026-10-29: Updated [observability-k3d](https://github.com/southsidedean/observability-k3d)
+- 2026-10-30: Updated [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant)
+- 2026-10-30: Released [observability-k3d v0.5.0](https://github.com/southsidedean/observability-k3d/releases/tag/v0.5.0)
+- 2026-10-30: Released [kubeadm-cluster-builder-aws-terraform v0.2.0](https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform/releases/tag/v0.2.0)
+- 2026-10-30: Created [cka-d-cluster-builder-multipass](https://github.com/southsidedean/cka-d-cluster-builder-multipass)
+- 2026-10-30: Updated [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes)
+- 2026-10-29: Released [kodi-iptv-assistant v0.8.5](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.8.5)
 - 2026-10-29: Released [cka-d-cluster-builder-lab v0.3.0](https://github.com/southsidedean/cka-d-cluster-builder-lab/releases/tag/v0.3.0)
 - 2026-10-29: Released [cka-d-cluster-builder-lab v0.2.1](https://github.com/southsidedean/cka-d-cluster-builder-lab/releases/tag/v0.2.1)
-- 2026-10-29: Released [kodi-iptv-assistant v0.8.5](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.8.5)
-- 2026-10-28: Released [observability-k3d v0.4.0](https://github.com/southsidedean/observability-k3d/releases/tag/v0.4.0)
-- 2026-10-28: Released [observability-k3d v0.3.0](https://github.com/southsidedean/observability-k3d/releases/tag/v0.3.0)
-- 2026-10-27: Released [kodi-iptv-assistant v0.7.6](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.7.6)
-- 2026-10-26: Released [kodi-iptv-assistant v0.6.7](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.6.7)
 <!-- WHATS-NEW:END -->
 
 ## What I work with
