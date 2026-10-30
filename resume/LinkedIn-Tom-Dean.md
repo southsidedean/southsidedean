@@ -62,7 +62,7 @@ Jan 2024 - Apr 2025 · Greater Chicago Area · Remote
 ```text
 • Contributed to a 4x increase in Buoyant's customer count during my tenure, working across field engineering, customer success, and technical account management: worked with sales to meet customers' technical needs and close deals, then handled implementation and ongoing operational support.
 • Built the pre-sales proof of concept (PoC) process, ran dozens of PoCs, most of which became customers, and set up PoC tracking and integration in Salesforce.
-• Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency. Many customers saw traffic reductions of 50% or more right away, with more gains from tuning.
+• Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency. Many customers saw cross-zone traffic reductions of 50% or more right away, with more gains from tuning.
 • Wrote and co-presented Multi-Zone Clusters Inside and Out with Phil Henderson at KubeCon + CloudNativeCon North America 2024 in Salt Lake City.
 • Built and delivered technical demos and hands-on tutorials for Linkerd, including an introduction to service mesh and High Availability Zonal Load Balancing (HAZL). Co-hosted Buoyant's monthly Service Mesh Academy livestream with Flynn.
 ```
