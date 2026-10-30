@@ -7,7 +7,7 @@ set -uo pipefail
 if [ "$#" -gt 0 ]; then
     files=("$@")
 else
-    files=(README.md Resume-Tom-Dean.md Short-Bio-Tom-Dean.txt)
+    files=(README.md Resume-Tom-Dean.md Short-Bio-Tom-Dean.txt resume/LinkedIn-Tom-Dean.md)
 fi
 
 # Each rule: "description|extended regex (case-insensitive)"
