@@ -48,9 +48,9 @@ Apr 2025 - Oct 2026 · Greater Chicago Area · Remote
 
 ```text
 • Owned five key enterprise accounts, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh).
-• Turned customer goals into working architectures across Istio, Envoy, and the Kubernetes Gateway API.
+• Managed customer issues and use cases across Istio, Gloo Edge/Gateway, kgateway, and the Kubernetes Gateway API.
 • Built reproducible lab environments to test designs and work through issues, and fed customer insight back to product and engineering teams.
-• Built a human-in-the-loop AI (Claude) skill that helps engineers triage and reproduce customer issues, analyze CVEs, and draft GitHub issues, with the engineer approving each step. It cut reproductions that could take a day or more of an engineer's focus down to hours and let engineers work on several at once, and many team members used it.
+• Built a human-in-the-loop AI (Claude) skill that helps engineers triage and reproduce customer issues, analyze CVEs, and draft GitHub issues, with the engineer approving each step. It cut reproductions that could take a day or more of an engineer's focus down to hours, and let engineers work on several reproductions at once. Many team members used it.
 ```
 
 Skills: Istio · Envoy · Kubernetes · Gateway API · Customer Success
@@ -75,7 +75,7 @@ Nov 2023 - Jan 2024 · Greater Chicago Area · Remote
 
 ```text
 • Owned technical certification and upskilling for an AWS consultancy's engineering staff across AWS, Kubernetes, Python, and Terraform.
-• Ran the Technical Ambassador and Subject Matter Expert programs and the second half of the Apprenticeship program. Curated and built training content and learning paths. The role ended due to a company reorganization.
+• Ran the Technical Ambassador and Subject Matter Expert programs and the second half of the Apprenticeship program. Curated and built training content and learning paths. The role ended due to a company reorganization, ahead of an acquisition.
 ```
 
 Skills: Amazon Web Services (AWS) · Technical Training · Terraform
