@@ -14,7 +14,7 @@ Customer success and field engineer for cloud-native infrastructure, most recent
 - Customer engagement: customer success, technical account management, pre-sales proofs of concept, customer onboarding, escalation management, renewals and expansion, QBRs, Salesforce, Zendesk, Jira
 - Cloud native: Kubernetes (CKA, CKAD), Istio (sidecar and ambient), Gloo Mesh, kgateway, Gloo Gateway, Linkerd, Envoy, Kubernetes Gateway API, mTLS and zero trust, multi-cluster, Helm, k3d/kind, containers (Docker, Podman)
 - AI tools: Claude and Claude Code (skills, MCP servers, human-in-the-loop workflows), ChatGPT
-- AI infrastructure: AI agent platforms on Kubernetes (kagent), agent and MCP gateways (agentgateway), agentdesktop, LLM integration
+- AI infrastructure: AI agent platforms on Kubernetes (kagent), agent and MCP gateways (agentgateway), LLM integration
 - Cloud and IaC: AWS (Certified Cloud Practitioner), Azure (AZ-900), EKS, AKS, GKE, Terraform, CloudFormation, GitLab CI/CD, GitHub Actions, GitOps
 - Observability: Prometheus, Grafana, Loki, Kiali, OpenTelemetry
 - Linux and systems: RHEL, Ubuntu, SUSE, Solaris; KVM, VMware; networking, storage (SAN), high availability, disaster recovery
