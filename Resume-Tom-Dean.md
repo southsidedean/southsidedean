@@ -3,7 +3,7 @@
 <!-- markdownlint-disable-next-line MD036 -->
 **Senior Customer Success Engineer · Kubernetes, Service Mesh & Gateways · Linux Infrastructure & Training**
 
-Chicago, IL · [tom@southsidedean.com](mailto:tom@southsidedean.com) · [linkedin.com/in/tomdeanjr](https://www.linkedin.com/in/tomdeanjr) · [github.com/southsidedean](https://github.com/southsidedean) · [southsidedean.com](https://southsidedean.com)
+Chicago, IL · [tom@southsidedean.com](mailto:tom@southsidedean.com) · [linkedin.com/in/southsidedean](https://www.linkedin.com/in/southsidedean) · [github.com/southsidedean](https://github.com/southsidedean) · [southsidedean.com](https://southsidedean.com)
 
 ## **Summary**
 
@@ -29,7 +29,7 @@ Customer success and field engineer for cloud-native infrastructure, most recent
 
 #### Apr 2025 - Oct 2026 · Greater Chicago Area · Remote
 
-- Owned five key enterprise accounts, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer products, like agentgateway, kagent, and agentdesktop.
+- Owned five key enterprise accounts, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh).
 - Turned customer goals into working architectures across Istio, Envoy, and the Kubernetes Gateway API.
 - Built reproducible lab environments to test designs and work through issues, and fed customer insight back to product and engineering teams.
 - Built a human-in-the-loop AI (Claude) skill that helps engineers triage and reproduce customer issues, analyze CVEs, and draft GitHub issues, with the engineer approving each step. It cut reproductions that could take a day or more of an engineer's focus down to hours and let engineers work on several at once, and many team members used it.
