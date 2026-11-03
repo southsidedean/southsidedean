@@ -47,7 +47,7 @@ I'm open to new roles, and always happy to talk shop: tom@southsidedean.com
 Apr 2025 - Oct 2026 · Greater Chicago Area · Remote
 
 ```text
-• Partnered with five key enterprise accounts from onboarding through production, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer products, like agentgateway, kagent, and agentdesktop.
+• Guided five key enterprise accounts from onboarding through production, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer products, like agentgateway, kagent, and agentdesktop.
 • Turned customer goals into working architectures across Istio, Envoy, and the Kubernetes Gateway API.
 • Built reproducible lab environments to test designs and work through issues, and fed customer insight back to product and engineering teams.
 • Built a human-in-the-loop AI (Claude) skill that helps engineers triage and reproduce customer issues, analyze CVEs, and draft GitHub issues, with the engineer approving each step. It cut reproductions that could take a day or more of an engineer's focus down to hours and let engineers work on several at once, and many team members used it.
@@ -60,7 +60,7 @@ Skills: Istio · Envoy · Kubernetes · Gateway API · Customer Success
 Jan 2024 - Apr 2025 · Greater Chicago Area · Remote
 
 ```text
-• Contributed to a 4x increase in Buoyant's customer count during my tenure, working across field engineering, customer success, and technical account management: worked with sales to meet customers' technical needs and close deals, then handled implementation and ongoing operational support.
+• Contributed to a 4x increase in Buoyant's customer count, working across field engineering, customer success, and technical account management: worked with sales to meet customers' technical needs and close deals, then handled implementation and ongoing operational support.
 • Built the pre-sales proof of concept (PoC) process, ran dozens of PoCs, most of which became customers, and set up PoC tracking and integration in Salesforce.
 • Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency. Many customers saw cross-zone traffic reductions of 50% or more right away, with more gains from tuning.
 • Wrote and co-presented Multi-Zone Clusters Inside and Out with Phil Henderson at KubeCon + CloudNativeCon North America 2024 in Salt Lake City.
@@ -183,7 +183,7 @@ The resume gives only years for these, so keep the months already on LinkedIn.
 - Senior Systems Engineer · EMC (1999 - 2000)
 
   ```text
-  Pre-sales engineer for named accounts. With my sales partner, delivered Indiana's first Symmetrix SRDF installation.
+  Pre-sales engineer for named accounts. With a sales partner, delivered Indiana's first Symmetrix SRDF installation.
   ```
 
 - Other roles (1995 - 2008): System Administrator at Indiana Interactive (the IN.gov portal), UNIX Administrator at Eli Lilly (Apex Systems), Linux Field Engineer at Avnet, Engineering Manager at CommNet Plus, Lead Network Administrator at Macmillan, Information Systems Manager at NSI Software, Sales Engineer at Creative Computers, and Network Specialist at CDW (one of six founding members of CDW's network sales division).
@@ -201,7 +201,7 @@ Add each under Projects, associated with no employer.
 - **ok3d (observability-k3d)** · <https://github.com/southsidedean/observability-k3d>
 
   ```text
-  A network operations center for a home network on k3d, with device checks, UniFi metrics, and alerts by phone or email. I'm rebuilding it release by release.
+  A network operations center for a home network on k3d. It checks every device, alerts by phone or email with a runbook for each alert, and is set up and upgraded from a web dashboard.
   ```
 
 - **CKA/CKAD cluster builders** · <https://github.com/southsidedean/cka-d-cluster-builder-lab> and <https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform>
@@ -233,4 +233,4 @@ Staff writer and photographer for The Exponent.
 
 Top skills to pin (LinkedIn shows five): Kubernetes · Istio · Customer Success · Linux · Technical Training
 
-Others from the resume's Core skills: Technical Account Management · Pre-sales · Proof of Concept · Escalation Management · Account Expansion · Quarterly Business Reviews (QBRs) · Salesforce · Zendesk · Jira · Multi-cluster · Zero Trust · Amazon EKS · Azure Kubernetes Service (AKS) · Google Kubernetes Engine (GKE) · OpenTelemetry · Envoy · Gateway API · Linkerd · Helm · Docker · Podman · kagent · agentgateway · AWS · Azure · Google Cloud Platform · Terraform · AWS CloudFormation · GitLab CI/CD · GitHub Actions · GitOps · Prometheus · Grafana · Loki · Red Hat Enterprise Linux (RHEL) · Ubuntu · SUSE Linux · Solaris · KVM · VMware · Storage Area Networks (SAN) · High Availability · Disaster Recovery · Bash · Python · Ansible · Customer Onboarding · Course Development · Technical Documentation · Video Production · Public Speaking
+Others from the resume's Core skills: Technical Account Management · Pre-sales · Proof of Concept · Escalation Management · Account Expansion · Quarterly Business Reviews (QBRs) · Salesforce · Zendesk · Jira · Multi-cluster · Zero Trust · Amazon EKS · Azure Kubernetes Service (AKS) · Google Kubernetes Engine (GKE) · OpenTelemetry · Envoy · Gateway API · Linkerd · Helm · Docker · Podman · kagent · agentgateway · AWS · Azure · Terraform · AWS CloudFormation · GitLab CI/CD · GitHub Actions · GitOps · Prometheus · Grafana · Loki · Red Hat Enterprise Linux (RHEL) · Ubuntu · SUSE Linux · Solaris · KVM · VMware · Storage Area Networks (SAN) · High Availability · Disaster Recovery · Bash · Python · Ansible · Customer Onboarding · Course Development · Technical Documentation · Video Production · Public Speaking
