@@ -28,7 +28,7 @@ Customer success and field engineer for cloud-native infrastructure, most recent
 
 #### Apr 2025 - Oct 2026 · Greater Chicago Area · Remote
 
-- Partnered with five key enterprise accounts from onboarding through production, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer products, like agentgateway, kagent, and agentdesktop.
+- Guided five key enterprise accounts from onboarding through production, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer products, like agentgateway, kagent, and agentdesktop.
 - Turned customer goals into working architectures across Istio, Envoy, and the Kubernetes Gateway API.
 - Built reproducible lab environments to test designs and work through issues, and fed customer insight back to product and engineering teams.
 - Built a human-in-the-loop AI (Claude) skill that helps engineers triage and reproduce customer issues, analyze CVEs, and draft GitHub issues, with the engineer approving each step. It cut reproductions that could take a day or more of an engineer's focus down to hours and let engineers work on several at once, and many team members used it.
@@ -130,7 +130,7 @@ Customer success and field engineer for cloud-native infrastructure, most recent
 ## **Open source and community**
 
 - [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant): a self-hosted Docker service that tests thousands of free IPTV streams nightly, matches them to program guide data, and serves a clean playlist and guide to Kodi, Plex, Jellyfin, and other players. An AI assistant can help run it, and changes wait for approval.
-- [observability-k3d](https://github.com/southsidedean/observability-k3d) (ok3d): a network operations center for a home network on k3d, with device checks, UniFi metrics, and alerts by phone or email. Rebuilding it release by release.
+- [observability-k3d](https://github.com/southsidedean/observability-k3d) (ok3d): a network operations center for a home network on k3d. It checks every device, alerts by phone or email with a runbook for each alert, and is set up and upgraded from a web dashboard.
 - [cka-d-cluster-builder-lab](https://github.com/southsidedean/cka-d-cluster-builder-lab) and [kubeadm-cluster-builder-aws-terraform](https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform): CKA/CKAD practice labs. Terraform builds the nodes on a KVM host or AWS EC2, and a walkthrough takes students from bare VMs to a working kubeadm cluster. A Multipass version for macOS and Linux is next.
 - Technical articles on LinkedIn and GitHub about Kubernetes, Podman, kind, Multipass, and Terraform.
 

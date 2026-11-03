@@ -47,7 +47,7 @@ I'm open to new roles, and always happy to talk shop: tom@southsidedean.com
 Apr 2025 - Oct 2026 · Greater Chicago Area · Remote
 
 ```text
-• Partnered with five key enterprise accounts from onboarding through production, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer products, like agentgateway, kagent, and agentdesktop.
+• Guided five key enterprise accounts from onboarding through production, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer products, like agentgateway, kagent, and agentdesktop.
 • Turned customer goals into working architectures across Istio, Envoy, and the Kubernetes Gateway API.
 • Built reproducible lab environments to test designs and work through issues, and fed customer insight back to product and engineering teams.
 • Built a human-in-the-loop AI (Claude) skill that helps engineers triage and reproduce customer issues, analyze CVEs, and draft GitHub issues, with the engineer approving each step. It cut reproductions that could take a day or more of an engineer's focus down to hours and let engineers work on several at once, and many team members used it.
@@ -201,7 +201,7 @@ Add each under Projects, associated with no employer.
 - **ok3d (observability-k3d)** · <https://github.com/southsidedean/observability-k3d>
 
   ```text
-  A network operations center for a home network on k3d, with device checks, UniFi metrics, and alerts by phone or email. I'm rebuilding it release by release.
+  A network operations center for a home network on k3d. It checks every device, alerts by phone or email with a runbook for each alert, and is set up and upgraded from a web dashboard.
   ```
 
 - **CKA/CKAD cluster builders** · <https://github.com/southsidedean/cka-d-cluster-builder-lab> and <https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform>
