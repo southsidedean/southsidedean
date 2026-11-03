@@ -4,7 +4,7 @@ Senior Customer Success Engineer · Kubernetes, service mesh & gateways · Linux
 
 I work with enterprise customers on cloud-native infrastructure, from proof of concept through production. Most recently that was at [Solo.io](https://www.solo.io/), as a senior customer success engineer working on Istio, Envoy, and gateways. Before that I was a field engineer at Buoyant (Linkerd), where I built the pre-sales proof of concept process, contributed to a 4x increase in customers, and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) at KubeCon North America 2024.
 
-I've worked in UNIX, Linux, and infrastructure for over 30 years. I started in the data center and moved through virtualization, cloud, Kubernetes, and service mesh, and along the way I wrote Kubernetes and Linux courses, with hands-on labs, for thousands of learners, including the RHCSA 8 exam prep course I co-authored at Linux Academy.
+I've worked in UNIX, Linux, and infrastructure for over 30 years. I started in the data center and moved through virtualization, cloud, Kubernetes, and service mesh, and along the way I wrote Kubernetes and Linux courses, with hands-on labs, for thousands of learners, including the RHCSA 8 exam prep course I co-authored at Linux Academy and A Cloud Guru.
 
 I'm open to new roles, and always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 

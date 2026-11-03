@@ -21,7 +21,7 @@ I help teams succeed with cloud-native infrastructure, and I've spent over 30 ye
 
 Most recently I was a Senior Customer Success Engineer at Solo.io, working with enterprise customers from onboarding through production on Istio, Envoy, and gateways. Before that I was a field engineer at Buoyant (Linkerd), where I built the pre-sales proof of concept process, contributed to a 4x increase in customers, and co-presented Multi-Zone Clusters Inside and Out at KubeCon North America 2024.
 
-Earlier, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide, co-authored the RHCSA 8 exam prep course at Linux Academy, and helped build hands-on lab platforms for Kubernetes training.
+Earlier, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide, co-authored the RHCSA 8 exam prep course at Linux Academy and A Cloud Guru, and helped build hands-on lab platforms for Kubernetes training.
 
 At home I build new open source projects with Claude Code and refresh my older ones with it: kodi-iptv-assistant, which serves a working IPTV playlist and program guide to Kodi, Plex, and Jellyfin; ok3d, a network operations center for a home network on k3d; and CKA/CKAD practice labs that build kubeadm clusters on KVM or AWS. They're all at github.com/southsidedean.
 
