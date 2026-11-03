@@ -2,7 +2,7 @@
 
 Senior Customer Success Engineer · Kubernetes, service mesh & gateways · Linux infrastructure & training · Chicago · Open to new roles
 
-I help teams succeed with cloud-native infrastructure, and I've spent over 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Most recently I was a senior customer success engineer at [Solo.io](https://www.solo.io/), working with customers on cloud connectivity and agentic AI. Before that I was a field engineer at Buoyant (Linkerd), where I wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) at KubeCon North America 2024. Earlier, at Linux Academy and A Cloud Guru, I co-authored the RHCSA 8 exam prep course, and I've helped build hands-on lab platforms for Kubernetes training.
+I help teams succeed with cloud-native infrastructure, and I've spent over 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Most recently I was a senior customer success engineer at [Solo.io](https://www.solo.io/), working with customers on cloud connectivity. Before that I was a field engineer at Buoyant (Linkerd), where I wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) at KubeCon North America 2024. Earlier, at Linux Academy and A Cloud Guru, I co-authored the RHCSA 8 exam prep course, and I've helped build hands-on lab platforms for Kubernetes training.
 
 I'm open to new roles, and always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 
