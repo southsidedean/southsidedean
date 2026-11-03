@@ -14,7 +14,7 @@ Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short.
 
 - [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) tests thousands of free IPTV streams every night and serves a working playlist and program guide to Kodi, Plex, Jellyfin, and other players. An AI assistant can help run it, and changes wait for your approval.
 - [ok3d](https://github.com/southsidedean/observability-k3d) is a network operations center for your home on k3d. It watches every device on your network, alerts you on your phone or by email when something breaks, and you set it up and upgrade it from a web dashboard. AI agents that explain what went wrong are on the roadmap.
-- My CKA/CKAD cluster builders, [cka-d-cluster-builder-lab](https://github.com/southsidedean/cka-d-cluster-builder-lab) for a KVM host and [kubeadm-cluster-builder-aws-terraform](https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform) for AWS EC2, are practice labs. Terraform builds the nodes, and a walkthrough takes you from bare VMs to a working kubeadm cluster. A Multipass version for macOS and Linux is next.
+- My CKA/CKAD cluster builders, [cka-d-cluster-builder-lab](https://github.com/southsidedean/cka-d-cluster-builder-lab) for a KVM host and [kubeadm-cluster-builder-aws-terraform](https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform) for AWS EC2, are practice labs. Terraform builds the nodes, and a walkthrough takes you from bare VMs to a working kubeadm cluster. A Multipass version for macOS and Linux is in development.
 
 ### Recent activity
 
