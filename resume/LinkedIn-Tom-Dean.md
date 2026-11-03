@@ -47,8 +47,8 @@ I'm open to new roles, and always happy to talk shop: tom@southsidedean.com
 Apr 2025 - Oct 2026 · Greater Chicago Area · Remote
 
 ```text
-• Owned five key enterprise accounts, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh).
-• Managed customer issues and use cases across Istio, Gloo Edge/Gateway, kgateway, and the Kubernetes Gateway API.
+• Owned five key enterprise accounts, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Edge/Gateway, and Gloo Mesh).
+• Managed customer issues, architecture questions, product migration needs and use cases.
 • Built reproducible lab environments to test designs and work through issues, and fed customer insight back to product and engineering teams.
 • Built a human-in-the-loop AI (Claude) skill that helps engineers triage and reproduce customer issues, analyze CVEs, and draft GitHub issues, with the engineer approving each step. It cut reproductions that could take a day or more of an engineer's focus down to hours, and let engineers work on several reproductions at once. Many team members used it.
 ```
