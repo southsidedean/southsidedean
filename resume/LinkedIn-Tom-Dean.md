@@ -23,7 +23,7 @@ Most recently I was a Senior Customer Success Engineer at Solo.io, working with 
 
 Earlier, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide, co-authored the RHCSA 8 exam prep course at Linux Academy, and helped build hands-on lab platforms for Kubernetes training.
 
-At home I build open source projects with Claude: kodi-iptv-assistant, which serves a working IPTV playlist and program guide to Kodi, Plex, and Jellyfin; ok3d, a network operations center for a home network on k3d; and CKA/CKAD practice labs that build kubeadm clusters on KVM or AWS. They're all at github.com/southsidedean.
+At home I build new open source projects with Claude Code and refresh my older ones with it: kodi-iptv-assistant, which serves a working IPTV playlist and program guide to Kodi, Plex, and Jellyfin; ok3d, a network operations center for a home network on k3d; and CKA/CKAD practice labs that build kubeadm clusters on KVM or AWS. They're all at github.com/southsidedean.
 
 I'm open to new roles, and always happy to talk shop: tom@southsidedean.com
 ```
@@ -47,7 +47,7 @@ I'm open to new roles, and always happy to talk shop: tom@southsidedean.com
 Apr 2025 - Oct 2026 · Greater Chicago Area · Remote
 
 ```text
-• Guided five key enterprise accounts from onboarding through production, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer products, like agentgateway, kagent, and agentdesktop.
+• Owned five key enterprise accounts, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh).
 • Turned customer goals into working architectures across Istio, Envoy, and the Kubernetes Gateway API.
 • Built reproducible lab environments to test designs and work through issues, and fed customer insight back to product and engineering teams.
 • Built a human-in-the-loop AI (Claude) skill that helps engineers triage and reproduce customer issues, analyze CVEs, and draft GitHub issues, with the engineer approving each step. It cut reproductions that could take a day or more of an engineer's focus down to hours and let engineers work on several at once, and many team members used it.
@@ -62,9 +62,9 @@ Jan 2024 - Apr 2025 · Greater Chicago Area · Remote
 ```text
 • Contributed to a 4x increase in Buoyant's customer count, working across field engineering, customer success, and technical account management: worked with sales to meet customers' technical needs and close deals, then handled implementation and ongoing operational support.
 • Built the pre-sales proof of concept (PoC) process, ran dozens of PoCs, most of which became customers, and set up PoC tracking and integration in Salesforce.
-• Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency. Many customers saw cross-zone traffic reductions of 50% or more right away, with more gains from tuning.
+• Helped customers make Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency. Many customers saw cross-zone traffic reductions of 50% or more right away, with more gains from tuning.
 • Wrote and co-presented Multi-Zone Clusters Inside and Out with Phil Henderson at KubeCon + CloudNativeCon North America 2024 in Salt Lake City.
-• Built and delivered technical demos and hands-on tutorials for Linkerd, including an introduction to service mesh and High Availability Zonal Load Balancing (HAZL). Co-hosted Buoyant's monthly Service Mesh Academy livestream with Flynn.
+• Built and delivered demos and hands-on tutorials for Linkerd, including an introduction to service mesh and High Availability Zonal Load Balancing (HAZL). Co-hosted Buoyant's monthly Service Mesh Academy livestream with Flynn.
 ```
 
 Skills: Linkerd · Kubernetes · Proof of Concept · Public Speaking · Salesforce
@@ -75,7 +75,7 @@ Nov 2023 - Jan 2024 · Greater Chicago Area · Remote
 
 ```text
 • Owned technical certification and upskilling for an AWS consultancy's engineering staff across AWS, Kubernetes, Python, and Terraform.
-• Ran the Technical Ambassador and Subject Matter Expert programs and the second half of the Apprenticeship program. Curated and built training content and learning paths. The role ended in a company reorganization.
+• Ran the Technical Ambassador and Subject Matter Expert programs and the second half of the Apprenticeship program. Curated and built training content and learning paths. The role ended due to a company reorganization.
 ```
 
 Skills: Amazon Web Services (AWS) · Technical Training · Terraform
@@ -95,7 +95,7 @@ Aug 2021 - Feb 2023 · Greater Chicago Area · Remote
 ```text
 • Owned the Learning and Development function, setting strategy and running content development and delivery for a catalog of instructor-led Kubernetes and CNCF courses for internal and external students.
 • Helped build an automated hands-on lab platform on AWS with Terraform and GitLab CI/CD, then took over its operation and maintenance.
-• Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. Evaluated the leading LMS and lab vendors, then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch. The project was canceled in early 2023.
+• Led the selection of a learning management system and a hands-on labs platform for an on-demand pivot. Evaluated the leading LMS and lab vendors, then integrated the chosen Docebo and CloudShare stack ahead of a planned 2023 launch. The project was canceled in early 2023 because of budget cuts.
 ```
 
 Skills: Kubernetes · Curriculum Development · Terraform · GitLab CI/CD
@@ -107,7 +107,7 @@ Sep 2019 - Jul 2021 · Greater Chicago Area · Remote
 ```text
 • Co-authored the Red Hat Certified System Administrator (EX200, RHEL 8) exam prep course with Ross Brunson.
 • Wrote and produced five other courses end to end (syllabus, slides, video and audio editing, and hands-on labs built on AWS CloudFormation): Hands-on with Podman Containers on Linux, Hands-on with HAProxy Load Balancer, LEMP Stack Deep Dive, KVM Virtualization on Linux, and Managing Linux Servers with Cockpit.
-• Hosted Linux This Month.
+• Co-hosted Linux This Month in rotation.
 ```
 
 Skills: Linux · Red Hat Enterprise Linux (RHEL) · Course Development · Video Production · AWS CloudFormation
@@ -118,7 +118,7 @@ Jan 2018 - Jul 2019 · Greater Chicago Area · Remote/Hybrid · Self-employed
 
 ```text
 • Indiana University (through Lucid): retired and transitioned applications and services across RHEL 5, 6, and 7 servers on VMware vRA, and managed the project and the customer relationships throughout.
-• Farm Journal: documented the full environment, audited Active Directory, integrated Okta SSO with AD and KnowBe4, migrated several terabytes of file-server data to Dropbox, and helped design and deploy an Acronis backup solution on VMware.
+• Farm Journal (direct client): documented the full environment, audited Active Directory, integrated Okta SSO with AD and KnowBe4, migrated several terabytes of file-server data to Dropbox, and helped design and deploy an Acronis backup solution on VMware.
 • The Phoenix Group: stood in as Linux Lead during an employee's leave, deploying Foreman/Katello (Red Hat Satellite 6) while running the RHEL, VMware, and Hitachi SAN estate.
 • Took a career break (Sep 2018 - Feb 2019) for family and training in Kubernetes and AWS.
 ```
@@ -140,7 +140,7 @@ Jul 2015 - Jan 2016 · Bolingbrook, IL · Hybrid · Contract
 
 ```text
 • Led a team of Linux engineers supporting a Manhattan WMS rollout on RHEL 6 and 7 across VMware, Cisco UCS, and HP C7000 hardware with EMC storage.
-• Wrote and tested the environment's first disaster recovery procedures, documented a largely undocumented environment, and standardized and automated day-to-day operations so they ran more reliably.
+• Wrote and tested the environment's first disaster recovery procedures, documented a largely undocumented environment, and standardized and automated day-to-day operations for better reliability and availability at lower cost.
 ```
 
 ### Senior Systems Architect · ITDistributors
@@ -149,7 +149,7 @@ Jul 2009 - Jun 2015 · Greater Chicago Area · Hybrid
 
 ```text
 • Served as Technical Account Manager for Alcatel-Lucent, Motorola, and AT&T, then identified, won, and led large multi-site RHEL deployment projects for AT&T on IBM BladeCenter and Hitachi AMS2500 storage, all built with custom Kickstart/PXE/Bash automation.
-• Served as one of the two technical leads in ITD's Red Hat partnership as AT&T retooled on OpenStack. Earned every available Red Hat partner platform, virtualization, and cloud certification and trained ITD's engineering teams on them.
+• Served as one of the two technical leads in ITD's Red Hat partnership as AT&T retooled on OpenStack. Earned every Red Hat partner platform, virtualization, and cloud certification available at the time, and was the team's subject matter expert.
 ```
 
 ### Earlier positions
@@ -159,34 +159,34 @@ The resume gives only years for these, so keep the months already on LinkedIn.
 - Senior Systems Architect · Moongate Technologies (2008 - 2009)
 
   ```text
-  Technical lead on an enterprise NetBackup rebuild, covering an STK SL8500 upgrade to 54 LTO4 drives, ten new media servers, and a Veritas Cluster Server master migration with DR.
+  Technical lead on an enterprise NetBackup rebuild, covering an STK SL8500 upgrade to 54 LTO4 drives, ten new media servers, and a Veritas Cluster Server master migration with DR. Assisted with pre-sales efforts and post-sales engineering.
   ```
 
 - UNIX / Linux Administrator · Monster (2006 - 2007)
 
   ```text
-  Supported Linux and Solaris infrastructure (Oracle RAC, mail, web, DNS) across two NOCs, and led NetBackup support.
+  Supported Linux and Solaris infrastructure (high-volume mail, web, and DNS) across two NOCs, and owned NetBackup support.
   ```
 
 - Systems Administrator II · Sallie Mae (2004), and UNIX Support Analyst · Princeton Information at Sallie Mae (2003 - 2004)
 
   ```text
-  Technical lead for the UNIX, NetBackup, and SAN parts of a data center migration, then ran 50 of the company's 200+ UNIX servers.
+  Technical lead for the UNIX, NetBackup, and SAN parts of a data center migration, then managed about a quarter of the company's 200+ UNIX and Linux servers.
   ```
 
 - UNIX / Linux Support Analyst · Yoh at Indianapolis Power & Light (2000 - 2003)
 
   ```text
-  Technical lead and project manager on a 9 TB two-site SAN implementation and data migration, and on the launch of a new Outage Management System.
+  Technical lead and project manager on a 9 TB two-site SAN implementation and data migration, and on the launch of a new Outage Management System. Mentored junior staff.
   ```
 
 - Senior Systems Engineer · EMC (1999 - 2000)
 
   ```text
-  Pre-sales engineer for named accounts. With a sales partner, delivered Indiana's first Symmetrix SRDF installation.
+  Pre-sales engineer for named accounts. With a sales partner, managed Indiana's first Symmetrix SRDF installation.
   ```
 
-- Other roles (1995 - 2008): System Administrator at Indiana Interactive (the IN.gov portal), UNIX Administrator at Eli Lilly (Apex Systems), Linux Field Engineer at Avnet, Engineering Manager at CommNet Plus, Lead Network Administrator at Macmillan, Information Systems Manager at NSI Software, Sales Engineer at Creative Computers, and Network Specialist at CDW (one of six founding members of CDW's network sales division).
+- Other roles (1995 - 2008): System Administrator at Indiana Interactive (the IN.gov portal), UNIX Administrator at Eli Lilly (Apex Systems), Linux Field Engineer at Avnet, Engineering Manager at CommNet Plus, Lead Network Administrator at Macmillan, Information Systems Manager at NSI Software, Sales Engineer at Creative Computers, and Network Specialist at CDW (a founding member of CDW's network sales division).
 
 ## Projects
 
@@ -207,7 +207,7 @@ Add each under Projects, associated with no employer.
 - **CKA/CKAD cluster builders** · <https://github.com/southsidedean/cka-d-cluster-builder-lab> and <https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform>
 
   ```text
-  CKA/CKAD practice labs. Terraform builds the nodes on a KVM host or AWS EC2, and a walkthrough takes students from bare VMs to a working kubeadm cluster. A Multipass version for macOS and Linux is next.
+  CKA/CKAD practice labs. Terraform builds the nodes on a KVM host or AWS EC2, and a walkthrough takes students from bare VMs to a working kubeadm cluster. A Multipass version for macOS and Linux is in development.
   ```
 
 ## Licenses and certifications
@@ -233,4 +233,4 @@ Staff writer and photographer for The Exponent.
 
 Top skills to pin (LinkedIn shows five): Kubernetes · Istio · Customer Success · Linux · Technical Training
 
-Others from the resume's Core skills: Technical Account Management · Pre-sales · Proof of Concept · Escalation Management · Account Expansion · Quarterly Business Reviews (QBRs) · Salesforce · Zendesk · Jira · Multi-cluster · Zero Trust · Amazon EKS · Azure Kubernetes Service (AKS) · Google Kubernetes Engine (GKE) · OpenTelemetry · Envoy · Gateway API · Linkerd · Helm · Docker · Podman · kagent · agentgateway · AWS · Azure · Terraform · AWS CloudFormation · GitLab CI/CD · GitHub Actions · GitOps · Prometheus · Grafana · Loki · Red Hat Enterprise Linux (RHEL) · Ubuntu · SUSE Linux · Solaris · KVM · VMware · Storage Area Networks (SAN) · High Availability · Disaster Recovery · Bash · Python · Ansible · Customer Onboarding · Course Development · Technical Documentation · Video Production · Public Speaking
+Others from the resume's Core skills: Claude · Claude Code · ChatGPT · Model Context Protocol (MCP) · AI-assisted Software Development · Technical Account Management · Pre-sales · Proof of Concept · Escalation Management · Account Expansion · Quarterly Business Reviews (QBRs) · Salesforce · Zendesk · Jira · Multi-cluster · Zero Trust · Amazon EKS · Azure Kubernetes Service (AKS) · Google Kubernetes Engine (GKE) · OpenTelemetry · Envoy · Gateway API · Linkerd · Helm · Docker · Podman · kagent · agentgateway · AWS · Azure · Terraform · AWS CloudFormation · GitLab CI/CD · GitHub Actions · GitOps · Prometheus · Grafana · Loki · Red Hat Enterprise Linux (RHEL) · Ubuntu · SUSE Linux · Solaris · KVM · VMware · Storage Area Networks (SAN) · High Availability · Disaster Recovery · Bash · Python · Ansible · Customer Onboarding · Course Development · Technical Documentation · Video Production · Public Speaking

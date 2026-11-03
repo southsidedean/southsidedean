@@ -2,7 +2,9 @@
 
 Senior Customer Success Engineer · Kubernetes, service mesh & gateways · Linux infrastructure & training · Chicago · Open to new roles
 
-I help teams succeed with cloud-native infrastructure, and I've spent over 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh. Most recently I was a senior customer success engineer at [Solo.io](https://www.solo.io/), working with customers on cloud connectivity. Before that I was a field engineer at Buoyant (Linkerd), where I wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) at KubeCon North America 2024. Earlier, at Linux Academy and A Cloud Guru, I co-authored the RHCSA 8 exam prep course, and I've helped build hands-on lab platforms for Kubernetes training.
+I'm a customer success and field engineer for cloud-native infrastructure. Most recently I was a senior customer success engineer at [Solo.io](https://www.solo.io/), working with enterprise customers on Istio, Envoy, and gateways, from proof of concept through production. Before that I was a field engineer at Buoyant (Linkerd), where I built the pre-sales proof of concept process, contributed to a 4x increase in customers, and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) at KubeCon North America 2024.
+
+I've worked in UNIX, Linux, and infrastructure for over 30 years. I started in the data center and moved through virtualization, cloud, Kubernetes, and service mesh, and along the way I wrote Kubernetes and Linux courses, with hands-on labs, for thousands of learners, including the RHCSA 8 exam prep course I co-authored at Linux Academy.
 
 I'm open to new roles, and always happy to talk shop: [tom@southsidedean.com](mailto:tom@southsidedean.com)
 
@@ -14,7 +16,7 @@ Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short.
 
 - [kodi-iptv-assistant](https://github.com/southsidedean/kodi-iptv-assistant) tests thousands of free IPTV streams every night and serves a working playlist and program guide to Kodi, Plex, Jellyfin, and other players. An AI assistant can help run it, and changes wait for your approval.
 - [ok3d](https://github.com/southsidedean/observability-k3d) is a network operations center for your home on k3d. It watches every device on your network, alerts you on your phone or by email when something breaks, and you set it up and upgrade it from a web dashboard. AI agents that explain what went wrong are on the roadmap.
-- My CKA/CKAD cluster builders, [cka-d-cluster-builder-lab](https://github.com/southsidedean/cka-d-cluster-builder-lab) for a KVM host and [kubeadm-cluster-builder-aws-terraform](https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform) for AWS EC2, are practice labs. Terraform builds the nodes, and a walkthrough takes you from bare VMs to a working kubeadm cluster. A Multipass version for macOS and Linux is next.
+- My CKA/CKAD cluster builders, [cka-d-cluster-builder-lab](https://github.com/southsidedean/cka-d-cluster-builder-lab) for a KVM host and [kubeadm-cluster-builder-aws-terraform](https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform) for AWS EC2, are practice labs. Terraform builds the nodes, and a walkthrough takes you from bare VMs to a working kubeadm cluster. A Multipass version for macOS and Linux is in development.
 
 ### Recent activity
 
@@ -54,4 +56,4 @@ Step-by-step tutorials from my blogging and teaching:
 
 ## Find me
 
-[southsidedean.com](https://southsidedean.com) · [LinkedIn](https://www.linkedin.com/in/tomdeanjr/) · [YouTube (tech)](https://www.youtube.com/@southsidedean-tech) · [YouTube (life)](https://www.youtube.com/@southsidedean-life)
+[southsidedean.com](https://southsidedean.com) · [LinkedIn](https://www.linkedin.com/in/southsidedean/) · [YouTube (tech)](https://www.youtube.com/@southsidedean-tech)
