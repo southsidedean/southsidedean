@@ -54,4 +54,4 @@ Step-by-step tutorials from my blogging and teaching:
 
 ## Find me
 
-[southsidedean.com](https://southsidedean.com) · [LinkedIn](https://www.linkedin.com/in/southsidedean/) · [YouTube (tech)](https://www.youtube.com/@southsidedean-tech) · [YouTube (life)](https://www.youtube.com/@southsidedean-life)
+[southsidedean.com](https://southsidedean.com) · [LinkedIn](https://www.linkedin.com/in/southsidedean/) · [YouTube (tech)](https://www.youtube.com/@southsidedean-tech)
