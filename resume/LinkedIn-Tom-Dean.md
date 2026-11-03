@@ -19,7 +19,7 @@ Set the job preferences on your profile, with visibility for recruiters only or 
 ```text
 I help teams succeed with cloud-native infrastructure, and I've spent over 30 years doing the work myself. I started on UNIX and Linux in the data center and moved through virtualization, cloud, Kubernetes, and service mesh.
 
-Most recently I was a Senior Customer Success Engineer at Solo.io, working with enterprise customers from onboarding through production on Istio, Envoy, API gateways, and agentic AI. Before that I was a field engineer at Buoyant (Linkerd), where I built the pre-sales proof of concept process, contributed to a 4x increase in customers, and co-presented Multi-Zone Clusters Inside and Out at KubeCon North America 2024.
+Most recently I was a Senior Customer Success Engineer at Solo.io, working with enterprise customers from onboarding through production on Istio, Envoy, and gateways. Before that I was a field engineer at Buoyant (Linkerd), where I built the pre-sales proof of concept process, contributed to a 4x increase in customers, and co-presented Multi-Zone Clusters Inside and Out at KubeCon North America 2024.
 
 Earlier, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide, co-authored the RHCSA 8 exam prep course at Linux Academy, and helped build hands-on lab platforms for Kubernetes training.
 
@@ -47,8 +47,8 @@ I'm open to new roles, and always happy to talk shop: tom@southsidedean.com
 Apr 2025 - Oct 2026 · Greater Chicago Area · Remote
 
 ```text
-• Partnered with five key enterprise accounts from onboarding through production, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer agentic AI products, like agentgateway, kagent, and agentdesktop.
-• Turned customer goals into working architectures across Istio, Envoy, the Kubernetes Gateway API, and AI agent infrastructure.
+• Partnered with five key enterprise accounts from onboarding through production, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer products, like agentgateway, kagent, and agentdesktop.
+• Turned customer goals into working architectures across Istio, Envoy, and the Kubernetes Gateway API.
 • Built reproducible lab environments to test designs and work through issues, and fed customer insight back to product and engineering teams.
 • Built a human-in-the-loop AI (Claude) skill that helps engineers triage and reproduce customer issues, analyze CVEs, and draft GitHub issues, with the engineer approving each step. It cut reproductions that could take a day or more of an engineer's focus down to hours and let engineers work on several at once, and many team members used it.
 ```

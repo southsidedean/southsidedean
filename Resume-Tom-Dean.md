@@ -28,8 +28,8 @@ Customer success and field engineer for cloud-native infrastructure, most recent
 
 #### Apr 2025 - Oct 2026 · Greater Chicago Area · Remote
 
-- Partnered with five key enterprise accounts from onboarding through production, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer agentic AI products, like agentgateway, kagent, and agentdesktop.
-- Turned customer goals into working architectures across Istio, Envoy, the Kubernetes Gateway API, and AI agent infrastructure.
+- Partnered with five key enterprise accounts from onboarding through production, and supported the wider customer base as needed, across Solo.io's cloud connectivity products (Solo Enterprise for Istio, Solo Enterprise for kgateway, Gloo Gateway, and Gloo Mesh) and its newer products, like agentgateway, kagent, and agentdesktop.
+- Turned customer goals into working architectures across Istio, Envoy, and the Kubernetes Gateway API.
 - Built reproducible lab environments to test designs and work through issues, and fed customer insight back to product and engineering teams.
 - Built a human-in-the-loop AI (Claude) skill that helps engineers triage and reproduce customer issues, analyze CVEs, and draft GitHub issues, with the engineer approving each step. It cut reproductions that could take a day or more of an engineer's focus down to hours and let engineers work on several at once, and many team members used it.
 
