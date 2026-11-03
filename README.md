@@ -33,7 +33,7 @@ Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short.
 
 - Cloud native: Kubernetes · Istio · Linkerd · Envoy · Gateway API · Helm · Docker · Podman
 - AI infrastructure: kagent · agent and MCP gateways · LLM integration
-- Cloud and IaC: AWS · Azure · GCP · Terraform · CloudFormation · GitLab CI/CD · GitHub Actions
+- Cloud and IaC: AWS · Azure · Terraform · CloudFormation · GitLab CI/CD · GitHub Actions
 - Observability: Prometheus · Grafana · Loki · Kiali
 - Linux and systems: RHEL · Ubuntu · SUSE · KVM · VMware · Bash · Python · Ansible
 

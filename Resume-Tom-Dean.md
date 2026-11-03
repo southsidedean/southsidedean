@@ -7,14 +7,14 @@ Chicago, IL · [tom@southsidedean.com](mailto:tom@southsidedean.com) · [linkedi
 
 ## **Summary**
 
-Customer success and field engineer for cloud-native infrastructure, most recently at Solo.io: Kubernetes, Istio, Envoy, and gateways. Works with enterprise customers from pre-sales proof of concept through production, with technical account management and pre-sales experience going back to EMC. At Buoyant (Linkerd), built the PoC process, contributed to a 4x increase in customers, and spoke at KubeCon. Over 30 years in UNIX, Linux, and infrastructure, including Kubernetes and Linux courses for thousands of learners and hands-on lab platforms.
+Customer success and field engineer for cloud-native infrastructure, most recently at Solo.io: Kubernetes, Istio, Envoy, and gateways. Partners with enterprise customers from pre-sales proof of concept through production, with technical account management and pre-sales experience going back to EMC. At Buoyant (Linkerd), built the PoC process, contributed to a 4x increase in customers, and spoke at KubeCon. Over 30 years in UNIX, Linux, and infrastructure, including Kubernetes and Linux courses for thousands of learners and hands-on lab platforms.
 
 ## **Core skills**
 
 - Customer engagement: customer success, technical account management, pre-sales proofs of concept, customer onboarding, escalation management, renewals and expansion, QBRs, Salesforce, Zendesk, Jira
 - Cloud native: Kubernetes (CKA, CKAD), Istio (sidecar and ambient), Gloo Mesh, kgateway, Gloo Gateway, Linkerd, Envoy, Kubernetes Gateway API, mTLS and zero trust, multi-cluster, Helm, k3d/kind, containers (Docker, Podman)
 - AI infrastructure: AI agent platforms on Kubernetes (kagent), agent and MCP gateways (agentgateway), agentdesktop, LLM integration
-- Cloud and IaC: AWS (Certified Cloud Practitioner), Azure (AZ-900), GCP (fundamentals), EKS, AKS, GKE, Terraform, CloudFormation, GitLab CI/CD, GitHub Actions, GitOps
+- Cloud and IaC: AWS (Certified Cloud Practitioner), Azure (AZ-900), EKS, AKS, GKE, Terraform, CloudFormation, GitLab CI/CD, GitHub Actions, GitOps
 - Observability: Prometheus, Grafana, Loki, Kiali, OpenTelemetry
 - Linux and systems: RHEL, Ubuntu, SUSE, Solaris; KVM, VMware; networking, storage (SAN), high availability, disaster recovery
 - Automation: Bash, Python, Ansible, Kickstart/PXE
@@ -39,7 +39,7 @@ Customer success and field engineer for cloud-native infrastructure, most recent
 
 #### Jan 2024 - Apr 2025 · Greater Chicago Area · Remote
 
-- Contributed to a 4x increase in Buoyant's customer count during my tenure, working across field engineering, customer success, and technical account management: worked with sales to meet customers' technical needs and close deals, then handled implementation and ongoing operational support.
+- Contributed to a 4x increase in Buoyant's customer count, working across field engineering, customer success, and technical account management: worked with sales to meet customers' technical needs and close deals, then handled implementation and ongoing operational support.
 - Built the pre-sales proof of concept (PoC) process, ran dozens of PoCs, most of which became customers, and set up PoC tracking and integration in Salesforce.
 - Helped customers make their Kubernetes workloads more reliable, scalable, and secure with Buoyant Enterprise for Linkerd and Buoyant Cloud, while cutting network cost and latency. Many customers saw cross-zone traffic reductions of 50% or more right away, with more gains from tuning.
 - Wrote and co-presented [*Multi-Zone Clusters Inside and Out*](https://www.youtube.com/watch?v=WhFsYVHmg6E) with Phil Henderson at KubeCon + CloudNativeCon North America 2024 in Salt Lake City.
@@ -124,7 +124,7 @@ Customer success and field engineer for cloud-native infrastructure, most recent
 - **UNIX / Linux Administrator, Monster** (2006 - 2007): supported Linux and Solaris infrastructure (Oracle RAC, mail, web, DNS) across two NOCs, and led NetBackup support.
 - **Systems Administrator II, Sallie Mae** (2004), and **UNIX Support Analyst, Princeton Information at Sallie Mae** (2003 - 2004): technical lead for the UNIX, NetBackup, and SAN parts of a data center migration, then ran 50 of the company's 200+ UNIX servers.
 - **UNIX / Linux Support Analyst, Yoh at Indianapolis Power & Light** (2000 - 2003): technical lead and project manager on a 9 TB two-site SAN implementation and data migration, and on the launch of a new Outage Management System.
-- **Senior Systems Engineer, EMC** (1999 - 2000): pre-sales engineer for named accounts. With my sales partner, delivered Indiana's first Symmetrix SRDF installation.
+- **Senior Systems Engineer, EMC** (1999 - 2000): pre-sales engineer for named accounts. With a sales partner, delivered Indiana's first Symmetrix SRDF installation.
 - **Other roles**: systems, network, and sales engineering at Indiana Interactive (IN.gov), Eli Lilly, Avnet, CommNet Plus, Macmillan, NSI Software, Creative Computers, and CDW (one of six founding members of its network sales division).
 
 ## **Open source and community**
