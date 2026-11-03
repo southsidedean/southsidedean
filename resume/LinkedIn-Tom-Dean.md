@@ -107,7 +107,7 @@ Sep 2019 - Jul 2021 · Greater Chicago Area · Remote
 ```text
 • Co-authored the Red Hat Certified System Administrator (EX200, RHEL 8) exam prep course with Ross Brunson.
 • Wrote and produced five other courses end to end (syllabus, slides, video and audio editing, and hands-on labs built on AWS CloudFormation): Hands-on with Podman Containers on Linux, Hands-on with HAProxy Load Balancer, LEMP Stack Deep Dive, KVM Virtualization on Linux, and Managing Linux Servers with Cockpit.
-• Co-hosted Linux This Month in rotation.
+• Hosted Linux This Month in rotation.
 ```
 
 Skills: Linux · Red Hat Enterprise Linux (RHEL) · Course Development · Video Production · AWS CloudFormation
