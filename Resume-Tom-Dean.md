@@ -1,13 +1,13 @@
 # **Tom Dean**
 
 <!-- markdownlint-disable-next-line MD036 -->
-**Senior Customer Success Engineer · Kubernetes, Service Mesh & AI Gateways · Linux Infrastructure & Training**
+**Senior Customer Success Engineer · Kubernetes, Service Mesh & Gateways · Linux Infrastructure & Training**
 
 Chicago, IL · [tom@southsidedean.com](mailto:tom@southsidedean.com) · [linkedin.com/in/tomdeanjr](https://www.linkedin.com/in/tomdeanjr) · [github.com/southsidedean](https://github.com/southsidedean) · [southsidedean.com](https://southsidedean.com)
 
 ## **Summary**
 
-Customer success and field engineer for cloud-native infrastructure, most recently at Solo.io: Kubernetes, Istio, Envoy, Linkerd, and API and AI gateways. Works with enterprise customers from pre-sales proof of concept through production, with technical account management and pre-sales experience going back to EMC. At Buoyant, built the PoC process, contributed to a 4x increase in customers, and spoke at KubeCon. Over 30 years in UNIX, Linux, and infrastructure, including Kubernetes and Linux courses for thousands of learners and hands-on lab platforms.
+Customer success and field engineer for cloud-native infrastructure, most recently at Solo.io: Kubernetes, Istio, Envoy, Linkerd, and gateways. Works with enterprise customers from pre-sales proof of concept through production, with technical account management and pre-sales experience going back to EMC. At Buoyant, built the PoC process, contributed to a 4x increase in customers, and spoke at KubeCon. Over 30 years in UNIX, Linux, and infrastructure, including Kubernetes and Linux courses for thousands of learners and hands-on lab platforms.
 
 ## **Core skills**
 

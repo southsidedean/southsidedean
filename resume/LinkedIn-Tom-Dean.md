@@ -7,7 +7,7 @@ LinkedIn's limits: headline 220 characters, About 2,600, each position's descrip
 ## Headline
 
 ```text
-Senior Customer Success Engineer · Kubernetes, Service Mesh & AI Gateways · Linux Infrastructure & Training · Open to new roles
+Senior Customer Success Engineer · Kubernetes, Service Mesh & Gateways · Linux Infrastructure & Training · Open to new roles
 ```
 
 ## Job preferences
