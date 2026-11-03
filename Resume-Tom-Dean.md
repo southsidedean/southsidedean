@@ -90,7 +90,7 @@ Customer success and field engineer for cloud-native infrastructure, most recent
 - Indiana University (through Lucid): retired and transitioned applications and services across RHEL 5, 6, and 7 servers on VMware vRA, and managed the project and the customer relationships throughout.
 - Farm Journal (direct client): documented the full environment, audited Active Directory, integrated Okta SSO with AD and KnowBe4, migrated several terabytes of file-server data to Dropbox, and helped design and deploy an Acronis backup solution on VMware.
 - The Phoenix Group: stood in as Linux Lead during an employee's leave, deploying Foreman/Katello (Red Hat Satellite 6) while running the RHEL, VMware, and Hitachi SAN estate.
-- Took a career break (Sep 2018 - Feb 2019) for family and training in Kubernetes and AWS.
+- Took a career break (Sep 2018 - Feb 2019) to spend time with family, and get in some technical up-skilling.
 
 ### **Senior Linux Architect / Engineer**
 
