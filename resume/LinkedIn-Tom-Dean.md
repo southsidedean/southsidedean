@@ -23,7 +23,7 @@ Most recently I was a Senior Customer Success Engineer at Solo.io, working with 
 
 Earlier, as a training architect, I built Kubernetes and Linux courses for thousands of learners worldwide, co-authored the RHCSA 8 exam prep course at Linux Academy, and helped build hands-on lab platforms for Kubernetes training.
 
-At home I build new open source projects with Claude Code and rework my older ones with it: kodi-iptv-assistant, which serves a working IPTV playlist and program guide to Kodi, Plex, and Jellyfin; ok3d, a network operations center for a home network on k3d; and CKA/CKAD practice labs that build kubeadm clusters on KVM or AWS. They're all at github.com/southsidedean.
+At home I build new open source projects with Claude Code and refresh my older ones with it: kodi-iptv-assistant, which serves a working IPTV playlist and program guide to Kodi, Plex, and Jellyfin; ok3d, a network operations center for a home network on k3d; and CKA/CKAD practice labs that build kubeadm clusters on KVM or AWS. They're all at github.com/southsidedean.
 
 I'm open to new roles, and always happy to talk shop: tom@southsidedean.com
 ```

@@ -7,7 +7,7 @@ Chicago, IL · [tom@southsidedean.com](mailto:tom@southsidedean.com) · [linkedi
 
 ## **Summary**
 
-Customer success and field engineer for cloud-native infrastructure, most recently at Solo.io (Kubernetes, Istio, Envoy, and gateways). Partners with enterprise customers from pre-sales proof of concept through production, with technical account management and pre-sales experience going back to EMC. At Buoyant (Linkerd), built the PoC process, contributed to a 4x increase in customers, and spoke at KubeCon. Over 30 years in UNIX, Linux, and infrastructure, including Kubernetes and Linux courses, with hands-on labs, for thousands of learners. Builds new open source tools and reworks older ones with Claude Code, and built a Claude skill at Solo.io that cut issue reproduction from a day or more to hours.
+Customer success and field engineer for cloud-native infrastructure, most recently at Solo.io (Kubernetes, Istio, Envoy, and gateways). Partners with enterprise customers from pre-sales proof of concept through production, with technical account management and pre-sales experience going back to EMC. At Buoyant (Linkerd), built the PoC process, contributed to a 4x increase in customers, and spoke at KubeCon. Over 30 years in UNIX, Linux, and infrastructure, including Kubernetes and Linux courses, with hands-on labs, for thousands of learners. Builds new open source tools and refreshes older ones with Claude Code, and built a Claude skill at Solo.io that cut issue reproduction from a day or more to hours.
 
 ## **Core skills**
 
