@@ -36,7 +36,7 @@ I make some edits by hand in VS Code and talk others through with Claude Code. E
 | Check | Tool | What it catches |
 | --- | --- | --- |
 | Content policy | `scripts/check-content-policy.sh` | Leftover draft markers, an old email address, phone numbers, and other things I've decided must not ship |
-| Resume builds | pandoc and Chrome | A resume that won't build. The HTML and PDF are uploaded as a `resume-preview` artifact, so I can check the page count before merging. |
+| Resume builds | pandoc and Chrome | A resume that won't build, or that runs past three pages. The HTML and PDF are uploaded as a `resume-preview` artifact, so I can look them over before merging. |
 | Spelling | codespell | Typos |
 | Markdown lint | markdownlint-cli2 | Broken or inconsistent Markdown |
 | Secrets scan | gitleaks | Credentials committed by accident |
@@ -47,7 +47,7 @@ The content policy is a plain list of regular expressions in a shell script, so 
 
 ## How the resume is published
 
-`release-resume.yml` runs when the resume, its styles, or the build script changes on `main`. It builds both files and creates a release tagged `resume-YYYY-MM-DD-<commit>`, marked as the latest.
+`release-resume.yml` runs when the resume, its styles, or the build script changes on `main`. It builds both files and creates a release tagged `resume-YYYY-MM-DD-<commit>`. Only a release built from the newest commit on `main` is marked as the latest, so re-running an old run can't bring back an older resume.
 
 Every link to my resume points at the latest release:
 
@@ -59,15 +59,15 @@ That address never changes, so the links on my profile, my website, and LinkedIn
 
 ## How Recent activity stays current
 
-`whats-new.yml` runs four times a day. It reads my public repos (only ones I own, so employer repos can't appear, and no forks or archived repos), lists recent releases and updates, and rewrites the lines between two HTML comment markers in the README.
+`whats-new.yml` runs four times a day. It reads my public repos (only ones I own, so employer repos can't appear, and no forks or archived repos), lists new repos, releases, and recent commits to each repo's main branch, and rewrites the lines between two HTML comment markers in the README.
 
-It doesn't commit to `main`. It opens a pull request, or updates the one already open, and I merge it like any other change. A pull request opened with the workflow's own token doesn't trigger other workflows, so the job starts the content checks on its branch itself.
+It doesn't commit to `main`. It opens a pull request, or updates the one already open, and I merge it like any other change. If the open pull request already has the same list, it leaves it alone.
 
 ## Keeping it locked down
 
 - Workflows start with `permissions: {}`, and each job asks only for what it needs. Only the release and Recent activity jobs can write.
 - Every Action is pinned to a full commit SHA, with the version in a comment.
-- The repo allows only GitHub's own Actions and the few third-party ones listed above.
+- The repo allows only GitHub's own Actions plus the third-party Actions for lychee, codespell, markdownlint-cli2, gitleaks, and zizmor. actionlint runs as a Docker image pinned by digest.
 - Dependabot opens one grouped pull request a week for Action updates, and waits seven days after a release before suggesting it.
 - Secret scanning and push protection are on.
 
@@ -77,10 +77,12 @@ You don't need all of this. A useful version is a profile README, a Markdown res
 
 1. Create a public repo named after your GitHub username. GitHub shows its `README.md` on your profile.
 2. Write your resume in Markdown, and copy `scripts/build-resume.sh` and `resume/resume.css`. Change the file names and the page title.
-3. Copy `release-resume.yml` and change the paths. Link to `releases/latest/download/<your file>.pdf`.
-4. Copy `content-checks.yml` and rewrite `check-content-policy.sh` with your own rules.
+3. Copy `release-resume.yml` and change the paths and the asset file names. Link to `releases/latest/download/<your file>.pdf`.
+4. Copy `content-checks.yml` along with `lychee.toml`, `.codespellrc`, and `.markdownlint-cli2.yaml`. Update the file lists in the Links step and in `check-content-policy.sh`, and rewrite the policy rules with your own.
 5. In Settings, add a ruleset for `main` that requires pull requests and your checks.
 6. If you want the activity list, copy `update-whats-new.py` and `whats-new.yml`, change `USER`, and turn on "Allow GitHub Actions to create and approve pull requests" under Settings > Actions.
+
+The scripts, workflows, and configuration are MIT licensed (see [LICENSE](LICENSE)), so you're welcome to copy them. My resume and bio text aren't covered.
 
 Two things to know:
 
@@ -101,7 +103,7 @@ HOW-THIS-REPO-WORKS.md, and the files they describe before you start.
 2. Add a build script that turns the Markdown into HTML with pandoc and into
    PDF with headless Chrome, plus a stylesheet with a print layout. Keep the
    built files out of git.
-3. Add a workflow that builds the resume on every change to main and
+3. Add a workflow that builds the resume whenever it changes on main and
    publishes it as a GitHub Release marked latest.
 4. Add a checks workflow: build the resume, spell check, Markdown lint,
    secrets scan, and workflow lint. Give each workflow permissions: {} at the

@@ -9,8 +9,9 @@ on:
     branches: [main]
     paths:
       - Resume-Tom-Dean.md
-      - resume/**
+      - resume/resume.css # not resume/**: LinkedIn text edits aren't resume changes
       - scripts/build-resume.sh
+      - .github/workflows/release-resume.yml
   workflow_dispatch:
 
 permissions: {}
@@ -21,7 +22,10 @@ concurrency:
 
 jobs:
   release:
-    runs-on: ubuntu-latest
+    # A dispatch from another branch would publish an unreviewed resume.
+    if: github.ref == 'refs/heads/main'
+    # Pinned so an image change (and a newer pandoc) can't reflow the PDF unnoticed.
+    runs-on: ubuntu-24.04
     permissions:
       contents: write # create the release
     steps:
@@ -29,8 +33,8 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Install pandoc
-        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends pandoc
+      - name: Install pandoc and pdfinfo
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends pandoc poppler-utils
 
       - name: Build resume
         run: scripts/build-resume.sh dist
@@ -41,17 +45,24 @@ jobs:
           REPO: ${{ github.repository }}
           SHA: ${{ github.sha }}
         run: |
-          tag="resume-$(date -u +%Y-%m-%d)-${SHA::7}"
+          day=$(date -u +%Y-%m-%d)
+          tag="resume-$day-${SHA::7}"
           # A re-run on the same day and commit replaces the assets instead of failing.
           if gh release view "$tag" --repo "$REPO" >/dev/null 2>&1; then
             gh release upload "$tag" --repo "$REPO" --clobber \
               dist/Resume-Tom-Dean.pdf dist/Resume-Tom-Dean.html
             exit 0
           fi
+          # Only the newest commit on main becomes the latest release, so re-running
+          # an older run can't put an older resume behind the public link.
+          latest=true
+          if [ "$SHA" != "$(gh api "repos/$REPO/git/ref/heads/main" --jq .object.sha)" ]; then
+            latest=false
+          fi
           gh release create "$tag" \
             --repo "$REPO" \
             --target "$SHA" \
-            --title "Resume $(date -u +%Y-%m-%d)" \
+            --title "Resume $day (${SHA::7})" \
             --notes "Built from Resume-Tom-Dean.md at ${SHA::7}." \
-            --latest \
+            --latest="$latest" \
             dist/Resume-Tom-Dean.pdf dist/Resume-Tom-Dean.html
