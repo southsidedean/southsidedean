@@ -16,8 +16,8 @@ import urllib.error
 import urllib.request
 
 USER = "southsidedean"
-MAX_REPOS = 12    # most recently pushed repos to look at
-MAX_ENTRIES = 8   # lines to show in the README
+MAX_REPOS = 15    # most recently pushed repos to look at
+MAX_ENTRIES = 15  # lines to show in the README
 MAX_RELEASES = 4  # release lines per repo, so one busy repo can't fill the list
 START = "<!-- WHATS-NEW:START -->"
 END = "<!-- WHATS-NEW:END -->"

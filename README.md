@@ -23,13 +23,20 @@ Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short.
 
 <!-- WHATS-NEW:START -->
 - 2026-11-04: Created [macos-ai-imagegen](https://github.com/southsidedean/macos-ai-imagegen)
+- 2026-11-04: Released [kodi-iptv-assistant v0.9.0](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.9.0)
 - 2026-11-04: Released [istio-envoy-sandboxes pre-oss-cleanup-2026-11](https://github.com/southsidedean/istio-envoy-sandboxes/releases/tag/pre-oss-cleanup-2026-11)
 - 2026-11-04: Updated [observability-k3d](https://github.com/southsidedean/observability-k3d)
 - 2026-11-04: Released [self-hosted-gitlab-libvirt v0.2.0](https://github.com/southsidedean/self-hosted-gitlab-libvirt/releases/tag/v0.2.0)
 - 2026-11-04: Updated [cka-d-cluster-builder-lab](https://github.com/southsidedean/cka-d-cluster-builder-lab)
-- 2026-11-04: Released [kodi-iptv-assistant v0.9.0](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.9.0)
 - 2026-11-04: Updated [kubeadm-cluster-builder-aws-terraform](https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform)
 - 2026-11-04: Updated [intro-to-multipass-macos](https://github.com/southsidedean/intro-to-multipass-macos)
+- 2026-11-03: Released [self-hosted-gitlab-libvirt v0.1.0](https://github.com/southsidedean/self-hosted-gitlab-libvirt/releases/tag/v0.1.0)
+- 2026-11-03: Released [cka-d-cluster-builder-lab v0.3.1](https://github.com/southsidedean/cka-d-cluster-builder-lab/releases/tag/v0.3.1)
+- 2026-10-30: Updated [istio-envoy-sandboxes](https://github.com/southsidedean/istio-envoy-sandboxes)
+- 2026-10-30: Released [observability-k3d v0.5.1](https://github.com/southsidedean/observability-k3d/releases/tag/v0.5.1)
+- 2026-10-30: Released [kubeadm-cluster-builder-aws-terraform v0.2.0](https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform/releases/tag/v0.2.0)
+- 2026-10-30: Created [cka-d-cluster-builder-multipass](https://github.com/southsidedean/cka-d-cluster-builder-multipass)
+- 2026-10-29: Released [kodi-iptv-assistant v0.8.5](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.8.5)
 <!-- WHATS-NEW:END -->
 
 ## What I work with
