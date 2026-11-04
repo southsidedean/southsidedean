@@ -45,7 +45,7 @@ Certifications: CKA · CKAD · AWS Certified Cloud Practitioner · Azure Fundame
 
 Step-by-step tutorials from my blogging and teaching:
 
-- Kubernetes: [Deploy KIND with Podman (Ubuntu)](https://github.com/southsidedean/deploy-kind-using-podman-ubuntu) · [Generate YAML manifests with kubectl](https://github.com/southsidedean/using-kubectl-generate-yaml-manifests)
+- Kubernetes: [Generate YAML manifests with kubectl](https://github.com/southsidedean/using-kubectl-generate-yaml-manifests)
 - Infrastructure as code: [Hands-on with Terraform on Linux](https://github.com/southsidedean/hands-on-with-terraform-on-linux)
 - Multipass: [Multipass on macOS](https://github.com/southsidedean/intro-to-multipass-macos) · [Multipass on Ubuntu](https://github.com/southsidedean/intro-to-multipass-ubuntu)
 
