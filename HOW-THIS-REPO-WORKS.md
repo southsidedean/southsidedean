@@ -14,6 +14,7 @@ This repo is my GitHub profile page and the source of my resume. GitHub shows `R
 | `scripts/build-resume.sh` | Builds the HTML with pandoc, then prints it to PDF with headless Chrome. |
 | `scripts/check-content-policy.sh` | Fails the build if something I've ruled out shows up in the published files. |
 | `scripts/update-whats-new.py` | Rebuilds the Recent activity list from the GitHub API. |
+| `scripts/check-logos.py` | Compares the logos across my other projects, so a new one doesn't reuse an old one. |
 | `.github/workflows/` | The three workflows described below. |
 
 The built HTML and PDF are never committed. They only exist as release assets.
@@ -70,6 +71,14 @@ It doesn't commit to `main`. It opens a pull request, or updates the one already
 - The repo allows only GitHub's own Actions plus the third-party Actions for lychee, codespell, markdownlint-cli2, gitleaks, and zizmor. actionlint runs as a Docker image pinned by digest.
 - Dependabot opens one grouped pull request a week for Action updates, and waits seven days after a release before suggesting it.
 - Secret scanning and push protection are on.
+
+## Keeping project logos distinct
+
+`scripts/check-logos.py` compares the logos in my local checkouts. It fails on a copy of another repo's logo, even in different colors, and on two logos that share two or more shapes. Some of my logos share a monitor frame on purpose, so the script lists those and doesn't fail on them.
+
+It can't tell when two different drawings look alike, so `--sheet` writes a page with every logo side by side. Before using a new logo, I look at that page. New logos don't start from the monitor frame unless I ask for it.
+
+The logos live in other repos, so this runs by hand and not in CI.
 
 ## Roll your own
 
