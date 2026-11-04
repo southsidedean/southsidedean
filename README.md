@@ -57,3 +57,7 @@ Step-by-step tutorials from my blogging and teaching:
 ## Find me
 
 [southsidedean.com](https://southsidedean.com) · [LinkedIn](https://www.linkedin.com/in/southsidedean/) · [YouTube (tech)](https://www.youtube.com/@southsidedean-tech)
+
+## About this repo
+
+[How this repository works](HOW-THIS-REPO-WORKS.md): how edits, checks, and resume releases work here, and how to set up your own.
