@@ -68,7 +68,8 @@ h4 {
     font-weight: 600;
 }
 
-h4 + h4 {
+h4 + h4,
+h3 + h4:has(+ ul) { /* dates; the second form is an entry with no company line */
     margin-bottom: 0.3rem;
     color: var(--muted);
     font-weight: 400;

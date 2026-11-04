@@ -21,7 +21,6 @@ jobs:
     permissions:
       contents: write # create the whats-new branch and commit to it
       pull-requests: write # open the PR
-      actions: write # start Content checks on the branch
     env:
       GH_TOKEN: ${{ github.token }}
       REPO: ${{ github.repository }}
@@ -41,9 +40,20 @@ jobs:
             exit 0
           fi
 
+          base=$(gh api "repos/$REPO/git/ref/heads/main" --jq .object.sha)
+          pr=$(gh pr list --repo "$REPO" --head "$BRANCH" --state open --json number --jq '.[].number')
+
+          # If the open PR already has this list on top of the current main,
+          # a new commit would only need its checks approved again.
+          if [ -n "$pr" ] &&
+            [ "$(gh api "repos/$REPO/commits/$BRANCH" --jq '.parents[0].sha')" = "$base" ] &&
+            gh api "repos/$REPO/contents/README.md?ref=$BRANCH" -H "Accept: application/vnd.github.raw" | cmp -s - README.md; then
+            echo "PR #$pr already has this list."
+            exit 0
+          fi
+
           # Reset the branch to main, then commit through the API so no git
           # credentials are needed in the workspace.
-          base=$(gh api "repos/$REPO/git/ref/heads/main" --jq .object.sha)
           if gh api "repos/$REPO/git/ref/heads/$BRANCH" >/dev/null 2>&1; then
             gh api -X PATCH "repos/$REPO/git/refs/heads/$BRANCH" -f sha="$base" -F force=true >/dev/null
           else
@@ -55,12 +65,12 @@ jobs:
             -f message="Update recent activity in README" \
             -f content="$(base64 -w0 README.md)" >/dev/null
 
-          if [ -z "$(gh pr list --repo "$REPO" --head "$BRANCH" --state open --json number --jq '.[].number')" ]; then
+          if [ -z "$pr" ]; then
             gh pr create --repo "$REPO" --head "$BRANCH" --base main \
               --title "Update recent activity" \
               --body "Refresh of the README's Recent activity list from public personal repos. Review the dates and links, then squash-merge."
           fi
 
-          # PRs opened with GITHUB_TOKEN don't trigger pull_request workflows,
-          # so start the required checks on the branch directly.
-          gh workflow run content-checks.yml --repo "$REPO" --ref "$BRANCH"
+          # The PR's own Content checks run waits for approval, because
+          # github-actions[bot] counts as a first-time contributor. Approving it
+          # runs the required checks, so no separate dispatch is needed.

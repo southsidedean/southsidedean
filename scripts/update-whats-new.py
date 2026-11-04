@@ -12,10 +12,11 @@ GITHUB_TOKEN (or GH_TOKEN) to avoid the unauthenticated API rate limit.
 import json
 import os
 import sys
+import urllib.error
 import urllib.request
 
 USER = "southsidedean"
-MAX_REPOS = 8     # most recently pushed repos to look at
+MAX_REPOS = 12    # most recently pushed repos to look at
 MAX_ENTRIES = 8   # lines to show in the README
 MAX_RELEASES = 4  # release lines per repo, so one busy repo can't fill the list
 START = "<!-- WHATS-NEW:START -->"
@@ -32,6 +33,16 @@ def get(path):
         req.add_header("Authorization", f"Bearer {token}")
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.load(resp)
+
+
+def last_commit_day(name, branch):
+    try:
+        commits = get(f"repos/{USER}/{name}/commits?sha={branch}&per_page=1")
+    except urllib.error.HTTPError as e:
+        if e.code == 409:  # empty repository
+            return None
+        raise
+    return commits[0]["commit"]["committer"]["date"][:10] if commits else None
 
 
 def entries():
@@ -66,9 +77,12 @@ def entries():
         dates.add(day)
         found.append((day, f"Created [{name}]({url})"))
 
-        # A push on the same day as a release or creation adds nothing new.
-        day = repo["pushed_at"][:10]
-        if day not in dates:
+        # "Updated" means the default branch changed. pushed_at also moves on
+        # pushes to any other branch (Dependabot, unmerged work), so it's only
+        # used above to pick which repos to look at.
+        day = last_commit_day(name, repo["default_branch"])
+        # A commit on the same day as a release or creation adds nothing new.
+        if day and day not in dates:
             found.append((day, f"Updated [{name}]({url})"))
 
     found.sort(key=lambda e: e[0], reverse=True)

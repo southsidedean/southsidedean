@@ -21,17 +21,30 @@ rules=(
 )
 
 status=0
+for f in "${files[@]}"; do
+    if [ ! -f "$f" ]; then
+        echo "::error file=$f::File not found (renamed? update the file list)"
+        status=1
+    fi
+done
+
 for rule in "${rules[@]}"; do
     desc=${rule%%|*}
     pattern=${rule#*|}
     for f in "${files[@]}"; do
-        [ -f "$f" ] || continue
-        if matches=$(grep -n -i -E -- "$pattern" "$f"); then
+        [ -f "$f" ] || continue # already reported above
+        matches=$(grep -n -i -E -- "$pattern" "$f")
+        rc=$?
+        if [ "$rc" -eq 0 ]; then
             while IFS= read -r line; do
                 lineno=${line%%:*}
                 echo "::error file=$f,line=$lineno::$desc"
                 echo "  $f:$lineno: ${line#*:}" | cut -c1-200
             done <<< "$matches"
+            status=1
+        elif [ "$rc" -ne 1 ]; then
+            # 2 means a bad pattern or an unreadable file, which would otherwise pass silently.
+            echo "::error file=$f::grep failed (exit $rc) checking: $desc"
             status=1
         fi
     done

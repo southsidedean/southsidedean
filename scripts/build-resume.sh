@@ -29,8 +29,23 @@ pandoc Resume-Tom-Dean.md \
     --metadata lang=en \
     --output "$out/Resume-Tom-Dean.html"
 
+rm -f "$out/Resume-Tom-Dean.pdf"
 "$CHROME" --headless --disable-gpu --no-sandbox --no-pdf-header-footer \
     --print-to-pdf="$out/Resume-Tom-Dean.pdf" \
     "file://$(cd "$out" && pwd)/Resume-Tom-Dean.html" 2>/dev/null
+
+# Headless Chrome can exit 0 without writing the file.
+[ -s "$out/Resume-Tom-Dean.pdf" ] || { echo "Chrome didn't write $out/Resume-Tom-Dean.pdf" >&2; exit 1; }
+
+# The print layout is meant to fit 3 Letter pages. MAX_PAGES overrides the limit.
+if command -v pdfinfo >/dev/null 2>&1; then
+    pages=$(pdfinfo "$out/Resume-Tom-Dean.pdf" | awk '/^Pages:/ {print $2}')
+    if [ "$pages" -gt "${MAX_PAGES:-3}" ]; then
+        echo "Resume-Tom-Dean.pdf is $pages pages (limit ${MAX_PAGES:-3})" >&2
+        exit 1
+    fi
+else
+    echo "pdfinfo not found; skipping the page-count check" >&2
+fi
 
 echo "Built $out/Resume-Tom-Dean.html and $out/Resume-Tom-Dean.pdf"
