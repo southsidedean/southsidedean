@@ -22,21 +22,21 @@ Most of my GitHub time these days goes to kodi-iptv-assistant, or kia for short.
 ### Recent activity
 
 <!-- WHATS-NEW:START -->
+- 2026-11-06: Created [system-migration-skill](https://github.com/southsidedean/system-migration-skill)
+- 2026-11-06: Released [kodi-iptv-assistant v0.9.5](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.9.5)
+- 2026-11-06: Updated [macos-ai-imagegen](https://github.com/southsidedean/macos-ai-imagegen)
+- 2026-11-06: Updated [self-hosted-gitlab-libvirt](https://github.com/southsidedean/self-hosted-gitlab-libvirt)
+- 2026-11-06: Released [observability-k3d v0.5.3](https://github.com/southsidedean/observability-k3d/releases/tag/v0.5.3)
+- 2026-11-05: Released [macos-ai-imagegen v0.4.0](https://github.com/southsidedean/macos-ai-imagegen/releases/tag/v0.4.0)
 - 2026-11-05: Released [macos-ai-imagegen v0.3.0](https://github.com/southsidedean/macos-ai-imagegen/releases/tag/v0.3.0)
 - 2026-11-05: Released [macos-ai-imagegen v0.2.0](https://github.com/southsidedean/macos-ai-imagegen/releases/tag/v0.2.0)
-- 2026-11-05: Released [kodi-iptv-assistant v0.9.2](https://github.com/southsidedean/kodi-iptv-assistant/releases/tag/v0.9.2)
-- 2026-11-05: Released [observability-k3d v0.5.2](https://github.com/southsidedean/observability-k3d/releases/tag/v0.5.2)
 - 2026-11-05: Released [self-hosted-gitlab-libvirt v0.3.0](https://github.com/southsidedean/self-hosted-gitlab-libvirt/releases/tag/v0.3.0)
-- 2026-11-05: Updated [cka-d-cluster-builder-lab](https://github.com/southsidedean/cka-d-cluster-builder-lab)
+- 2026-11-05: Released [cka-d-cluster-builder-lab v0.4.0](https://github.com/southsidedean/cka-d-cluster-builder-lab/releases/tag/v0.4.0)
 - 2026-11-04: Created [macos-ai-imagegen](https://github.com/southsidedean/macos-ai-imagegen)
 - 2026-11-04: Released [self-hosted-gitlab-libvirt v0.2.0](https://github.com/southsidedean/self-hosted-gitlab-libvirt/releases/tag/v0.2.0)
 - 2026-11-04: Released [istio-envoy-sandboxes pre-oss-cleanup-2026-11](https://github.com/southsidedean/istio-envoy-sandboxes/releases/tag/pre-oss-cleanup-2026-11)
 - 2026-11-04: Updated [using-kubectl-generate-yaml-manifests](https://github.com/southsidedean/using-kubectl-generate-yaml-manifests)
 - 2026-11-04: Updated [intro-to-multipass-ubuntu](https://github.com/southsidedean/intro-to-multipass-ubuntu)
-- 2026-11-04: Updated [intro-to-multipass-macos](https://github.com/southsidedean/intro-to-multipass-macos)
-- 2026-11-04: Updated [kubeadm-cluster-builder-aws-terraform](https://github.com/southsidedean/kubeadm-cluster-builder-aws-terraform)
-- 2026-11-03: Released [self-hosted-gitlab-libvirt v0.1.0](https://github.com/southsidedean/self-hosted-gitlab-libvirt/releases/tag/v0.1.0)
-- 2026-11-03: Released [cka-d-cluster-builder-lab v0.3.1](https://github.com/southsidedean/cka-d-cluster-builder-lab/releases/tag/v0.3.1)
 <!-- WHATS-NEW:END -->
 
 ## What I work with
